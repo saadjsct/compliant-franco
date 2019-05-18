@@ -1,0 +1,37 @@
+#+TITLE: Franco guideline draft
+#+AUTHOR: saadnpq
+#+DATE: 2019:5:18
+
+* character transliterations
+
+| Arabic | Franco |
+| ء      | 2      |
+| ا      | a      |
+| ب      | b      |
+| ت      | t      |
+| ث      | th     |
+| ج      | g      |
+| ح      | 7      |
+| خ      | kh     |
+| د      | d      |
+| ذ      | th     |
+| ر      | r      |
+| ز      | z      |
+| س      | s      |
+| ش      | sh     |
+| ص      | S      |
+| ض      | D      |
+| ط      | T      |
+| ظ      | Z      |
+| ع      | 3      |
+| غ      | 3'     |
+| ف      | f      |
+| ق      | q      |
+| ك      | k      |
+| ل      | l      |
+| م      | m      |
+| ن      | n      |
+| ه      | h      |
+| و      | w      |
+| ى      | y, i   |
+
