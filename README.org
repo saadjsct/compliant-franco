@@ -2,6 +2,6 @@
 #+AUTHOR: saadnpq
 #+date: 2019-05-18
 
-this is still a pre alpha draft of a guideline for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rational behind this project.
+this is still a pre alpha draft of a guideline for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project.
 
 help is very much appreciated. if you are an Arabic speaker you can contribute (even if you don't use Franco). you can send me an mail with you thoughts at saad@saadnpq.com or better you can open an issue or a pull request if you are familiar with git.
