@@ -2,6 +2,22 @@
 #+AUTHOR: saadnpq
 #+date: 2019-05-18
 
-this is still a pre alpha draft of a guideline for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project.
+a guideline (and hopefully a standard) for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project and some other things that are related but better to be separated than the guideline itself.
 
-help is very much appreciated. if you are an Arabic speaker you can contribute (even if you don't use Franco). you can send me an mail with you thoughts at saad@saadnpq.com or better you can open an issue or a pull request if you are familiar with git.
+* state of the project
+this is still a pre alpha draft.
+* FAQs
+** what is the problem with the traditional system?
+[[https://saadnpq.com/posts/franco/][this]] blog post may answer this question and more.
+** why this guideline written in English and not in Franco?
+   this is an evolving guideline. if it is written in Franco, every update in the guideline means rewriting every thing to be compliant with itself.
+** are you working on Franco to replace the traditional Arabic system?
+Franco is just an alternative writing system that can coexist with any other writing system. we think Franco has more potential than Arabic in many situations like writing modern Arabic dialects and mixed English-Arabic text. but Franco is not yet capable of writing pure traditional Arabic text like Quran for example. when this guideline reaches a solid state we can test it against old Formal texts and see what are the limitations.
+
+* how to contribute
+help is very much appreciated and needed. the only requirement is to be an Arabic speaker (even if you don't use Franco we need to know what issues in the system holding you from adopting it). you can send me an mail with your thoughts at [[mailto:saad@saadnpq.com][saad@saadnpq.com]] (or contact me by any way mentioned [[https://saadnpq.com/pages/reachme/][here]]). if you are familiar with git it's of course better to open an issue or a pull request in this repository. 
+
+* contributors 
+  when you submit a pull request please add your name here.
+  
+- [[saadnpq.com][saadnpq]]
