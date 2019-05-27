@@ -2,7 +2,7 @@
 #+AUTHOR: saadnpq
 #+date: 2019-05-18
 
-a guideline (and hopefully a standard) for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project and some other things that are related but better to be separated than the guideline itself.
+a guideline (and hopefully a standard) for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project and other things that are related but better to be separated from the guideline itself.
 
 * state of the project
 this is still a pre alpha draft.
