@@ -3,7 +3,7 @@
 #+DATE: 2019:5:20
 
 * Boundary conditions
-1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers(this is called .
+1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
 2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with English alphabet.
 3) this guideline concern itself not only with readability, but with beauty as well.
 
@@ -52,13 +52,10 @@
 
 ** additional diacritics not in the traditional system
 for those we use diphthongs, i.e. compound vowels.
-   | diacritic | examples                                      | note                           |
-   |-----------+-----------------------------------------------+--------------------------------|
-   | oa        | moat (death), soat (sound), noam (sleepiness) | "oo" but lighter (closer to a) |
-   | ea        | leah (why),                                   | "ee" but lighter (closer to a) |
-
-*** should we stick to diphthongs as in English or we should make another sounds 
-# should we go with ea or ei
+   | diacritic | examples                                      | note             |
+   |-----------+-----------------------------------------------+------------------|
+   | oa        | moat (death), soat (sound), noam (sleepiness) | "oo" but lighter |
+   | ei        | leih (why), beit (home), la2eit (i found)     | "ee" but lighter |
 
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
@@ -96,7 +93,7 @@ the hyphen in Franco is used when we want to emphasize that two characters shoul
 hyphens can optionally be used after the definite article to ease readability.
 
 * the definite article "el"
-based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
+based on what dialect you are writing in, the definite article can be "el" or "al". write what you pronounce.
 
 "el" ( or "al") in Franco is attached to the following word either directly or with a hyphen, e.g. /elwalad/ or /el-bent/.
 
