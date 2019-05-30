@@ -3,9 +3,9 @@
 #+DATE: 2019:5:20
 
 * Boundary conditions
-1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
-2) Franco constrains itself to ASCII characters not to English alphabet, though it should not conflict with English alphabet.
-3) this guideline concern itself with readability and beauty as well.
+1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers(this is called .
+2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with English alphabet.
+3) this guideline concern itself not only with readability, but with beauty as well.
 
 * Character transliterations
   
@@ -30,7 +30,7 @@
 | ط           | t,T    | ARABIC LETTER TAH   |
 | ظ           | z,Z    | ARABIC LETTER ZAH   |
 | ع           | 3      | ARABIC LETTER AIN   |
-| غ           | 3'    | ARABIC LETTER GHAIN |
+| غ           | 8     | ARABIC LETTER GHAIN |
 | ف           | f      | ARABIC LETTER FEH   |
 | ق           | q      | ARABIC LETTER QAF   |
 | ك           | k      | ARABIC LETTER KAF   |
@@ -51,7 +51,7 @@
 | َ +ا         | aa     | ARABIC KASRA followed by ARABIC LETTER ALEF |
 
 ** additional diacritics not in the traditional system
-for those we use diphthongs (compound vowels).
+for those we use diphthongs, i.e. compound vowels.
    | diacritic | examples                                      | note                           |
    |-----------+-----------------------------------------------+--------------------------------|
    | oa        | moat (death), soat (sound), noam (sleepiness) | "oo" but lighter (closer to a) |
@@ -63,26 +63,31 @@ for those we use diphthongs (compound vowels).
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
-some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3dy 3alek bel mara" she found on your phone is supposed to be "ha3ddy 3alek bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write words that pronounced with shadda with two letters.
+some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3dy 3alek bel mara" she found on your phone is supposed to be "ha3ddy 3alek bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
 
-** shadda with 3'
-there is a special case only for 3' where it's ugly to write for example sha3'3'al(working). in this case we write it as sha3"al. so 3" = 3'3' = 3' + shadda.
+** shadda with 8en
+some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write for example "sha3'3'al"; in this case you can write it as "sha3"al". so 3" = 3'3' = 3' + shadda. but for reasons like this we recommend against 3', use 8. 
+
+the previous concept applies also if you are using 7' instead of 5 - for god knows why.
 
 * <<<Digraphs>>> avoidance
 Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
 
 Digraphs are ugly and makes words longer and harder to read, specially for repeating letters, i.e. shadda.
-the only Digraph we use is "th". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now, this may be changed in further versions if some one contributed a good idea.
+the only Digraph we use is "th". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now. this may be changed in further versions if some one contributed a good idea.
+   
+*** 5 instead of kh
+5 is omnipresent in the Egyptian Franco, so that's a solved issue.
 
-*** TODO 5 instead of kh
-    
 *** 4 instead of sh
-why 4 to represent sh and not x for example like Maltese (which is so close to be an Arabic dialect written with Latin letters) and many Latin languages?
+depending on your age and where are you from, you might find 4 a bit strange, but it's already widely used in many Franco flavors.
 
-- 4 is already present in some new flavors of Franco.
-- it is easier also to figure out its meaning if you didn't see it before. (easier than x which requires unlearning first then learning).
-- adheres more to the basic idea that distinguishes Franco from any other system, assigning sound to numbers.
+earlier in the project's timeline, we thought about going with x to represent 4 as in Maltese - which is so close to be an Arabic dialect written with Latin letters - and many Latin languages, but the following summarizes why using 4 is a better idea:
 
+- using x breaks the second boundary condition.
+- it is easier to figure out its meaning if you didn't see it before, easier than x which requires unlearning first then learning.
+- adheres more to the basic idea that distinguishes Franco from any other system, assigning sounds to numbers.
+  
 * The hyphen
 the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example:
 - ana /s-hert/ embare7 l7ad elsa3a 3
