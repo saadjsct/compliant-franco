@@ -8,7 +8,7 @@
 3) this guideline concern itself with readability and beauty as well.
 
 * Character transliterations
-
+  
 | traditional | Franco | unicode name        |
 |-------------+--------+---------------------|
 | ا           | a      | ARABIC LETTER ALEF  |
@@ -16,7 +16,7 @@
 | ب           | b      | ARABIC LETTER BEH   |
 | ت           | t      | ARABIC LETTER TEH   |
 | ث           | th     | ARABIC LETTER THEH  |
-| ج           | g      | ARABIC LETTER JEEM  |
+| ج           | g,j    | ARABIC LETTER JEEM  |
 | ح           | 7      | ARABIC LETTER HAH   |
 | خ           | 5      | ARABIC LETTER KHAH  |
 | د           | d      | ARABIC LETTER DAL   |
@@ -30,52 +30,66 @@
 | ط           | t,T    | ARABIC LETTER TAH   |
 | ظ           | z,Z    | ARABIC LETTER ZAH   |
 | ع           | 3      | ARABIC LETTER AIN   |
-| غ           | 3'     | RABIC LETTER GHAIN  |
+| غ           | 3'    | ARABIC LETTER GHAIN |
 | ف           | f      | ARABIC LETTER FEH   |
 | ق           | q      | ARABIC LETTER QAF   |
 | ك           | k      | ARABIC LETTER KAF   |
 | ل           | l      | ARABIC LETTER LAM   |
 | م           | m      | ARABIC LETTER MEEM  |
 | ن           | n      | ARABIC LETTER NOON  |
-| ه           | h      | ARABIC LETTER WAW   |
-| و           | w      | ARABIC LETTER HEH   |
-| ى           | y,i    | ARABIC LETTER YEH   |
+| ه           | h      | ARABIC LETTER HEH   |
+| و           | w      | ARABIC LETTER WAW   |
+| ى           | y      | ARABIC LETTER YEH   |
 
 * diacritics transliterations
-| traditional | Franco | unicode name |
-| َ            | a      | ARABIC FATHA |
-| ُ            | u/o    | ARABIC DAMMA |
-| ِ            | i/e    | ARABIC KASRA |
+| traditional | Franco | unicode name                                |
+| َ            | a      | ARABIC FATHA                                |
+| ُ            | u/o    | ARABIC DAMMA                                |
+| ِ            | i/e    | ARABIC KASRA                                |
+| ُ +و         | oo/ou  | ARABIC DAMMA followed by ARABIC LETTER WAW  |
+| ِ +ى         | ee     | ARABIC KASRA followed by ARABIC LETTER YEH  |
+| َ +ا         | aa     | ARABIC KASRA followed by ARABIC LETTER ALEF |
 
-* The hyphen
-the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the sh and th sequence. for example:
-- ana /s-hert/ embare7 l7ad elsa3a 3
-- ana ennhrda s7et 3la /sot-ha/
+** additional diacritics not in the traditional system
+for those we use diphthongs (compound vowels).
+   | diacritic | examples                                      | note                           |
+   |-----------+-----------------------------------------------+--------------------------------|
+   | oa        | moat (death), soat (sound), noam (sleepiness) | "oo" but lighter (closer to a) |
+   | ea        | leah (why),                                   | "ee" but lighter (closer to a) |
 
-hyphens can optionally be used after the definite article to ease readability specially for long words, .e.g. /el-kalam/, /bel-tayyara/.
+*** should we stick to diphthongs as in English or we should make another sounds 
+# should we go with ea or ei
+
 * <<<shadda>>>
-shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letters, e.g. yalla, ba7ebbek, kollo.
+shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
-some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write words that pronounced with shadda with two letters.
+some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3dy 3alek bel mara" she found on your phone is supposed to be "ha3ddy 3alek bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write words that pronounced with shadda with two letters.
+
+** shadda with 3'
+there is a special case only for 3' where it's ugly to write for example sha3'3'al(working). in this case we write it as sha3"al. so 3" = 3'3' = 3' + shadda.
 
 * <<<Digraphs>>> avoidance
-from Wikipedia Multigraphs are:
-#+BEGIN_QUOTE
-A multigraph (or pleongraph) is a sequence of letters that behaves as a unit and is not the sum of its parts, such as English ⟨ch⟩ or French ⟨eau⟩. The term is infrequently used, as the number of letters is usually specified:
+Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
 
-Digraph (two letters, as ⟨ch⟩ or ⟨ea⟩)\\
-Trigraph (three letters, as ⟨tch⟩ or ⟨eau⟩)\\
-Tetragraph (four letters, as German ⟨tsch⟩) 
-#+END_QUOTE
-Digraphs are ugly and makes words longer and harder to read specially for repeating letters, i.e. shadda.
-the only Digraph we use is th. we still can't find a sane alternative, but this may be changed in further versions if some one contributed a good idea.
-*** 4=sh
-why 4 to represent sh and not x for example like Maltese and many languages?
+Digraphs are ugly and makes words longer and harder to read, specially for repeating letters, i.e. shadda.
+the only Digraph we use is "th". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now, this may be changed in further versions if some one contributed a good idea.
+
+*** TODO 5 instead of kh
+    
+*** 4 instead of sh
+why 4 to represent sh and not x for example like Maltese (which is so close to be an Arabic dialect written with Latin letters) and many Latin languages?
 
 - 4 is already present in some new flavors of Franco.
 - it is easier also to figure out its meaning if you didn't see it before. (easier than x which requires unlearning first then learning).
 - adheres more to the basic idea that distinguishes Franco from any other system, assigning sound to numbers.
+
+* The hyphen
+the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example:
+- ana /s-hert/ embare7 l7ad elsa3a 3
+- ana ennhrda s7et 3la /sot-ha/
  
+hyphens can optionally be used after the definite article to ease readability.
+
 * the definite article "el"
 based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
 
@@ -83,10 +97,9 @@ based on what dialect you are writing in, the definite article can be "el" or "a
 
 some words starts with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /elnahrda/ are often pronounced as /ennahrda/. both are valid ways to write the word. but note that if you are hyphening the word /ennahrda/, it's hyphened like /en-nahrda/.
 
-to wrap up, you can write /elkonafa/ either as /elkonafa/, /el-konafa/, /ekkonafa/, or /ek-konafa/.
+to wrap up, you can write /elkonafa/ without hyphens either as /elkonafa/ or /ekkonafa/ or /ek-konafa/, /el-konafa/,
 
 * prepositions
-  
 | traditional | Franco | attached | example       |           |
 |-------------+--------+----------+---------------+-----------|
 | في          | fe     | yes      | fekkonafa     | felkonafa |
@@ -94,37 +107,7 @@ to wrap up, you can write /elkonafa/ either as /elkonafa/, /el-konafa/, /ekkonaf
 | على         | 3la    | depends  | sho5 3alwel3a |           |
 | ف           | fa     | yes      | faro7t        |           |
 
-prepositions like /be/ (“with”) and /fe/ (“in”) should be attached to the following definite article, thus becoming bel and fel. and both should be attached the following word like bel 
-
-* Capital letters [experimental] 
-there an Arabic transliteration scheme developed by Tim Buckwalter in the 1990s. it is an ASCII only but it is not practical as it represents Arabic orthoigraphy strictly one-to-one. it's not a writing system of its own, instead it's a mapping from Arabic letters and diacritics to ASCII letters. 
-
-for instance this example is taken from [[https://en.wikipedia.org/wiki/Buckwalter_transliteration][this]] Wikipedia article. 
-#+begin_quote
-The First Article of The Universal Declaration of Human Rights:
-
-Arabic Text\\
-يُولَدُ جَمِيعُ ٱلنَّاسِ أَحْرَارًا مُتَسَاوِينَ فِي ٱلْكَرَامَةِ وَٱلْحُقُوقِ. وَقَدْ وُهِبُوا عَقْلًا وَضَمِيرًا وَعَلَيْهِمْ أَنْ يُعَامِلَ بَعْضُهُمْ بَعْضًا بِرُوحِ ٱلْإِخَاءِ.
-
-Buckwalter Transliteration\\
-yuwladu jamiyEu {ln~aAsi >aHoraArFA mutasaAwiyna fiy {lokaraAmapi wa{loHuquwqi. waqado wuhibuwA EaqolFA waDamiyrFA waEalayohimo >ano yuEaAmila baEoDuhumo baEoDFA biruwHi {lo<ixaA'i.
-
-English Text\\
-All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood
-#+end_quote
-
-if you noticed there is a smart idea Buckwalter introduced in this scheme, he assigned Arabic letters to Capital letters in English. the fact that Capital letters doesn't have any phonetic differences than the corresponding lower case letters, makes this a good candidate to be included in Franco as it is "backward compatible". by backward compatible we mean that if someone for example wrote ط as T instead of t, it will be interpreted correctly whether the receiver knows about this mapping or not. we basically loose nothing (kinda) but we gain more clarification and disambiguation.
-
-** mapped letters
-we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
-
-| traditional | Franco | unicode name     |
-| ض           | D      | ARABIC LETTER DAD |
-| ط           | T      | ARABIC LETTER TAH |
-| ظ           | Z      | ARABIC LETTER ZAH |
-
-** TODO what we loose
-capitalization of names 
+prepositions like /be/ (“with”) or /fe/ (“in”) should be attached to the following definite article, thus becoming one entity bel or fel. and both should be attached the following word like bel-konafa
 
 * Don't start with "2"
 it's useless and ugly. 
