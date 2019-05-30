@@ -121,3 +121,4 @@ it's useless and ugly.
 | 2oddam      | oddam      |
 
 * TODO sample text
+  here we should put a sample text that covers all possible cases.
