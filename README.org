@@ -5,7 +5,7 @@
 a guideline (and hopefully a standard) for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project and other things that are related but better to be separated from the guideline itself.
 
 * state of the project
-this is still a pre alpha draft.
+this is early 0.0001 pre alpha draft.
 * TODO a fork for every dialect
 this guideline is supposed to be general enough to fit all Arabic dialects, but it's written with Egyptian Arabic in mind and using Egyptian examples. some cases in other dialects may not be worked on. but i can imagine people forking it to fit other dialects, that would be really awesome.
 * FAQs
