@@ -101,6 +101,41 @@ some words starts with letters (sun letters) that assimilate the "l" in the defi
 
 to wrap up, you can write /elkonafa/ without hyphens either as /elkonafa/ or /ekkonafa/ or /ek-konafa/, /el-konafa/,
 
+* Capital letters
+there an Arabic transliteration scheme developed by Tim Buckwalter in the 1990s. it is an ASCII only but it is not practical as it represents Arabic orthoigraphy strictly one-to-one. it's not a writing system of its own, instead it's a mapping from Arabic letters and diacritics to ASCII letters. 
+
+for instance this example is taken from [[https://en.wikipedia.org/wiki/Buckwalter_transliteration][this]] Wikipedia article. 
+#+begin_quote
+The First Article of The Universal Declaration of Human Rights:
+
+Arabic Text\\
+يُولَدُ جَمِيعُ ٱلنَّاسِ أَحْرَارًا مُتَسَاوِينَ فِي ٱلْكَرَامَةِ وَٱلْحُقُوقِ. وَقَدْ وُهِبُوا عَقْلًا وَضَمِيرًا وَعَلَيْهِمْ أَنْ يُعَامِلَ بَعْضُهُمْ بَعْضًا بِرُوحِ ٱلْإِخَاءِ.
+
+Buckwalter Transliteration\\
+yuwladu jamiyEu {ln~aAsi >aHoraArFA mutasaAwiyna fiy {lokaraAmapi wa{loHuquwqi. waqado wuhibuwA EaqolFA waDamiyrFA waEalayohimo >ano yuEaAmila baEoDuhumo baEoDFA biruwHi {lo<ixaA'i.
+
+English Text\\
+All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood
+#+end_quote
+
+if you noticed there is a smart idea Buckwalter introduced in this scheme, he assigned Arabic letters to Capital letters in English. the fact that Capital letters doesn't have any phonetic differences than the corresponding lower case letters, makes this a good candidate to be included in Franco as it is "backward compatible". by backward compatible we mean that if someone for example wrote ط as T instead of t, it will be interpreted correctly whether the receiver knows about this mapping or not. we basically loose nothing (kinda) but we gain more clarification and disambiguation.
+
+** mapped letters
+we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
+
+| traditional | Franco | unicode name     |
+| ض           | D      | ARABIC LETTER DAD |
+| ط           | T      | ARABIC LETTER TAH |
+| ظ           | Z      | ARABIC LETTER ZAH |
+
+** what we loose
+- capitalization of names in Franco text, which is not used already.
+- some minor confusion may arise in one case that requires three conditions to occur:
+  1) a capitalized English word that starts with one of the few mapped capital letters in Franco
+  2) that capitalized name exits alone without English context and surrounded by Franco text.
+  3) that word can be interpreted as a Franco word
+  but this case is very unlikely to occur, so we can rely on context here, specially that relying on context is inevitable in mixed text anyway.
+
 * prepositions
 | traditional | Franco | attached | example       |           |
 |-------------+--------+----------+---------------+-----------|
