@@ -159,3 +159,11 @@ it's useless and ugly.
 
 * TODO sample text
   here we should put a sample text that covers all possible cases.
+* what do you think?
+below are the points that maybe need more discussion.
+** 8 or 3'
+this discussion probably will end up discussing the classic "backward compatibility vs good design" problem.
+** Capital letters 
+does we really want capitalization of names ?.
+** any more sounds?
+are there any additional sounds we didn't cover [[*additional diacritics not in the traditional system][here.]]
