@@ -2,61 +2,75 @@
 #+AUTHOR: saadnpq
 #+DATE: 2019:5:20
 
+* why?
+- to have a standardized, written, documented and community developed Franco flavor.
+- to have a consistent and searchable Arabic writing system.
+- a reference for people with unreadable Franco
+  
 * Boundary conditions
 1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
-2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with English alphabet.
-3) this guideline concern itself not only with readability, but with beauty as well.
+2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with it (English alphabet).
+3) as much as we can, there should be only one "right" way to write a word to achieve searchability.
 
 * Character transliterations
   
-| traditional | Franco | unicode name        |
-|-------------+--------+---------------------|
-| ا           | a      | ARABIC LETTER ALEF  |
-| ء           | 2      | ARABIC LETTER HAMZA |
-| ب           | b      | ARABIC LETTER BEH   |
-| ت           | t      | ARABIC LETTER TEH   |
-| ث           | th     | ARABIC LETTER THEH  |
-| ج           | g,j    | ARABIC LETTER JEEM  |
-| ح           | 7      | ARABIC LETTER HAH   |
-| خ           | 5      | ARABIC LETTER KHAH  |
-| د           | d      | ARABIC LETTER DAL   |
-| ذ           | th     | ARABIC LETTER THAL  |
-| ر           | r      | ARABIC LETTER REH   |
-| ز           | z      | ARABIC LETTER ZAIN  |
-| س           | s      | ARABIC LETTER SEEN  |
-| ش           | 4      | ARABIC LETTER SHEEN |
-| ص           | S      | ARABIC LETTER SAD   |
-| ض           | d,D    | ARABIC LETTER DAD   |
-| ط           | t,T    | ARABIC LETTER TAH   |
-| ظ           | z,Z    | ARABIC LETTER ZAH   |
-| ع           | 3      | ARABIC LETTER AIN   |
-| غ           | 8     | ARABIC LETTER GHAIN |
-| ف           | f      | ARABIC LETTER FEH   |
-| ق           | q      | ARABIC LETTER QAF   |
-| ك           | k      | ARABIC LETTER KAF   |
-| ل           | l      | ARABIC LETTER LAM   |
-| م           | m      | ARABIC LETTER MEEM  |
-| ن           | n      | ARABIC LETTER NOON  |
-| ه           | h      | ARABIC LETTER HEH   |
-| و           | w      | ARABIC LETTER WAW   |
-| ى           | y      | ARABIC LETTER YEH   |
+| traditional | Franco | unicode name                   |
+|-------------+--------+--------------------------------|
+| ا           | a      | ARABIC LETTER ALEF             |
+| آ           | aa     | ARABIC LETTER WITH MADDA ABOVE |
+| ء           | 2      | ARABIC LETTER HAMZA            |
+| ب           | b      | ARABIC LETTER BEH              |
+| ت           | t      | ARABIC LETTER TEH              |
+| ث           | th     | ARABIC LETTER THEH             |
+| ج           | g,j    | ARABIC LETTER JEEM             |
+| ح           | 7      | ARABIC LETTER HAH              |
+| خ           | 5      | ARABIC LETTER KHAH             |
+| د           | d      | ARABIC LETTER DAL              |
+| ذ           | th     | ARABIC LETTER THAL             |
+| ر           | r      | ARABIC LETTER REH              |
+| ز           | z      | ARABIC LETTER ZAIN             |
+| س           | s      | ARABIC LETTER SEEN             |
+| ش           | 4      | ARABIC LETTER SHEEN            |
+| ص           | S      | ARABIC LETTER SAD              |
+| ض           | D      | ARABIC LETTER DAD              |
+| ط           | T      | ARABIC LETTER TAH              |
+| ظ           | Z      | ARABIC LETTER ZAH              |
+| ع           | 3      | ARABIC LETTER AIN              |
+| غ           | 8      | ARABIC LETTER GHAIN            |
+| ف           | f      | ARABIC LETTER FEH              |
+| ق           | q      | ARABIC LETTER QAF              |
+| ك           | k      | ARABIC LETTER KAF              |
+| ل           | l      | ARABIC LETTER LAM              |
+| م           | m      | ARABIC LETTER MEEM             |
+| ن           | n      | ARABIC LETTER NOON             |
+| ه           | h      | ARABIC LETTER HEH              |
+| و           | w      | ARABIC LETTER WAW              |
+| ى           | y      | ARABIC LETTER YEH              |
 
 * diacritics transliterations
-| traditional | Franco | unicode name                                |
-| َ            | a      | ARABIC FATHA                                |
-| ُ            | u/o    | ARABIC DAMMA                                |
-| ِ            | i/e    | ARABIC KASRA                                |
-| ُ +و         | oo/ou  | ARABIC DAMMA followed by ARABIC LETTER WAW  |
-| ِ +ى         | ee     | ARABIC KASRA followed by ARABIC LETTER YEH  |
-| َ +ا         | aa     | ARABIC KASRA followed by ARABIC LETTER ALEF |
+| traditional | Franco | Unicode name                      |
+| َ            | a      | ARABIC FATHA                      |
+| ُ            | o      | ARABIC DAMMA                      |
+| ِ            | e      | ARABIC KASRA                      |
+| ُ +و         | O      | ARABIC DAMMA + ARABIC LETTER WAW  |
+| ِ +ى         | E      | ARABIC KASRA + ARABIC LETTER YEH  |
+| َ +ا         | A      | ARABIC FATHA + ARABIC LETTER ALEF |
+
+** importance of long vowels (A,E,O)
+without this we have not distinction between a lot of words, for example:
+- zaman and zamAn
+- men and mEn
+- 7aram and 7arAm
 
 ** additional diacritics not in the traditional system
 for those we use diphthongs, i.e. compound vowels.
-   | diacritic | examples                                      | note             |
-   |-----------+-----------------------------------------------+------------------|
-   | oa        | moat (death), soat (sound), noam (sleepiness) | "oo" but lighter |
-   | ei        | leih (why), beit (home), la2eit (i found)     | "ee" but lighter |
-
+   | diacritic | examples                            | note             |
+   |-----------+-------------------------------------+------------------|
+   | ei        | leih (why), eih, leil, beit, la2eit | "E" but lighter  |
+   | oa        | moat (death), soat, noam            | "O" but lighter  |
+   
+*** TODO is A in rAye7 should be a new diacritic?
+    the question is does this solves an ambiguity in text or is it just a matter of pronunciation ?
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
@@ -70,8 +84,8 @@ the previous concept applies also if you are using 7' instead of 5 - for god kno
 * <<<Digraphs>>> avoidance
 Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
 
-Digraphs are ugly and makes words longer and harder to read, specially for repeating letters, i.e. shadda.
-the only Digraph we use is "th". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now. this may be changed in further versions if some one contributed a good idea.
+Digraphs are ugly and makes words longer and harder to read, specially for repeated letters, i.e. shadda.
+the only Digraph we use is "th". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now (maybe $). this may be changed in further versions though.
    
 *** 5 instead of kh
 5 is omnipresent in the Egyptian Franco, so that's a solved issue.
@@ -85,21 +99,20 @@ earlier in the project's timeline, we thought about going with x to represent 4 
 - it is easier to figure out its meaning if you didn't see it before, easier than x which requires unlearning first then learning.
 - adheres more to the basic idea that distinguishes Franco from any other system, assigning sounds to numbers.
   
+*** TODO 8 instead of gh
 * The hyphen
 the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example:
 - ana /s-hert/ embare7 l7ad elsa3a 3
 - ana ennhrda s7et 3la /sot-ha/
  
-hyphens can optionally be used after the definite article to ease readability.
+hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
 * the definite article "el"
 based on what dialect you are writing in, the definite article can be "el" or "al". write what you pronounce.
 
-"el" ( or "al") in Franco is attached to the following word either directly or with a hyphen, e.g. /elwalad/ or /el-bent/.
+"el" ( or "al") in Franco is never attached directly to the following word, it can be either written separately or attached with a hyphen, e.g. /el walad/ or /el-bent/. choose whatever you like, what matters is to be consistent.
 
-some words starts with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /elnahrda/ are often pronounced as /ennahrda/. both are valid ways to write the word. but note that if you are hyphening the word /ennahrda/, it's hyphened like /en-nahrda/.
-
-to wrap up, you can write /elkonafa/ without hyphens either as /elkonafa/ or /ekkonafa/ or /ek-konafa/, /el-konafa/,
+some words starts with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el nahrda/ are often pronounced as /en-nahrda/, whether or not this increases readability or not is very dependent on the context and the word itself, if you choose to assimilate the "l" in some word you should write it like /en-nahrda/, not /en nahrda/ or /ennahrda/.
 
 * Capital letters
 there an Arabic transliteration scheme developed by Tim Buckwalter in the 1990s. it is an ASCII only but it is not practical as it represents Arabic orthoigraphy strictly one-to-one. it's not a writing system of its own, instead it's a mapping from Arabic letters and diacritics to ASCII letters. 
@@ -118,7 +131,7 @@ English Text\\
 All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood
 #+end_quote
 
-if you noticed there is a smart idea Buckwalter introduced in this scheme, he assigned Arabic letters to Capital letters in English. the fact that Capital letters doesn't have any phonetic differences than the corresponding lower case letters, makes this a good candidate to be included in Franco as it is "backward compatible". by backward compatible we mean that if someone for example wrote ط as T instead of t, it will be interpreted correctly whether the receiver knows about this mapping or not. we basically loose nothing (kinda) but we gain more clarification and disambiguation.
+if you noticed there is a smart idea Buckwalter introduced in this scheme, he assigned Arabic letters to Capital letters in English. the fact that Capital letters doesn't have any phonetic differences than the corresponding lower case letters, makes this a good candidate to be included in Franco as it is "backward compatible". by backward compatible we mean that if someone for example wrote ط as T instead of t, it will be interpreted correctly whether the receiver knows about this mapping or not. we basically loose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
 
 ** mapped letters
 we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
@@ -137,14 +150,47 @@ we choose the following letters to have a Capital letter transliteration due its
   but this case is very unlikely to occur, so we can rely on context here, specially that relying on context is inevitable in mixed text anyway.
 
 * prepositions
-| traditional | Franco | attached | example       |           |
-|-------------+--------+----------+---------------+-----------|
-| في          | fe     | yes      | fekkonafa     | felkonafa |
-| ب           | be     | yes      | berra7a       | belra7a   |
-| على         | 3la    | depends  | sho5 3alwel3a |           |
-| ف           | fa     | yes      | faro7t        |           |
 
-prepositions like /be/ (“with”) or /fe/ (“in”) should be attached to the following definite article, thus becoming one entity bel or fel. and both should be attached the following word like bel-konafa
+| traditional | Franco | example             |
+|-------------+--------+---------------------|
+| ب           | b      | b we4 reglak        |
+| و           | w      | a7la w a7la         |
+| إلي         | l      | a4ky l meen         |
+| في          | f/fe   | kont f baly         |
+| على         | 3la    | 3la regly           |
+| ف           | fa     | nadany fa ro7t      |
+| اللى        | elly   | elly hnak da        |
+| ما          | ma     | 3omrena ma hanerga3 |
+| من          | men    | em4y men hena       |
+| من ال       | mel    | mel ko4k            |
+| من اللى     | melly  | melly hnak da       |
+| على ال      | 3al    | 3al ma4y            |
+| إلي ال      | lel    | ray7a lel banaat    |
+| في ال       | fel    | fel konaafa         |
+| ب ال        | bel    | bel marra           |
+
+prepositions inherit the same rules of attaching from the definite article, by that we mean that for example "fel konaafa" can be written as "fel-konaafa", and if you want to assimilate the l of the definite article in this word it should be written as "fek-konaafa".
+
+** TODO me4 walla m4
+** post-positions
+  | traditional | Franco | example      |
+  |-------------+--------+--------------|
+  | دي          | de     | el bta3a de  |
+  | ده          | da     | el bta3 da   |
+  | دول         | doal   | el btoo3 doal |
+  
+* TODO Arabic names shouldn't be written in Franco
+* TODO e in the end is y
+  seeby not seebe
+* TODO the second e (or vowel generally) in some words
+this is probably an Egyptian dialect thing,
+- beta3 or bta3 
+- keteer or kteer
+- henak or hnak
+- m3aak or ma3aak
+
+i am more toward being explicit, cause it sometimes may introduce ambiguity between words like nafsy and nefsy.
+but it sometimes not there at all like in to2a3 w t2oom
 
 * Don't start with "2"
 it's useless and ugly. 
@@ -159,8 +205,12 @@ it's useless and ugly.
 
 * TODO sample text
   here we should put a sample text that covers all possible cases.
+* you don't need mass adoption to benefit from this system
+- searchable 
+- use it in your files
+
 * what do you think?
-below are the points that maybe need more discussion.
+below are the points that maybe need more discussion: those are of course not the only points open for discussion, but stimulate your mind.
 ** 8 or 3'
 this discussion probably will end up discussing the classic "backward compatibility vs good design" problem.
 ** Capital letters 
