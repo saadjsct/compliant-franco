@@ -10,7 +10,7 @@ we4O4 el nAs
 yaba 7Aly 3al
 da3wet om
 enta fahemny
-kelma we dayet ha
+kelma we dayet-ha
 men kelmetein
 7ekAyet roa7
 adEny 7abEbak
@@ -95,7 +95,7 @@ ya albaha
 5allEna lwahdEna
 fO2 melly enta fEh
 garAly eih
-laffeit ha BlAd
+laffeit-ha BlAd
 mafEsh mennak
 sebt farA8 kebEr
 wahy zekrayAt
@@ -223,8 +223,8 @@ zay el zaman
 allah y5allEky
 ma48Ol
 mat5afE4
-raa7et laayaaly
-3omry m3aak
+3omry m3Ak
+rA7et layAly
 a4ky l meen
 hatmannaalo el 5eir
 ba8eer
@@ -347,7 +347,7 @@ elly en4a8alt 3aleih
 3a4Anak ya amar
 3ala ad el 4O2
 7Aga 8arEba
-7Awel teftekerny
+7Awel-teftekerny
 7elw w kaddAb
 abo 3yOn garrA7a
 ahwAk
@@ -381,19 +381,19 @@ zekra
 5allEny a3E4
 erga3 lel 4oa2
 gowAya lEk
-as3ad wa7da
-haylef w yerga3ly
+as3ad-wa7da
+haylef-w-yerga3ly
 motafa2la
 o8morny
 ro7telo
-t3ebt mennak
-alby 7Ases fEk
-alOly el 3eid
-f 3yOnak
+t3ebt-mennak
+alby-7Ases-fEk
+alOly-el-3eid
+f-3yOnak
 fAker
 krehtak ana
 law a2ollak
-lola el malAma
+lola-el-malAma
 sa3At
 3aks elly 4ayfenha
 alb we roa7
@@ -479,7 +479,7 @@ Bet8Eb betrO7
 da el 3enwAn
 men beylOm
 sahharny 7abEby
-w a5ret ha m3Ak
+w a5ret-ha m3Ak
 we7yAt el 7ob
 far7a
 f 7etta tanya
@@ -788,7 +788,7 @@ msawmAt
 SayyAd
 Hawei
 2addef
-2addef Remix
+2addef-Remix
 el leil
 e2ra el 5abar
 4eta
@@ -797,23 +797,23 @@ egbAry el masAr
 el mrOr
 mat5afEsh
 bet2olly
-zayyek ana
+zayyek-ana
 3at4An
 albak da 3enwAny
 aw2At
 ennak teTEr
 kAnet hatefre2
-lessa el donya
+lessa el-donya
 SabA7ek
 to2a3 w t2Om
 ya 3am
-el koan kollo beyDOr
+el-koan-kollo-beyDOr
 el nAs nAmet
 3oyOn
 alby.maye4behnE4
 amgAd ya 3arab
 belAdy ya 3arab
-efta7o ya 7amAm el SalAm
+efta7o ya 7amAm-el-SalAm
 el bo3d nAr
 f 3neiky 8orba
 7Arat el sa22ayEn
@@ -1025,7 +1025,7 @@ zaman
 abo el reggala
 ba7ebbak men zaman
 7obbo ganna
-ya ret ha gat
+ya ret-ha gat
 bayya3En el Sabr
 Da3fy
 el watar el 7assas
@@ -1080,7 +1080,7 @@ btes3ab 3alayya nafsy
 habEby law
 kam wA7ed
 mestanny el yoam
-s7Et 3ala sot ha
+s7Et 3ala sot-ha
 te3rafy ba7lam
 yana ya mafE4
 ya wa7e4ny
@@ -1163,14 +1163,14 @@ kelmet a7eb
 eftara2na
 zay kol marra
 kelmet 4okr
-7Agy 3ala nafsy
 enta mEn beysadda2ak
 kattar 5eiry
+hAgy 3ala nafsy
 ha2dar
 howwa ana bastaslem
 leyya naZra
 ma3lesh
-mabat hazze4
+mabat-hazze4
 mestabya3
 ya ahlan
 aa5er mo2abla
@@ -1186,25 +1186,25 @@ gEt 3ala karamty
 makammelnA4
 malEsh 7al
 mEn 8Erak
-wa2t elwadA3
 law 8Aly 3aleik
+wa2t el wadA3
 agmal 7elm
 bafra7
 bye bye
 5ayAly
-el rakk 3al neyya
 karrahEny fEky
 ma7ZOZ
 senEn 3e4naha
+el rak 3al neyya
 marra
-5alSana el7ekaya
 7abEbe enta 7abEbe
 ba2Aly zamAn
 da 7kAya
-fe bAly
 mate5telfE4
 mn 8eir ma7kElak
 salAm
 ayyAm
 ma4ofnA4 5eir
 olOlo samA7
+5alSAna el7ekaya
+f bAly
