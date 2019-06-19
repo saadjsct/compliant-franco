@@ -56,28 +56,40 @@
 | ِ +ى         | E      | ARABIC KASRA + ARABIC LETTER YEH  |
 | َ +ا         | A      | ARABIC FATHA + ARABIC LETTER ALEF |
 
-** importance of long vowels (A,E,O)
+** TODO importance of long vowels (A,E,O)
 without this we have not distinction between a lot of words, for example:
 - zaman and zamAn
 - men and mEn
 - 7aram and 7arAm
-
+- dawwar and dawwAr
+- malak, malAk, mAlak
+** TODO why not oo,aa,ee
+they happed so often in arabic - sometimes many times in one word - and they tend to make words a lot longer.
+ 
+*** TODO talk more about the importance and more about disambiguation
+    and it is hard at first to get used to it, it needs practice.
 ** additional diacritics not in the traditional system
 for those we use diphthongs, i.e. compound vowels.
    | diacritic | examples                            | note             |
    |-----------+-------------------------------------+------------------|
    | ei        | leih (why), eih, leil, beit, la2eit | "E" but lighter  |
-   | oa        | moat (death), soat, noam            | "O" but lighter  |
-   
+   | oa        | moat (death), Soat, noam            | "O" but lighter  |
+
+** why we need those diacritcs
+- mOt vs moat
+- kOn vs koan
+- rO7 vs roa7
+- TEr vs Teir
+
 *** TODO is A in rAye7 should be a new diacritic?
     the question is does this solves an ambiguity in text or is it just a matter of pronunciation ?
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
-some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3dy 3alek bel mara" she found on your phone is supposed to be "ha3ddy 3alek bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
+some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3alEk bel mara" she found on your phone is supposed to be "ha3addy 3alEk bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
 
 ** shadda with 8en
-some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write for example "sha3'3'al"; in this case you can write it as "sha3"al". so 3" = 3'3' = 3' + shadda. but for reasons like this we recommend against 3', use 8. 
+some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write for example "sha3'3'Al"; in this case you can write it as "sha3"Al". so 3" = 3'3' = 3' + shadda. but this sounds over engineered, for reasons like this we recommend against 3', use 8. 
 
 the previous concept applies also if you are using 7' instead of 5 - for god knows why.
 
@@ -101,46 +113,38 @@ earlier in the project's timeline, we thought about going with x to represent 4 
   
 *** TODO 8 instead of gh
 * The hyphen
-the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example:
-- ana /s-hert/ embare7 l7ad elsa3a 3
-- ana ennhrda s7et 3la /sot-ha/
+the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: 
+- sme3t /sot-ha/
+- byet-hayya2lak.
+- btet-haz
  
 hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
 * the definite article "el"
-based on what dialect you are writing in, the definite article can be "el" or "al". write what you pronounce.
+based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
 
 "el" ( or "al") in Franco is never attached directly to the following word, it can be either written separately or attached with a hyphen, e.g. /el walad/ or /el-bent/. choose whatever you like, what matters is to be consistent.
 
-some words starts with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el nahrda/ are often pronounced as /en-nahrda/, whether or not this increases readability or not is very dependent on the context and the word itself, if you choose to assimilate the "l" in some word you should write it like /en-nahrda/, not /en nahrda/ or /ennahrda/.
+some words start with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el naharda/ are often pronounced as /en-naharda/, whether or not this increases readability or not is very dependent on the context and the word itself, if you choose to assimilate the "l" in some word you should write it like /en-naharda/, not /en naharda/ or /ennaharda/.
 
-* Capital letters
+* TODO Capital letters
 there an Arabic transliteration scheme developed by Tim Buckwalter in the 1990s. it is an ASCII only but it is not practical as it represents Arabic orthoigraphy strictly one-to-one. it's not a writing system of its own, instead it's a mapping from Arabic letters and diacritics to ASCII letters. 
 
-for instance this example is taken from [[https://en.wikipedia.org/wiki/Buckwalter_transliteration][this]] Wikipedia article. 
-#+begin_quote
-The First Article of The Universal Declaration of Human Rights:
-
-Arabic Text\\
-يُولَدُ جَمِيعُ ٱلنَّاسِ أَحْرَارًا مُتَسَاوِينَ فِي ٱلْكَرَامَةِ وَٱلْحُقُوقِ. وَقَدْ وُهِبُوا عَقْلًا وَضَمِيرًا وَعَلَيْهِمْ أَنْ يُعَامِلَ بَعْضُهُمْ بَعْضًا بِرُوحِ ٱلْإِخَاءِ.
-
-Buckwalter Transliteration\\
-yuwladu jamiyEu {ln~aAsi >aHoraArFA mutasaAwiyna fiy {lokaraAmapi wa{loHuquwqi. waqado wuhibuwA EaqolFA waDamiyrFA waEalayohimo >ano yuEaAmila baEoDuhumo baEoDFA biruwHi {lo<ixaA'i.
-
-English Text\\
-All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood
-#+end_quote
+yuwladu jamiyEu {ln~aAsi >aHoraArFA mutasaAwiyna fiy {lokaraAmapi wa{loHuquwqi.
 
 if you noticed there is a smart idea Buckwalter introduced in this scheme, he assigned Arabic letters to Capital letters in English. the fact that Capital letters doesn't have any phonetic differences than the corresponding lower case letters, makes this a good candidate to be included in Franco as it is "backward compatible". by backward compatible we mean that if someone for example wrote ط as T instead of t, it will be interpreted correctly whether the receiver knows about this mapping or not. we basically loose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
 
-** mapped letters
+** capital consonants 
 we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
 
-| traditional | Franco | unicode name     |
+| traditional | Franco | unicode name      |
 | ض           | D      | ARABIC LETTER DAD |
 | ط           | T      | ARABIC LETTER TAH |
 | ظ           | Z      | ARABIC LETTER ZAH |
+| ص           | S      | ARABIC LETTER SAD |
 
+** TODO capital vowels
+   
 ** what we loose
 - capitalization of names in Franco text, which is not used already.
 - some minor confusion may arise in one case that requires three conditions to occur:
@@ -155,28 +159,30 @@ we choose the following letters to have a Capital letter transliteration due its
 |-------------+--------+---------------------|
 | ب           | b      | b we4 reglak        |
 | و           | w      | a7la w a7la         |
-| إلي         | l      | a4ky l meen         |
-| في          | f/fe   | kont f baly         |
-| على         | 3la    | 3la regly           |
-| ف           | fa     | nadany fa ro7t      |
-| اللى        | elly   | elly hnak da        |
+| -ل          | l      | a4ky l mEn          |
+| في          | f      | kont f bAly         |
+| على         | 3la    | 3la mAgy            |
+| ف           | fa     | fa yakOn            |
+| اللى        | elly   | elly hnAk da        |
 | ما          | ma     | 3omrena ma hanerga3 |
 | من          | men    | em4y men hena       |
 | من ال       | mel    | mel ko4k            |
-| من اللى     | melly  | melly hnak da       |
-| على ال      | 3al    | 3al ma4y            |
-| إلي ال      | lel    | ray7a lel banaat    |
-| في ال       | fel    | fel konaafa         |
-| ب ال        | bel    | bel marra           |
+| من اللى     | melly  | melly hnAk da       |
+| على ال      | 3al    | 3al mA4y            |
+| إلي ال      | lel    | ray7a lel banAt     |
+| في ال       | fel    | fel konAfa          |
+| ب ال        | bel    | bel habal           |
 
 prepositions inherit the same rules of attaching from the definite article, by that we mean that for example "fel konaafa" can be written as "fel-konaafa", and if you want to assimilate the l of the definite article in this word it should be written as "fek-konaafa".
 
+ma can optionaly be attached directly to the following word. e.g. 3omry mansa.
+
 ** TODO me4 walla m4
 ** post-positions
-  | traditional | Franco | example      |
-  |-------------+--------+--------------|
-  | دي          | de     | el bta3a de  |
-  | ده          | da     | el bta3 da   |
+  | traditional | Franco | example       |
+  |-------------+--------+---------------|
+  | دي          | de     | el bta3a de   |
+  | ده          | da     | el bta3 da    |
   | دول         | doal   | el btoo3 doal |
   
 * TODO Arabic names shouldn't be written in Franco
@@ -184,36 +190,44 @@ prepositions inherit the same rules of attaching from the definite article, by t
   seeby not seebe
 * TODO the second e (or vowel generally) in some words
 this is probably an Egyptian dialect thing,
-- beta3 or bta3 
-- keteer or kteer
-- henak or hnak
-- m3aak or ma3aak
+- betA3 or btA3 
+- ketEr or ktEr
+- henAk or hnAk
+- m3Ak or ma3Ak
 
-i am more toward being explicit, cause it sometimes may introduce ambiguity between words like nafsy and nefsy.
-but it sometimes not there at all like in to2a3 w t2oom
+we don't write, and this is an egyptian dialect thing.
 
-* Don't start with "2"
-it's useless and ugly. 
+* PROGRESS Don't start with "2"
+it's useless and ugly.
+# explain more as this is not obvious, so don't act like it is.
 
 | example     | should be  |
 |-------------+------------|
 | 2na         | ana        |
-| 2amal maher | amal maher |
+| 2amar       | amar       |
 | 2egry       | egry       |
-| 2e2lam      | e2lam      |
-| 2oddam      | oddam      |
+| 2oddAm      | oddAm      |
+| 2e2lAm      | e2lAm      |
 
 * TODO sample text
   here we should put a sample text that covers all possible cases.
+** this should be for quotes from contributors
+"m4 hayb2a warAk mawA3En ketEr lw ma3anddak4 mawa3En" -saadnpq
+   
 * you don't need mass adoption to benefit from this system
 - searchable 
 - use it in your files
+- easy to figure out,  (not tested against dumb people)
 
 * what do you think?
 below are the points that maybe need more discussion: those are of course not the only points open for discussion, but stimulate your mind.
 ** 8 or 3'
 this discussion probably will end up discussing the classic "backward compatibility vs good design" problem.
 ** Capital letters 
-does we really want capitalization of names ?.
+any one wants capitalization of names ?.
 ** any more sounds?
 are there any additional sounds we didn't cover [[*additional diacritics not in the traditional system][here.]]
+* TODO FAQs
+** doesn't text seems a bit like aNa BaNoOoTa 7eLWa aWyYy ?
+* contributors
+* early adopters
