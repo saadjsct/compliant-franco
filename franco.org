@@ -61,10 +61,11 @@ without this we have not distinction between a lot of words, for example:
 - zaman and zamAn
 - men and mEn
 - 7aram and 7arAm
-- dawwar and dawwAr
 - malak, malAk, mAlak
+
 ** TODO why not oo,aa,ee
 they happed so often in arabic - sometimes many times in one word - and they tend to make words a lot longer.
+it is used in the beginning of words like aah, eed, oom.
  
 *** TODO talk more about the importance and more about disambiguation
     and it is hard at first to get used to it, it needs practice.
@@ -160,7 +161,7 @@ we choose the following letters to have a Capital letter transliteration due its
 | ب           | b      | b we4 reglak        |
 | و           | w      | a7la w a7la         |
 | -ل          | l      | a4ky l mEn          |
-| في          | f      | kont f bAly         |
+| في          | f/fe   | kont f bAly         |
 | على         | 3la    | 3la mAgy            |
 | ف           | fa     | fa yakOn            |
 | اللى        | elly   | elly hnAk da        |
@@ -193,11 +194,11 @@ this is probably an Egyptian dialect thing,
 - betA3 or btA3 
 - ketEr or ktEr
 - henAk or hnAk
-- m3Ak or ma3Ak
+- m3Ak or ma3ak
 
 we don't write, and this is an egyptian dialect thing.
 
-* PROGRESS Don't start with "2"
+* PROGRESS Don't start with "2", except
 it's useless and ugly.
 # explain more as this is not obvious, so don't act like it is.
 
