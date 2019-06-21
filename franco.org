@@ -1,7 +1,7 @@
 #+TITLE: Franco guideline draft
 #+AUTHOR: saadnpq
 #+DATE: 2019:5:20
-#+OPTIONS: num:t toc:t
+#+OPTIONS: \n:t num:t toc:t
 
 * why?
 - to have a standardized, written, documented and community developed Franco flavor.
