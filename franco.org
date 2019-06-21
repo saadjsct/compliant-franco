@@ -338,3 +338,7 @@ w l banknote
 maktOb 3ala 4hOd el blAd.. el mamso7En b astEka:
 anta 7or.. ma lam taDor.. amrEka
 
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# after-save-hook: org-html-export-to-html
+# End:
