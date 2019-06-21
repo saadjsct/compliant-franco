@@ -2,6 +2,7 @@
 #+AUTHOR: saadnpq
 #+DATE: 2019:5:20
 #+OPTIONS: \n:t num:t toc:t
+#+SETUPFILE: https://raw.githubusercontent.com/fniessen/org-html-themes/master/setup/theme-readtheorg.setup
 
 * why?
 - to have a standardized, written, documented and community developed Franco flavor.
