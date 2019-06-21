@@ -1,0 +1,2 @@
+#!/bin/bash
+scp ./franco.html root@saadnpq.com:/var/www/html/franco/index.html
