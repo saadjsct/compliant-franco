@@ -8,7 +8,6 @@
 - to have a standardized, written, documented and community developed Franco flavor.
 - to have a consistent and searchable Arabic writing system.
 - a reference for people with unreadable Franco
-  test
 * Boundary conditions
 1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
 2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with it (English alphabet).
