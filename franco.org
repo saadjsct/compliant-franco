@@ -128,10 +128,10 @@ shadda in Arabic is a diacritic that is phonetically equivalent to a repeated le
 
 some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3aleik bel mara" she found on your phone is supposed to be "ha3addy 3aleik bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
 
-** shadda with 8en
-some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write for example "sha3'3'Al"; in this case you can write it as "sha3"Al". so 3" = 3'3' = 3' + shadda. but this sounds over engineered, for reasons like this we recommend against 3', use 8. 
+** COMMENT shadda with 8ein
+some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write "sha3'3'Al" for example; in this case you can write it "sha3"Al" where 3" = 3'3' = 3' + shadda, but this sounds over engineered. for reasons like this we recommend against 3', use 8. 
 
-the previous concept applies also if you are using 7' instead of 5 - for god knows why.
+the previous concept applies also if you are used to use 7' instead of 5 - for god knows why.
 
 * The hyphen
 the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: 
