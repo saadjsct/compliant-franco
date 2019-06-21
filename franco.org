@@ -8,7 +8,7 @@
 - to have a standardized, written, documented and community developed Franco flavor.
 - to have a consistent and searchable Arabic writing system.
 - a reference for people with unreadable Franco
-  
+  test
 * Boundary conditions
 1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
 2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with it (English alphabet).
@@ -147,7 +147,7 @@ based on what dialect you are writing in, the definite article can be "el" or "a
 some words start with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el naharda/ are often pronounced as /en-naharda/, whether or not this increases readability or not is very dependent on the context and the word itself, if you choose to assimilate the "l" in some word you should write it like /en-naharda/, not /en naharda/ or /ennaharda/.
 
 * prepositions
-
+  
 | traditional | Franco | example             |
 |-------------+--------+---------------------|
 | ب           | b      | b we4 reglak        |
@@ -170,7 +170,6 @@ prepositions inherit the same rules of attaching from the definite article, by t
 
 ma can optionaly be attached directly to the following word. e.g. 3omry mansa.
 
-** TODO me4 walla m4
 ** post-positions
   | traditional | Franco | example       |
   |-------------+--------+---------------|
