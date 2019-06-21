@@ -1,6 +1,7 @@
 #+TITLE: Franco guideline draft
 #+AUTHOR: saadnpq
 #+DATE: 2019:5:20
+#+OPTIONS: num:t toc:t
 
 * why?
 - to have a standardized, written, documented and community developed Franco flavor.
@@ -122,7 +123,7 @@ the traditional system has no way to resolve the difference between for example:
 * shadda
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
-some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3alEk bel mara" she found on your phone is supposed to be "ha3addy 3alEk bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
+some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3aleik bel mara" she found on your phone is supposed to be "ha3addy 3aleik bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
 
 ** shadda with 8en
 some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write for example "sha3'3'Al"; in this case you can write it as "sha3"Al". so 3" = 3'3' = 3' + shadda. but this sounds over engineered, for reasons like this we recommend against 3', use 8. 
