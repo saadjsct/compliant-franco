@@ -1,6 +1,5 @@
 this directory contains and up to date compliant text
 
 files:
-
- asAmy_el_a8Any.txt : over 1000 egypian songs titles written in compliant franco.
- 4e3r.org : longer poems in Egyptian language.
+- asAmy_el_a8Any.txt : over 1000 egypian songs titles written in compliant franco.
+- 4e3r.org : longer poems in Egyptian language.
