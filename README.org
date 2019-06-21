@@ -11,7 +11,7 @@ the project is still in early development, but it's usable and reaching a more s
 
 * FAQs
 ** where i can find the specification itself?
-[[https://saadnpq.com/franco/#orgc07e549][here]].
+   [[https://saadnpq.com/franco/#orgc07e549][here]].
 * a fork for every dialect
 this guideline is supposed to be general enough to fit all Arabic dialects, but it's written with Egyptian Arabic in mind and using Egyptian examples. cases that rarely appear in Egyptian Arabic may not be worked on, but i can imagine other dialects speakers forking it to fit theirs; that would be really awesome.
 
