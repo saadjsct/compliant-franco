@@ -137,6 +137,7 @@ the previous concept applies also if you are used to use 7' instead of 5 - for g
 the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: 
 - sme3t /sot-ha/
 - byet-hayya2lak.
+- as-hal.
 - btet-haz
  
 hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
