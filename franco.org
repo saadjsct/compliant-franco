@@ -133,14 +133,13 @@ some people write 8en as 3', if you can't loose this habit, don't omit the shadd
 
 the previous concept applies also if you are used to use 7' instead of 5 - for god knows why.
 
-* The hyphen
-the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: 
-- sme3t /sot-ha/
-- byet-hayya2lak.
-- as-hal.
-- btet-haz
- 
-hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
+* The hyphen "-"
+
+hyphen has three use cases:
+
++ the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
++ to separate english words from franco prepositions like: aa3ed /ba-chill/, m4 3Aref /a-handle/
++ hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
 * the definite article "el"
 based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
