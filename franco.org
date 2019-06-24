@@ -42,7 +42,7 @@ the project is still in early development, but it's usable and reaching a more s
 | ع           | 3      | ARABIC LETTER AIN              |
 | غ           | 8      | ARABIC LETTER GHAIN            |
 | ف           | f      | ARABIC LETTER FEH              |
-| ق           | Q      | ARABIC LETTER QAF              |
+| ق           | 9      | ARABIC LETTER QAF              |
 | ك           | k      | ARABIC LETTER KAF              |
 | ل           | l      | ARABIC LETTER LAM              |
 | م           | m      | ARABIC LETTER MEEM             |
@@ -51,7 +51,6 @@ the project is still in early development, but it's usable and reaching a more s
 | و           | w      | ARABIC LETTER WAW              |
 | ى           | y      | ARABIC LETTER YEH              |
 
-# Qaff is used as 9, confirmed by yamli and seen on different puplic chats mainly in morroco
 ** Capital letters
 
 the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in Franco, as it is "backward compatible", by backward compatible we mean that if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically loose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
@@ -77,7 +76,7 @@ we choose the following letters to have a Capital letter transliteration due its
 Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
 
 Digraphs are ugly and makes words longer and harder to read, specially for repeated letters, i.e. shadda.
-the only Digraph we use is "th". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now (maybe $). this may be changed in further versions though.
+the only Digraph we use is "th" as in "the" not as in "theatre". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now. this may be changed in further versions though.
    
 | digraph | Franco |
 |---------+--------|
@@ -212,7 +211,7 @@ but sometimes it's pronounced very clearly in certain words, we don't know if th
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
 
-poems from "dorg el QAhera" by the beautiful mostafa ibrahem:
+poems from "dorg el 9Ahera" by the beautiful mostafa ibrahem:
 
 -------
 
@@ -231,14 +230,14 @@ ensa en feh fel faSl sabbOra
 
 aal el moSawwer lelly gAb camera
 yat3E4 btA5od Sowar..
-lel Qessa, yat3e4ha
+lel 9essa, yat3e4ha
 el kadr dayman a8la mel SOra
 
 ya donya ana bakteb..
 lel gay ba3deyya..
 wana gay ba3dy olOf
 w en kont bA5od Sowar..
-lel Qessa m4 leyya
+lel 9essa m4 leyya
 fana nefsy 8Ery y4Of
 
 -------
@@ -264,7 +263,7 @@ awel yoam ba3d el efrAg
 
 ------
 
-QawA3ed el dayra el saba3a (5):
+9awA3ed el dayra el saba3a (5):
 
 ezzay te3raf..
 mEn sAbe2 mEn gowwa el dayra..
@@ -274,7 +273,7 @@ yeTla3 sab2ak..
 w enta elly 7mAr ?!
 
 -------
-QawA3ed el dayra el saba3a (3):
+9awA3ed el dayra el saba3a (3):
 
 far2 el sor3At gowwa el dayra
 beink w mabein kol el ma4yEn
@@ -282,7 +281,7 @@ howwa elly haye2dar yeDmanlak
 en enta t2Abel nAs tanyEn
 
 -------
-QawA3ed el dayra el saba3a (1):
+9awA3ed el dayra el saba3a (1):
 
 ab3ad no2Ta bel nesbAlak
 gowwa el dayra.. heyya makAnak
