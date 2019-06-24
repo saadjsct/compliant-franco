@@ -95,10 +95,10 @@ ya albaha
 5allEna lwahdEna
 fO2 melly enta fEh
 garAly eih
-laffeit-ha BlAd
 mafEsh mennak
 sebt farA8 kebEr
 wahy zekrayAt
+laffet-ha BlAd
 aslaha btefre2
 yoam ma2abeltak
 ya nAsy wa3dak
@@ -290,13 +290,13 @@ a7lam baree2a
 akteblak ta3ahhod
 ba2eit wa7eeda
 ba7eb a8anny
-bakrah elmoseeqa
 bein el benein
 ettegah wa7ed
 fengan el nesyan
 ganbak makany
 7etta na2sa
 tool manta b3eed
+bakrah elmosE9a
 ahl el hawa
 e7lef
 hatendamo
@@ -539,11 +539,11 @@ roah el roah
 b3Ed 3annak
 bt3Atebny 3ala kelma
 gara7Ona
-wayya al qadar
 4ay 8arEb
 8alAba fel 7ob
 el 7ob 4Ater
 el 8Aly
+wayya al 9adar
 el Sabr Tayyeb
 4okran
 alla karEm
@@ -557,7 +557,6 @@ doal mo4 7abAyeb
 keda kfAya
 le3bet naZar
 ma t2Olo leih
-3allem alby el 4oaq
 el Sabr Tayyeb
 heyya al ayyam
 salaf w dein
@@ -571,6 +570,7 @@ benfakkar fel nAs
 et2a55art ktEr
 men hena w rAye7
 SAber w rAdy
+3allem alby el 4oa2
 2olly wla t5abbE4
 7elef el amar
 el 7abAyeb
@@ -589,12 +589,12 @@ mestanny menny eih
 bastAna bel yoam wel yoamein
 el zaman dawwAr
 leilet wada3na
-3allem alby el 4oaq
 aady elly kAno
 as3ab forA2
 kalAmak ya 7abEby
 sEb el nAs
 ya ngOm el leil
+3allem alby el 4oa2
 wayya el adar
 ya 8olby
 4ei2 8arEb
@@ -755,11 +755,11 @@ baTTal t8anny
 es2al mgarrab
 ma tetkallem4
 100 dalEl
-a5adt qarAr
 a5er a7zAny
 akEd z3elt
 b nafs el kalAm
 me4 regOla
+a5adt 9arAr
 7asr masr
 ana m4 ba8anny
 ka4f asary
@@ -775,10 +775,10 @@ Tool el TarE2
 nafsy f 3a2ly
 teskar tebky
 3Ayez awSal
-eqA3 maksOr
 kont rAye7
 makon4 w akOn
 mat7af fenOn el 8e4
+e9A3 maksOr
 Cherophobia
 fakra
 lel 7ozn 2osol
@@ -829,11 +829,11 @@ aah ya asmarAny
 ba7r el 7ayAh
 banAt
 ebky
-eqrAr
 hanina
 7orreyya
 loaLa el sahar
 4amandOra
+e9rAr
 3neik 7elwEn
 alby masAken
 bteb3dEny
@@ -915,19 +915,19 @@ gerA7 el gesm
 gondy f gnOdek
 7abebty
 heya heya
-lamma ybAn el TarEq
 4ababEk el 7elm
 ta7t el maTar
 ya 4ams(men 7orr mAly)
+lamma ybAn el TarE2
 ab4ero ya 4abAb
 allah allah
-a4raq el badr
 madad ya rasOl 2
 madad ya rasOl
 Sala f serry
 SalAt allah Ya
 Sally ya wAheb
 Sally 3ala
+a4ra9 el badr
 bandahak
 el ward kAn 4oak
 fein el sa3Ada
