@@ -25,7 +25,7 @@ the project is still in early development, but it's usable and reaching a more s
 | ء           | 2      | ARABIC LETTER HAMZA            |
 | ب           | b      | ARABIC LETTER BEH              |
 | ت           | t      | ARABIC LETTER TEH              |
-| ث           | th     | ARABIC LETTER THEH             |
+| ث           | $     | ARABIC LETTER THEH             |
 | ج           | g,j    | ARABIC LETTER JEEM             |
 | ح           | 7      | ARABIC LETTER HAH              |
 | خ           | 5      | ARABIC LETTER KHAH             |
