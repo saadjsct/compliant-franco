@@ -2,8 +2,8 @@
 #+AUTHOR: saadnpq
 #+DATE: 2019:5:20
 #+OPTIONS: \n:t num:t toc:t
-#+SETUPFILE: https://raw.githubusercontent.com/fniessen/org-html-themes/master/setup/theme-readtheorg.setup
-
+#+SETUPFILE: ./theme-readtheorg.setup
+ 
 * state of the project
 the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
 
@@ -51,6 +51,7 @@ the project is still in early development, but it's usable and reaching a more s
 | و           | w      | ARABIC LETTER WAW              |
 | ى           | y      | ARABIC LETTER YEH              |
 
+# Qaff is used as 9, confirmed by yamli and seen on different puplic chats mainly in morroco
 ** Capital letters
 
 the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in Franco, as it is "backward compatible", by backward compatible we mean that if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically loose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
@@ -138,7 +139,7 @@ the previous concept applies also if you are used to use 7' instead of 5 - for g
 hyphen has three use cases:
 
 + the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
-+ to separate english words from franco prepositions like: aa3ed /ba-chill/, m4 3Aref /a-handle/
++ to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el btA3.
 + hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
 * the definite article "el"
@@ -301,6 +302,7 @@ for more sample text that covers many more cases, please refer to the sample dir
 ** are you working on Franco to replace the traditional Arabic system?
 Franco is just an alternative writing system that can coexist with any other writing system. we think Franco has more potential than Arabic in many situations like writing modern Arabic dialects and mixed English-Arabic text, but Franco is not yet capable of writing pure traditional Arabic text like Quran for example. when this guideline reaches a solid state we can test it against old Formal texts and see what are the limitations.
 
+* TODO how to learn the system
 * COMMENT Local Variables                          :ARCHIVE:
 # Local Variables:
 # after-save-hook: org-html-export-to-html
