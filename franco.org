@@ -6,9 +6,7 @@
   
 * state of the project
 the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
-
 to follow or to contribute to the project maintenance see the [[https://github.com/saadnpq/expect-franco][github repository]].
-
 * abstract
 the project is supposed to be an implementation of ideas introduced in [[https://saadnpq.com/posts/franco/][this blog post]], to understand the rationale behind all of this, or to have a better insight about the issue of the arabic writing system, please refer to blog post.
 * why?
@@ -78,7 +76,6 @@ we choose the following letters to have a Capital letter transliteration due its
 
 ** <<<Digraphs>>>
 Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
-
 Digraphs are ugly and makes words longer and harder to read, specially for repeated letters, i.e. shadda.
 
 | digraph     | Franco |
@@ -130,31 +127,25 @@ the traditional system has no way to resolve the difference between for example:
 
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
-
 some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3aleik bel mara" she found on your phone is supposed to be "ha3addy 3aleik bel marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
 
 ** COMMENT shadda with 8ein
 some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write "sha3'3'Al" for example; in this case you can write it "sha3"Al" where 3" = 3'3' = 3' + shadda, but this sounds over engineered. for reasons like this we recommend against 3', use 8. 
-
 the previous concept applies also if you are used to use 7' instead of 5 - for god knows why.
 
 * The hyphen "-"
 
 hyphen has three use cases:
-
 + the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
 + to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el btA3.
 + hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
 * the definite article "el"
 based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
-
 "el" ( or "al") in Franco is never attached directly to the following word, it can be either written separately or attached with a hyphen, e.g. /el walad/ or /el-bent/. choose whatever you like, what matters is to be consistent.
-
 some words start with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el naharda/ are often pronounced as /en-naharda/, whether or not this increases readability or not is very dependent on the context and the word itself, if you choose to assimilate the "l" in some word you should write it like /en-naharda/, not /en naharda/ or /ennaharda/.
 
 * prepositions
-  
 | traditional | Franco | example             |
 |-------------+--------+---------------------|
 | ب           | b      | b we4 reglak        |
@@ -174,7 +165,6 @@ some words start with letters (sun letters) that assimilate the "l" in the defin
 | ب ال        | bel    | bel habal           |
 
 prepositions inherit the same rules of attaching from the definite article, by that we mean that for example "fel konaafa" can be written as "fel-konaafa", and if you want to assimilate the l of the definite article in this word it should be written as "fek-konaafa".
-
 ma can optionaly be attached directly to the following word. e.g. 3omry mansa.
 
 ** post-positions
@@ -215,18 +205,14 @@ but sometimes it's pronounced very clearly in certain words, we don't know if th
 
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
-
 poems from "dorg el 9Ahera" by the beautiful mostafa ibrahem:
-
 -------
-
 akEd el 4am3a lw kAnt.. 
 la2et forSa..
 w 7al morE7..
 y3ayye4ha.. bdOn matsE7..
 w ye7faZ 4aklaha el sAbet..
 kant 3A4t !!
-
 -------------
 aalet el donya lel walad f el faSl
 yat3E4 btektb warAya..
@@ -246,7 +232,6 @@ lel 9essa m4 leyya
 fana nefsy 8Ery y4Of
 
 -------
-
 bdOn ma3raf sabab wADe7..
 34An az3l.. ana za3lAn
 w fag2a bdOn sabab bardo..
@@ -256,18 +241,14 @@ la menny 3reft a3ml eih..
 wala menny..
 3reft ezzay..
 adO2 el far7a bel maggan
-
 -------
-
 ba3d ma aDDa noS el modda..
 fata7o bAb zenzanto el SAg..
 a5ado menno kol el 3ohda..
 4Alo malaffo mn el edrAg
 3am m7ammad mAt mel we7da..
 awel yoam ba3d el efrAg
-
 ------
-
 9awA3ed el dayra el saba3a (5):
 
 ezzay te3raf..
@@ -276,7 +257,6 @@ w mEn feha aTa3 aTwal me4wAr..
 m4 momken bardo elly fDahrak..
 yeTla3 sab2ak..
 w enta elly 7mAr ?!
-
 -------
 9awA3ed el dayra el saba3a (3):
 
@@ -284,7 +264,6 @@ far2 el sor3At gowwa el dayra
 beink w mabein kol el ma4yEn
 howwa elly haye2dar yeDmanlak
 en enta t2Abel nAs tanyEn
-
 -------
 9awA3ed el dayra el saba3a (1):
 
@@ -294,9 +273,7 @@ w ka2n asAsn fel dayra
 hena.. howwa hnAk
 fa TabE3y t7es enk 3Aye4..
 b etnein gowwak
-
 ------
-
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
 * TODO FAQs
 ** what is the problem with the traditional system?
