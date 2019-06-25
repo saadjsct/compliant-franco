@@ -25,12 +25,12 @@ the project is still in early development, but it's usable and reaching a more s
 | ء           | 2      | ARABIC LETTER HAMZA            |
 | ب           | b      | ARABIC LETTER BEH              |
 | ت           | t      | ARABIC LETTER TEH              |
-| ث           | $     | ARABIC LETTER THEH             |
+| ث           | $      | ARABIC LETTER THEH             |
 | ج           | g,j    | ARABIC LETTER JEEM             |
 | ح           | 7      | ARABIC LETTER HAH              |
 | خ           | 5      | ARABIC LETTER KHAH             |
 | د           | d      | ARABIC LETTER DAL              |
-| ذ           | th     | ARABIC LETTER THAL             |
+| ذ           | >      | ARABIC LETTER THAL             |
 | ر           | r      | ARABIC LETTER REH              |
 | ز           | z      | ARABIC LETTER ZAIN             |
 | س           | s      | ARABIC LETTER SEEN             |
@@ -76,14 +76,15 @@ we choose the following letters to have a Capital letter transliteration due its
 Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
 
 Digraphs are ugly and makes words longer and harder to read, specially for repeated letters, i.e. shadda.
-the only Digraph we use is "th" as in "the" not "theatre". we are going with it now because it's rarely used in the Egyptian dialect and seems to be no sane alternative right now. this may be changed in further versions though.
-   
-| digraph | Franco |
-|---------+--------|
-| kh      |      5 |
-| sh      |      4 |
-| gh      |      8 |
-| dh      |      D |
+
+| digraph     | Franco |
+|-------------+--------|
+| kh          |      5 |
+| sh          |      4 |
+| gh          |      8 |
+| dh          |      D |
+| th in throw |      $ |
+| th in the   |      > |
 
 * diacritics and vowels
 the table below shows the basic diacritics transliterations.
