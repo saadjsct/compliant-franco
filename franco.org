@@ -3,7 +3,7 @@
 #+DATE: 2019:5:20
 #+OPTIONS: \n:t num:t toc:t
 #+SETUPFILE: ./theme-readtheorg.setup
- 
+  
 * state of the project
 the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
 
