@@ -207,48 +207,6 @@ but sometimes it's pronounced very clearly in certain words, we don't know if th
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
 poems from "dorg el 9Ahera" by the beautiful mostafa ibrahem:
 -------
-akEd el 4am3a lw kAnt.. 
-la2et forSa..
-w 7al morE7..
-y3ayye4ha.. bdOn matsE7..
-w ye7faZ 4aklaha el sAbet..
-kant 3A4t !!
--------------
-aalet el donya lel walad f el faSl
-yat3E4 btektb warAya..
-fel 7eSSa, yat3e4ha 
-ensa en feh fel faSl sabbOra 
-
-aal el moSawwer lelly gAb camera
-yat3E4 btA5od Sowar..
-lel 9essa, yat3e4ha
-el kadr dayman a8la mel SOra
-
-ya donya ana bakteb..
-lel gay ba3deyya..
-wana gay ba3dy olOf
-w en kont bA5od Sowar..
-lel 9essa m4 leyya
-fana nefsy 8eiry y4Of
-
--------
-bdOn ma3raf sabab wADe7..
-34An az3al.. ana za3lAn
-w fag2a bdOn sabab bardo..
-yfarra7ny.. bakOn far7An
-la menny 3reft a3ml eih..
-34An maz3l4 mn tAny..
-wala menny..
-3reft ezzay..
-adO2 el far7a bel maggan
--------
-ba3d ma aDDa noS el modda..
-fata7o bAb zenzanto el SAg..
-a5ado menno kol el 3ohda..
-4Alo malaffo men el edrAg
-3am m7ammad mAt mel we7da..
-awel yoam ba3d el efrAg
-------
 9awA3ed el dayra el saba3a (5):
 
 ezzay te3raf..
@@ -273,6 +231,47 @@ w ka2enn asAsn fel dayra
 hena.. howwa hnAk
 fa TabE3y t7es enk 3Aye4..
 b etnein gowwak
+------
+akEd el 4am3a lw kAnt.. 
+la2et forSa..
+w 7al morE7..
+y3ayye4ha.. bdOn matsE7..
+w ye7faZ 4aklaha el sAbet..
+kant 3A4t !!
+-------------
+aalet el donya lel walad f el faSl
+yat3E4 btektb warAya..
+fel 7eSSa, yat3e4ha 
+ensa en feh fel faSl sabbOra 
+
+aal el moSawwer lelly gAb camera
+yat3E4 btA5od Sowar..
+lel 9essa, yat3e4ha
+el kadr dayman a8la mel SOra
+
+ya donya ana bakteb..
+lel gay ba3deyya..
+wana gay ba3dy olOf
+w en kont bA5od Sowar..
+lel 9essa m4 leyya
+fana nefsy 8eiry y4Of
+-------
+bdOn ma3raf sabab wADe7..
+34An az3al.. ana za3lAn
+w fag2a bdOn sabab bardo..
+yfarra7ny.. bakOn far7An
+la menny 3reft a3ml eih..
+34An maz3l4 mn tAny..
+wala menny..
+3reft ezzay..
+adO2 el far7a bel maggan
+-------
+ba3d ma aDDa noS el modda..
+fata7o bAb zenzanto el SAg..
+a5ado menno kol el 3ohda..
+4Alo malaffo men el edrAg
+3am m7ammad mAt mel we7da..
+awel yoam ba3d el efrAg
 ------
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
 * TODO FAQs
