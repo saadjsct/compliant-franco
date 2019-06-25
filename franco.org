@@ -7,6 +7,10 @@
 * state of the project
 the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
 
+to follow or to contribute to the project maintenance see the [[https://github.com/saadnpq/expect-franco][github repository]].
+
+* abstract
+the project is supposed to be an implementation of ideas introduced in [[https://saadnpq.com/posts/franco/][this blog post]], to understand the rationale behind all of this, or to have a better insight about the issue of the arabic writing system, please refer to blog post.
 * why?
 - to have a standardized, written, documented and community developed Franco flavor.
 - to have a consistent and searchable Arabic writing system.

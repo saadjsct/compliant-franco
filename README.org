@@ -9,16 +9,18 @@ the project itself is hosted at [[https://saadnpq.com/franco/][saadnpq.com/franc
 * state of the project
 the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
 
-* FAQs
-** where i can find the specification itself?
+* where i can find the specification itself?
    [[https://saadnpq.com/franco/#orgc07e549][here]].
+
 * a fork for every dialect
-this guideline is supposed to be general enough to fit all Arabic dialects, but it's written with Egyptian Arabic in mind and using Egyptian examples. cases that rarely appear in Egyptian Arabic may not be worked on, but i can imagine other dialects speakers forking it to fit theirs; that would be really awesome.
+this guideline is supposed to be general enough to fit all Arabic dialects, but it's written with Egyptian Arabic in mind and using Egyptian examples. cases that rarely appear in Egyptian Arabic may not be worked on, but i can imagine other dialects speakers forking this project to fit theirs; that would be really awesome.
 
 * how to contribute
 help is very much appreciated and needed. the only requirement is to be an Arabic speaker, even if you don't use Franco we need to know what issues in the system holding you from adopting it. you can send me an email with your thoughts at [[mailto:saad@saadnpq.com][saad@saadnpq.com]] - or contact me by any way mentioned [[https://saadnpq.com/pages/reachme/][here]]. if you are familiar with git it's, of course, better to open an issue or a pull request in this repository. 
 
-* contributors 
-  when you submit a pull request please add your name here.
+* contributors
+when you submit a pull request please add your name here. if you contributed in any other way i will put your name manually.
   
 - [[saadnpq.com][saadnpq]]
+- mahmoud hafez
+
