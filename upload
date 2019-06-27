@@ -1,2 +1,3 @@
 #!/bin/bash
 scp ./franco.html root@saadnpq.com:/var/www/html/franco/index.html
+scp ./embrace-franco.pdf root@saadnpq.com:/var/www/html/franco/embrace-franco.pdf

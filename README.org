@@ -2,7 +2,7 @@
 #+AUTHOR: saadnpq
 #+date: 2019-05-18
 
-a guideline, and hopefully a standard, for the Franco writing system. there is an associated blog post [[https://saadnpq.com/posts/franco/][here]] that describes the rationale behind this project.
+a guideline, and hopefully a standard, for the Franco writing system. there is an associated article [[https://saadnpq.com/franco/embrace-franco.pdf][here]] that describes the rationale behind this project.
 
 the project itself is hosted at [[https://saadnpq.com/franco/][saadnpq.com/franco]], this repository is used for development and version control.
 
