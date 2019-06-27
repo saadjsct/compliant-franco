@@ -8,6 +8,7 @@
 #+hugo_tags: projects 
 
 * abstraction
+  7afez was here
 ** the nature of the language
 humans like any other animal have a way to send signals to each other by the means of sound. our brain utilizes our ears and mouth to form a communication channel by encoding entities in nature to a conventional verbal sounds. this whole thing we call it now "the language" in the English language, or more
 precisely "the spoken language".
