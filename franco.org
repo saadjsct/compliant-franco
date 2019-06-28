@@ -163,27 +163,32 @@ some words start with letters (sun letters) that assimilate the "l" in the defin
 | -ل          | l      | a4ky l mEn          |
 | في          | f/fe   | kont f bAly         |
 | على         | 3ala   | 3ala mAgy           |
+| من          | men    | em4y men hena       |
 | ف           | fa     | fa yakOn            |
 | اللى        | elly   | elly hnAk da        |
 | ما          | ma     | 3omrena ma hanerga3 |
-| من          | men    | em4y men hena       |
-| من ال       | mel    | mel ko4k            |
-| من اللى     | melly  | melly hnAk da       |
-| عال         | 3al    | 3al mA4y            |
-| لل          | lel    | ray7a lel banAt     |
-| في ال       | fel    | fel konAfa          |
-| ب ال        | bel    | bel habal           |
+| من للى      | melly  | melly hnAk da       |
 
-prepositions inherit the same rules of attaching from the definite article, by that we mean that for example "fel konaafa" can be written as "fel-konaafa", and if you want to assimilate the l of the definite article in this word it should be written as "fek-konaafa".
+** prepositions compound with definite article.
 
-ma can optionaly be attached directly to the following word, e.g. 3omry mansa, mabein nArein.
+| traditional | Franco | example         |
+|-------------+--------+-----------------|
+| من ال       | mel    | mel-ko4k            |
+| عال         | 3al    | 3al-mA4y        |
+| لل          | lel    | ray7a lel-banAt |
+| في ال       | fel    | fel-konAfa      |
+| ب ال        | bel    | bel-habal       |
+
+those prepositions inherit the same rules of attaching from the definite article, by that we mean for example if you want to assimilate the l of the definite article in "fel-konAfa it should be written as "fek-konAfa".
+
+ma can optionaly be attached directly to the following word, e.g. 3ala mAgy, 3omry mansa, ana mabein nArein.
 
 ** post-positions
   | traditional | Franco | example       |
   |-------------+--------+---------------|
-  | دي          | de     | el btA3a de   |
-  | ده          | da     | el btA3 da    |
-  | دول         | doal   | el btO3 doal  |
+  | دي          | de     | el-btA3a de   |
+  | ده          | da     | el-btA3 da    |
+  | دول         | doal   | el-btO3 doal  |
   
 * Don't start with "2"
 since in english e,o,a in the beginning of words contain "2" in their pronounciation, we can borrow this property.
