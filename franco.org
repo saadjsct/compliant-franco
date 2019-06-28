@@ -293,6 +293,7 @@ a5ado menno kol el 3ohda..
 awel yoam ba3d el efrAg
 ------
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
+* TODO foS7a specific notes
 * TODO FAQs
 ** what is the problem with the traditional system?
 [[https://saadnpq.com/posts/franco/][this]] blog post may answer this question.
