@@ -112,5 +112,6 @@ like any organically grown idea, most of the design choices in the common Franco
 - https://en.wikipedia.org/wiki/Writing_system
 * COMMENT local variables                          :ARCHIVE:
 # Local Variables:
+# org-latex-inputenc-alist: (("utf8" . "utf8x"))
 # after-save-hook: org-latex-export-to-pdf
 # End:
