@@ -66,6 +66,15 @@ we choose the following letters to have a Capital letter transliteration due its
 | ظ           | Z      | ARABIC LETTER ZAH |
 | ص           | S      | ARABIC LETTER SAD |
 
+**** importance of capital consonants
+without those we have no distinction between many words, for example:
+- fos7a and foS7a
+- 7aZ and 7az
+- na9D and na9d
+- Darb and darb
+- TAr and tAr
+- Dahr and dahr
+ 
 *** what we loose
 - capitalization of names in Franco text, which is not used already.
 - some minor confusion may arise in one case that requires three conditions to occur:
