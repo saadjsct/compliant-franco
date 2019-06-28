@@ -133,6 +133,7 @@ the traditional system has no way to resolve the difference between for example:
 - kOn and koan
 - rO7 and roa7
 - TEr and Teir
+- btO3 and btoa3
 
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
