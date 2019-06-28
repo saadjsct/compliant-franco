@@ -97,9 +97,9 @@ the table below shows the basic diacritics transliterations.
 
 ** long vowels
 | traditional | Franco | Unicode name                      |
-| ُ +و         | O      | ARABIC DAMMA + ARABIC LETTER WAW  |
-| ِ +ى         | E      | ARABIC KASRA + ARABIC LETTER YEH  |
-| َ +ا         | A      | ARABIC FATHA + ARABIC LETTER ALEF |
+| و + ُ        | O      | ARABIC DAMMA + ARABIC LETTER WAW  |
+| ى + ِ        | E      | ARABIC KASRA + ARABIC LETTER YEH  |
+| ا + َ        | A      | ARABIC FATHA + ARABIC LETTER ALEF |
 
 *** importance of long vowels (A,E,O)
 without those we have no distinction between lots of words, for example:
