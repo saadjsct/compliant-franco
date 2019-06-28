@@ -146,15 +146,16 @@ the previous concept applies also if you are used to use 7' instead of 5 - for g
 * The hyphen "-"
 hyphen has three use cases:
 + the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
-+ to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el btA3.
++ to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el-btA3.
 + hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
 * the definite article "el"
 based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
-"el" ( or "al") in Franco is never attached directly to the following word, it can be either written separately or attached with a hyphen, e.g. /el walad/ or /el-bent/. choose whatever you like, what matters is to be consistent.
-some words start with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el naharda/ are often pronounced as /en-naharda/, whether or not this increases readability or not is very dependent on the context and the word itself, if you choose to assimilate the "l" in some word you should write it like /en-naharda/, not /en naharda/ or /ennaharda/.
+"el" ( or "al") in compliant Franco is attached to the following word using hyphens, e.g. /el-walad/. for consistency please stick to this writing, i.e. don't write /el walad/ or /elwalad/.
+some words start with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el naharda/ are often pronounced as /en-naharda/, whether or not this increases readability or not is very dependent on the context and the word itself. as in the usual case if you choose to assimilate the "l" in certain word you should write it like /en-naharda/, not /en naharda/ or /ennaharda/.
 
 * prepositions
+  
 | traditional | Franco | example             |
 |-------------+--------+---------------------|
 | ب           | b      | b we4 reglak        |
@@ -224,55 +225,55 @@ in searching franco text we should take into consideration both writings, for ex
 compliant franco does not contain any of the following english characters: q,c,x,u,p,v, except in english words or human names.
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
-poems from "dorg el 9Ahera" by the beautiful mostafa ibrahem:
+poems from "dorg el-9Ahera" by the beautiful mostafa ibrahem:
 -------
-9awA3ed el dayra el saba3a (5):
+9awA3ed el-dayra el-saba3a (5):
 
 ezzay te3raf..
-mEn sAbe2 mEn gowwa el dayra..
+mEn sAbe2 mEn gowwa el-dayra..
 w mEn feha aTa3 aTwal me4wAr..
 m4 momken bardo elly f Dahrak..
 yeTla3 sab2ak..
 w enta elly 7mAr ?!
 -------
-9awA3ed el dayra el saba3a (3):
+9awA3ed el-dayra el-saba3a (3):
 
-far2 el sor3At gowwa el dayra
-beink w mabein kol el ma4yEn
+far2 el-sor3At gowwa el-dayra
+beink w mabein kol el-ma4yEn
 howwa elly haye2dar yeDmanlak
 en enta t2Abel nAs tanyEn
 -------
-9awA3ed el dayra el saba3a (1):
+9awA3ed el-dayra el-saba3a (1):
 
-ab3ad no2Ta bel nesbAlak
-gowwa el dayra.. heyya makAnak
-w ka2en asAsn fel dayra
+ab3ad no2Ta bel-nesbAlak
+gowwa el-dayra.. heyya makAnak
+w ka2en asAsn fel-dayra
 hena.. howwa hnAk
 fa TabE3y t7es enk 3Aye4..
 b etnein gowwak
 ------
-akEd el 4am3a lw kAnet.. 
+akEd el-4am3a lw kAnet.. 
 la2et forSa..
 w 7al morE7..
 y3ayye4ha.. bedOn matsE7..
-w ye7faZ 4aklaha el sAbet..
+w ye7faZ 4aklaha el-sAbet..
 kanet 3A4t !!
 -------------
-aalet el donya lel walad f el faSl
+aalet el-donya lel-walad f el-faSl
 yat3E4 btektb warAya..
-fel 7eSSa, yat3e4ha 
-ensa en feh fel faSl sabbOra 
+fel-7eSSa, yat3e4ha 
+ensa en feh fel-faSl sabbOra 
 
-aal el moSawwer lelly gAb camera
+aal el-moSawwer lelly gAb camera
 yat3E4 btA5od Sowar..
-lel 9essa, yat3e4ha
-el kadr dayman a8la mel SOra
+lel-9essa, yat3e4ha
+el-kadr dayman a8la mel-SOra
 
 ya donya ana bakteb..
-lel gay ba3deyya..
+lel-gay ba3deyya..
 wana gay ba3dy olOf
 w en kont bA5od Sowar..
-lel 9essa m4 leyya
+lel-9essa m4 leyya
 fana nefsy 8eiry y4Of
 -------
 bdOn ma3raf sabab wADe7..
@@ -283,14 +284,14 @@ la menny 3reft a3ml eih..
 34An maz3l4 mn tAny..
 wala menny..
 3reft ezzay..
-adO2 el far7a bel maggan
+adO2 el-far7a bel-maggan
 -------
-ba3d ma aDDa noS el modda..
-fata7o bAb zenzanto el SAg..
-a5ado menno kol el 3ohda..
-4Alo malaffo men el edrAg
-3am m7ammad mAt mel we7da..
-awel yoam ba3d el efrAg
+ba3d ma aDDa noS el-modda..
+fata7o bAb zenzanto el-SAg..
+a5ado menno kol el-3ohda..
+4Alo malaffo men el-edrAg
+3am m7ammad mAt mel-we7da..
+awel yoam ba3d el-efrAg
 ------
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
 * TODO foS7a specific notes
