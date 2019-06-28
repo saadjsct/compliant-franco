@@ -198,21 +198,30 @@ since in english e,o,a in the beginning of words contain "2" in their pronouncia
 
 * general notes
 ** Arabic names
-Arabic names should not be written in Franco, because simply no one has the right to decide how a name is pronounced other than the name holder himself.
+Arabic names should not be written in Franco, simply because no one has the right to decide how a name is pronounced other than the name holder himself, but it's ok to write a name in franco if you don't know how it's pronounced.
 
-** e in the end is y
-  seeby not seebe
+for example:
+- yousef not yOsef
+- el-Tar4awEly not el-???????
+
+** e or y in the end
+y and e are in non-foS7a text in the end have no difference and can be used interchangeably, for consistency we will use y in the end, e.g. sEby not sEbe.
+
+in foS7a text in the end they represent two different things(kasra and yeh) so this rule don't apply.
   
 ** the ghost vowel
-this is an Egyptian dialect thing, we tend to not pronounce the second letter if it's a vowel.
+in the Egyptian dialect/language, we tend to not pronounce the second letter if it's a vowel.
 
 - btA3 not betA3 
 - ktEr not ketEr
 - hnAk not henAk 
 - m3Ak not ma3Ak 
 
-but sometimes it's pronounced very clearly in certain words, we don't know if there is a well defined grammatical pattern that governs this phenomena, but we can say that if you don't know which way to go, remove the vowel.
+but sometimes it's pronounced very clearly in certain words, we don't know if there is a well defined grammatical pattern that governs this phenomena, but forcing all the text to remove the vowel or to add it doesn't look a sane idea, what we can say is that if you don't know which way to go, remove the vowel. 
+in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tEr" matches every instance of the word regardless of this issue.
 
+** no place for those
+compliant franco does not contain any of the following english characters: q,c,x,u,p,v, except in english words or human names.
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
 poems from "dorg el 9Ahera" by the beautiful mostafa ibrahem:
@@ -237,17 +246,17 @@ en enta t2Abel nAs tanyEn
 
 ab3ad no2Ta bel nesbAlak
 gowwa el dayra.. heyya makAnak
-w ka2enn asAsn fel dayra
+w ka2en asAsn fel dayra
 hena.. howwa hnAk
 fa TabE3y t7es enk 3Aye4..
 b etnein gowwak
 ------
-akEd el 4am3a lw kAnt.. 
+akEd el 4am3a lw kAnet.. 
 la2et forSa..
 w 7al morE7..
-y3ayye4ha.. bdOn matsE7..
+y3ayye4ha.. bedOn matsE7..
 w ye7faZ 4aklaha el sAbet..
-kant 3A4t !!
+kanet 3A4t !!
 -------------
 aalet el donya lel walad f el faSl
 yat3E4 btektb warAya..
