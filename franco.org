@@ -69,9 +69,11 @@ we choose the following letters to have a Capital letter transliteration due its
 **** importance of capital consonants
 without those we have no distinction between many words, for example:
 - fos7a and foS7a
+- bas and baS
 - 7aZ and 7az
 - na9D and na9d
 - Darb and darb
+- ba3D and ba3d
 - TAr and tAr
 - Dahr and dahr
  
@@ -122,10 +124,10 @@ they appear so often in arabic - sometimes many times in one word - and they ten
  
 ** additional diacritics not in the traditional system
 for those we use diphthongs, i.e. compound vowels.
-   | diacritic | examples                 | note            |
-   |-----------+--------------------------+-----------------|
-   | ei        | leih (why), beit, la2eit | "E" but lighter |
-   | oa        | moat (death), Soat, noam | "O" but lighter |
+   | diacritic | examples           | note                                  |
+   |-----------+--------------------+---------------------------------------|
+   | ei        | leih (why), la2eit | "E" but lighter                       |
+   | oa        | moat (death), noam | "O" but lighter, like boat in english |
 
 *** why we need new diacritics
 the traditional system has no way to resolve the difference between for example:
@@ -134,7 +136,29 @@ the traditional system has no way to resolve the difference between for example:
 - rO7 and roa7
 - TEr and Teir
 - btO3 and btoa3
-
+- dEn and dein
+- fO2 and foa2
+*** more examples
+for didactic purposes someone may want more examples.
+**** ei
+- yareit
+- bein el-benein
+- eih
+- leila
+- 4ei2
+- fein
+- etnein, metein, toffa7tein, etc.
+- se7eit, 7abbeit, geit, etc.
+- 3neik, regleik, edeik, etc.
+ 
+**** oa 
+- 4oak
+- 4oa2
+- doal
+- loala
+- Soam
+- loan 
+     
 * <<<shadda>>>
 shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
 some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3aleik bel-mara" she found on your phone is supposed to be "ha3addy 3aleik bel-marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
