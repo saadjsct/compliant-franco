@@ -195,13 +195,14 @@ some words start with letters (sun letters) that assimilate the "l" in the defin
 
 ** prepositions compound with definite article.
 
-| traditional | Franco | example         |
-|-------------+--------+-----------------|
-| من ال       | mel    | mel-ko4k            |
-| عال         | 3al    | 3al-mA4y        |
-| لل          | lel    | ray7a lel-banAt |
-| في ال       | fel    | fel-konAfa      |
-| ب ال        | bel    | bel-habal       |
+| traditional | Franco | example              |
+|-------------+--------+----------------------|
+| من ال       | mel    | mel-ko4k             |
+| عال         | 3al    | 3al-mA4y             |
+| وال         | wel    | bel-yoam wel-yoamein |
+| لل          | lel    | ray7a lel-banAt      |
+| في ال       | fel    | fel-konAfa           |
+| ب ال        | bel    | bel-habal            |
 
 those prepositions inherit the same rules of attaching from the definite article, by that we mean for example if you want to assimilate the l of the definite article in "fel-konAfa it should be written as "fek-konAfa".
 
