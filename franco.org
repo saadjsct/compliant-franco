@@ -252,7 +252,8 @@ but sometimes it's pronounced very clearly in certain words, we don't know if th
 in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tEr" matches every instance of the word regardless of this issue.
 
 ** no place for those
-compliant franco does not contain any of the following english characters: q,c,x,u,p,v, except in english words or human names.
+compliant franco does not contain any of the following english characters: [q,c,x,u,p,v], except in english words or human names.
+similarly the following sequences of characters doesn't appear in compliant franco: [sh,kh,th], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h.
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
 poems from "dorg el-9Ahera" by the beautiful mostafa ibrahem:
