@@ -248,7 +248,7 @@ in the Egyptian dialect/language, we tend to not pronounce the second letter if 
 - hnAk not henAk 
 - m3Ak not ma3Ak 
 
-but sometimes it's pronounced very clearly in certain words, we don't know if there is a well defined grammatical pattern that governs this phenomena, but forcing all the text to remove the vowel or to add it doesn't look a sane idea, what we can say is that if you don't know which way to go, remove the vowel. 
+but sometimes it's pronounced very clearly in certain words, we don't know if there is a well defined grammatical pattern that governs this phenomena, but forcing all the text to remove the vowel or to add it doesn't look a sane idea, what we can say is that if you don't know which way to go, be explicit and add the vowel. 
 in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tEr" matches every instance of the word regardless of this issue.
 
 ** no place for those
