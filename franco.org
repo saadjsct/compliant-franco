@@ -174,8 +174,14 @@ shadda in Arabic is a diacritic that is phonetically equivalent to a repeated le
 
 people with poor Franco often omit the second letter causing one of the biggest sources of ambiguity in mainstream Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "hagElak bel-mara" she found on your phone is supposed to be "hagElak bel-marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this spec should always write the shadda appropriately wherever it appears.
 
-** TODO examples
-
+examples:
+- 4adda
+- howwa
+- heyya
+- lessa
+- 5omsomeyya
+- 9essa
+- mosta3edda
 
 ** shadda at the end
 for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
