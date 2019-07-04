@@ -38,7 +38,7 @@ a character set is the collection of symbols that's used in a writing system. fo
 long time after humans invented writing systems. it was the time for inventing the second most important invention in history, computers. how computers work demands another layer of encoding, encoding the symbols in a  character set to ones and zeros. this layer forms a communication channel between we humans and computers.  
 
 ** ASCII
-ASCII is character set and encoding that consists of 128 symbols {a-z + A-Z, 0-9, punctuations}, i.e. every thing you can see on English keyboard. it's the most simple and supported character set and encoding.
+ASCII is character set and encoding that consists of 128 symbols {a-z + A-Z, 0-9, punctuations}, i.e. everything you can see on English keyboard. it's the most simple, efficient and supported character set known till now.
  
 ** the Arabic character set
 the character set of Arabic can consists of (at least) the following symbols:
@@ -63,18 +63,17 @@ you can see [[https://www.w3.org/International/articles/inline-bidi-markup/uba-b
 
 another problem is keyboard mappings, if you are a keyboard oriented person as most power users, changing keyboard layout while editing will disable all your keyboard shortcuts making editing more and more and more difficult.
 
-** TODO necessity of lots of diacritics
-** TODO not suitable for modern diacritics
-
+** TODO necessity of dead diacritics
+** TODO not suitable for modern dialects
 * solutions
-there are two solutions i have seen people migrating to.
+there are two solutions people are migrating to.
 ** all English
 this solution is popular among Arabs with a weak connection to the Arabic culture, mainly due to their foreign education. those people just use English whenever they write on a computer or a phone regardless of the formality of the writing -- even if they speak Arabic in their normal life.
 
  this solution is of course not practical for most people and so harmful on many levels. eventually those individuals will totally lose their connection to their culture and think in English. some people will argue that this as a good thing, i can understand this view, but for reasons beyond this discussion it's not considered a solution for a lot of people.
 
 ** Writing Arabic Using Latin Characters
-this solution is traced back to the time email and cell phones didn't support Arabic. users back then used to send Arabic written in English alphabet as an ad hoc solution. this system has many names: Araby, Arabizi, Mu'arrab, and Franco-Arabic. i will refer to it in this article simply as Franco as we call it in Egypt.
+this solution is traced back to the time email and cell phones didn't support Arabic. users back then used to send Arabic written in English alphabet as an ad hoc solution. this method of writing used to have many names: Araby, Arabizi, Mu'arrab, and Franco-Arabic. i will refer to it simply as Franco as we call it in Egypt.
 
 but way before that there was proposals to replace the Arabic letters with Latin ones. the first recorded one was by Wilhelm Spitta in 1880 in his book "Vulgardialectes von Agypten Grammatik des Arabischen [The Rules of Slang Arabic in Egypt]" in which he suggested using Latin characters to write the Egyptian slang. There were many other supporters for this proposal during the following forty years. Among them was Abdul Aziz Fahmi who proposed a full practical scheme in response to a competition organized by the Academy of the Arabic Language in Cairo. Other supporters of Fahmi’s proposal, including Sa’id ‘Aqil and Anis Freha developed their own proposals. They found additional support in Turkey, where Kamal Ataturk ordered the adoption of English characters to write Turkish instead of the Arabic characters in 1928.
 
@@ -97,6 +96,7 @@ rational people who are not used to read or write Franco will criticize Franco a
 
 i didn't see any criticism outside that it is hard to read. if you have another point against Franco please send it to me and i will include it in this section. 
 
+* TODO the problem with current Franco
 * the future of Franco 
 until now i think Franco refuses to die despite everything, Arabs are still using it heavily in chats, but the public domain doesn't reflect this internal adoption. we need new studies to measure Franco use in different geographic areas. i came across some studies done in Saudi Arabia with ranging results from medium to high usage among teens. i claim that if similar studies made in countries like Egypt, Morocco, Lebanon or Jordan the studies will have significantly different results towards very high usage. 
 
