@@ -166,54 +166,109 @@ for didactic purposes someone may want more examples.
 - loan 
      
 * <<<shadda>>>
-shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by.. yeah, you guessed it.. a repeated letter, e.g. yalla, ba7ebbek, kollo.
-some people omit the second letter, causing one of the biggest sources of ambiguity in Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "ha3ady 3aleik bel-mara" she found on your phone is supposed to be "ha3addy 3aleik bel-marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this guideline should always write repeated letters whenever there is a shadda.
+shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by - yeah, you guessed it - a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
-** COMMENT shadda with 8ein
-some people write 8en as 3', if you can't loose this habit, don't omit the shadda because it's ugly to write "sha3'3'Al" for example; in this case you can write it "sha3"Al" where 3" = 3'3' = 3' + shadda, but this sounds over engineered. for reasons like this we recommend against 3', use 8. 
-the previous concept applies also if you are used to use 7' instead of 5 - for god knows why.
+people with poor Franco often omit the second letter causing one of the biggest sources of ambiguity in mainstream Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "hagElak bel-mara" she found on your phone is supposed to be "hagElak bel-marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this spec should always write the shadda appropriately wherever it appears.
+
+** TODO examples
+
+
+** shadda at the end
+for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
+
+examples : 7orr, 7add, hezz, bass, zayy, koll, morr, sett, foll, Toll, 3akk, lakk, 3amm, menn
+
+you may ask why not write it just "7or" or "bas" since there is no ambiguity the shadda resolves and by definition there can't shadda that consists of two consonants(the second one must have vowel after it). two reasons:
+
+1) the reality is that most people now write unreadable Franco, and people who don't write Franco at all has short/long vowel blindness. so a word like "sab" will be interpreted as "sAb" for most people, but "sabb" will be easier to read for them.
+2) the shadda actually exists if there is a following word, for example "sabb dEn". when we pronounce it you will notice that there is a very short e after "sabb", i.e. "sabbe dEn"
 
 * The hyphen "-"
 hyphen has three use cases:
-+ the hyphen in Franco is used when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
++ after the definite article, see [[*the definite article][the definite article]].
++ after "ma", e.g. "ma-balA4"
++ when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
 + to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el-btA3.
-+ hyphens can optionally be used after the definite article to ease readability, see [[*the definite article "el"][the definite article]].
 
-* the definite article "el"
-based on what dialect you are writing in, the definite article can be "el" or "al". just write what you pronounce.
-"el" ( or "al") in compliant Franco is attached to the following word using hyphens, e.g. /el-walad/. for consistency please stick to this writing, i.e. don't write /el walad/ or /elwalad/.
-some words start with letters (sun letters) that assimilate the "l" in the definite article so that l is removed and shadda is added to the letter. for example some words like /el naharda/ are often pronounced as /en-naharda/, whether or not this increases readability or not is very dependent on the context and the word itself. as in the usual case if you choose to assimilate the "l" in certain word you should write it like /en-naharda/, not /en naharda/ or /ennaharda/.
+* the definite article
+the definite article in compliant Franco is not as simple as "the" in English or "-ال" in TAWS. generally it can appear as "el-...", "l-...", "eX-X..." or "X-X..."(where X represents on of the sun letters discussed [[*sun letters][here]]).
+
+for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant franco: "e?\(?:l\|\([tT$>dDrzZnsS4kg]\)\)-\1?".
+
+** sun letters
+some words start with letters called sun letters (shown below) that has the effect of turning the "l" to a copy of itself, i.e. shadda. for example /el naharda/ should be written as /en-naharda/ like how it's actually pronounced 
+
+| letter | example                |
+|--------+------------------------|
+| t      | et-tegAh wA7ed         |
+| T      | solTAn eT-Tarab        |
+| $      | e$-$a9Afa el-3arabeyya |
+| >      | wa9t e>->orwa          |
+| d      | omm ed-donya           |
+| D      | el-wa2t eD-DAye3       |
+| r      | ya de7ket er-romman    |
+| z      | ez-zamAn 8addar        |
+| Z      | eZ-ZAher keda          |
+| n      | er-rakk 3an-neyya      |
+| s      | bes-salAma             |
+| S      | eS-So7Ab fe agAza      |
+| 4      | 3ala add e4-4oa2       |
+| k      | fek-konAfa             |
+| g      | eg-gei4 we4-4orTa      |
+
+note that the Egyptian dialect/language has two more sun letters than arabic, the "k" and "g".
+
+** moon letters
+moon letters are straight forward, they are not sun letters and they don't touch the "el".
+examples:
+- el-lo8a 
+- el-3ammeyya
+- el-9Ahereyya
+- el-maSreyya
+- el-ward
+- el-balady
+- w keda
+
+** to "e" or not to "e"
+that is the question. the rule is similar to what's described later in [[*shortening][shortening]]. it depends on the preceding word, if it ends with "a" or "o", the e is ommited. for example:
+
+- ana l-awwel wana l-aa5er
+- 3ala l-mA4y
+- lessa d-donya b 5eir
+- eih yabo r-reggAla
+- mesa g-gamAl
 
 * prepositions
-  
 | traditional | Franco | example             |
 |-------------+--------+---------------------|
-| ب           | b      | b we4 reglak        |
-| و           | w      | a7la w a7la         |
-| -ل          | l      | a4ky l mEn          |
-| في          | f/fe   | kont f bAly         |
+| ب           | b/be   | TODO be             |
+| و           | w/we   | a7la w a7la         |
+| -ل          | l/le   | a4ky l mEn          |
+| في          | f/fe   | kalAm fe kalAm      |
 | على         | 3ala   | 3ala mAgy           |
 | من          | men    | em4y men hena       |
 | ف           | fa     | fa yakOn            |
 | اللى        | elly   | elly hnAk da        |
-| ما          | ma     | 3omrena ma hanerga3 |
+| ما          | ma     | 3omrena ma-hanerga3 |
 | من للى      | melly  | melly hnAk da       |
+
+for cases where the e is removed from be/we/le/fe, see [[*shortening][shortening]].
 
 ** prepositions compound with definite article.
 
-| traditional | Franco | example              |
-|-------------+--------+----------------------|
-| من ال       | mel    | mel-ko4k             |
-| عال         | 3al    | 3al-mA4y             |
-| وال         | wel    | bel-yoam wel-yoamein |
-| لل          | lel    | ray7a lel-banAt      |
-| في ال       | fel    | fel-konAfa           |
-| ب ال        | bel    | bel-habal            |
+| traditional | Franco | example                   |
+|-------------+--------+---------------------------|
+| من ال       | mel    | mek-ko4k                  |
+| ما ال       | mal    | tamAm TOl mal-balad tamAm |
+| عال         | 3al    | 3al-mA4y                  |
+| وال         | wel    | bel-yoam wel-yoamein      |
+| لل          | lel    | ray7a lel-banAt           |
+| في ال       | fel    | fek-konAfa                |
+| ب ال        | bel    | bel-habal                 |
 
-those prepositions inherit the same rules of attaching from the definite article, by that we mean for example if you want to assimilate the l of the definite article in "fel-konAfa it should be written as "fek-konAfa".
+those prepositions inherit the same rules of the definite article, by that we mean for example "fel-konAfa" should be written "fek-konAfa".
 
-ma can optionaly be attached directly to the following word, e.g. 3ala mAgy, 3omry mansa, ana mabein nArein.
-
+** COMMENT whats'up with "ma"
 ** post-positions
   | traditional | Franco | example       |
   |-------------+--------+---------------|
@@ -221,8 +276,43 @@ ma can optionaly be attached directly to the following word, e.g. 3ala mAgy, 3om
   | ده          | da     | el-btA3 da    |
   | دول         | doal   | el-btO3 doal  |
   
-* Don't start with "2"
-since in english e,o,a in the beginning of words contain "2" in their pronounciation, we can borrow this property.
+* shortening
+in the Egyptian dialect/language, we tend to not pronounce the first occurrence of short vowel in some words, for example sometimes we say "kfAya" and sometimes we say "kefAya", in this section we will discuss this phenomena. all the conditions in this section also applies to prepositions be/we/le/fe.
+** conditions for shortening
+whether shortening will take place or not is governed by the ending of the preceding word, that is, if the ending of the preceding word is one of the following three cases, the vowel is deleted,
+*** ends with a vowel(e,o,a), w or y.
+ the most occuring case is if the preceding word ends with a vowel, for example we say "kefAya keda" and we say also "keda kfAya".
+
+ examples :
+ - ana ktEr 
+ - ta3Ala hnAk
+ - ya 5sAra
+ - ana ndemt
+ - mahma kbert
+ - alby m3Ak
+ - ta3Alo nnam
+ 
+*** ends with two consecutive consonants
+another case where the vowel is deleted, is when the preceding word ends with two consecutive consonants like "4oft", "", "esta7melt".. etc, for example:
+ - 4oft ktEr
+ - ro7t l3ebt
+ - 4a3r TwEl
+ - 4e3r kwayyes
+ - la7m r5Es
+ - 3e4t snEn
+ - 7elm kbEr
+
+ you may have noticed that this case is reducible to the first case, since we can't pronounce three consecutive consonants (the two from the end of the word and the first of the following) we add a very short vowel at the end of the first word to make it pronounceable, so it becomes "4ofte ktEr" which is exactly the first case.
+
+ this topic is actually more complicated than that, but most of the time it's clear for the Egyptian speaker which way to go, don't think about it too much.
+ 
+ please note that in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tEr" will match every instance of the word regardless of whether shortening happened or not.
+
+** COMMENT what are the candidate words for elision
+for example why gAmed always gAmed regardless of the cases above, and regl as well.
+
+* don't start with "2"
+since in most Latin languages e,o,a in the beginning of words contain the "2" in their pronounciation, we can borrow this property.
 
 | example | should be |
 |---------+-----------|
