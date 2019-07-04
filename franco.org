@@ -395,14 +395,13 @@ a5ado menno kol el-3ohda..
 awel yoam ba3d el-efrAg
 ------
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
-* TODO foS7a specific notes
-* TODO FAQs
+* FAQs
 ** what is the problem with the traditional system?
-[[https://saadnpq.com/posts/franco/][this]] blog post may answer this question.
+[[https://saadnpq.com/posts/franco/][this]] article may answer this question, and more.
 ** why this guideline written in English and not in Franco?
-   this is an evolving guideline. if it is written in Franco, every update in the guideline means rewriting every thing to be compliant with itself.
-** are you working on Franco to replace the traditional Arabic system?
-Franco is just an alternative writing system that can coexist with any other writing system. we think Franco has more potential than Arabic in many situations like writing modern Arabic dialects and mixed English-Arabic text, but Franco is not yet capable of writing pure traditional Arabic text like Quran for example. when this guideline reaches a solid state we can test it against old Formal texts and see what are the limitations.
+i agree this would be a cool idea, but this is an evolving guideline, if it is written in Franco, every update in the specification means rewriting every thing to be compliant with itself.
+** are you working on Franco to replace TAWS?
+Franco is just an alternative writing system that can coexist with any other writing system. we think Franco is very capable and has more potential than TAWS in many situations, like writing modern Arabic dialects and bidi, but compliant Franco is not yet near ready for replacing TAWS in writings such as the Quran for example. for now we just focus on making a superior system, and maybe we can ask this question again later.
 
 * TODO how to learn the system
 * COMMENT Local Variables                          :ARCHIVE:
