@@ -105,18 +105,19 @@ Digraphs are ugly and makes words longer and harder to read, specially for repea
 | th in the   |      > |
 
 * diacritics and vowels
+** short vowels
 the table below shows the basic diacritics transliterations.
 
 | traditional | Franco | Unicode name |
-| َ            | a      | ARABIC FATHA |
-| ُ            | o      | ARABIC DAMMA |
-| ِ            | e      | ARABIC KASRA |
+| َ            | a      | FATHA        |
+| ُ            | o      | DAMMA        |
+| ِ            | e      | KASRA        |
 
 ** long vowels
-| traditional | Franco | Unicode name                      |
-| و + ُ        | O      | ARABIC DAMMA + ARABIC LETTER WAW  |
-| ى + ِ        | E      | ARABIC KASRA + ARABIC LETTER YEH  |
-| ا + َ        | A      | ARABIC FATHA + ARABIC LETTER ALEF |
+| traditional | Franco | Unicode name  |
+| ا + َ        | A      | FATHA +  ALEF |
+| و + ُ        | O      | DAMMA +  WAW  |
+| ى + ِ        | E      | KASRA +  YEH  |
 
 *** importance of long vowels (A,E,O)
 without those we have no distinction between lots of words, for example:
