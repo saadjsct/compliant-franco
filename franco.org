@@ -128,18 +128,19 @@ without those we have no distinction between lots of words, for example:
 *** why not oo,aa,ee ?
 they appear so often in arabic - sometimes many times in one word - and they tend to make words a lot longer. they are used only in the beginning of words like aah, eed, oom.
  
-** additional diacritics not in the traditional system
+** additional diacritics not in TAWS
 for those we use diphthongs, i.e. compound vowels.
-   | diacritic | examples           | note                                  |
-   |-----------+--------------------+---------------------------------------|
-   | ei        | leih (why), la2eit | "E" but lighter                       |
-   | oa        | moat (death), noam | "O" but lighter, like boat in english |
-
+   | diacritic | examples           | note            |
+   |-----------+--------------------+-----------------|
+   | ei        | leih (why), la2eit | "E" but lighter |
+   | oa        | moat (death), noam | "O" but lighter |
+   
 *** why we need new diacritics
 the traditional system has no way to resolve the difference between for example:
 - mOt and moat
 - kOn and koan
 - rO7 and roa7
+- dEn and dein
 - TEr and Teir
 - btO3 and btoa3
 - dEn and dein
@@ -151,11 +152,13 @@ for didactic purposes someone may want more examples.
 - bein el-benein
 - eih
 - leila
+- 8eir
 - 4ei2
 - fein
 - etnein, metein, toffa7tein, etc.
 - se7eit, 7abbeit, geit, etc.
-- 3neik, regleik, edeik, etc.
+- 3eneik, regleik, edeik, etc.
+- 3eneiha, regleiha, edeiha, etc.
  
 **** oa 
 - 4oak
@@ -329,52 +332,50 @@ Arabic names should not be written in Franco, simply because no one has the righ
 
 for example:
 - yousef not yOsef
-- el-Tar4awEly not el-???????
+- mohammed mounir not ma7ammad monEr.
 
 ** e or y in the end
-y and e are in non-foS7a text in the end have no difference and can be used interchangeably, for consistency we will use y in the end, e.g. sEby not sEbe.
-
-in foS7a text in the end they represent two different things(kasra and yeh) so this rule don't apply, for example "elAhe l-nAs" means people's god, while "elAhy l-nAs" means people are my god.
-  
-** the ghost vowel
-in the Egyptian dialect/language, we tend to not pronounce the second letter if it's a vowel.
-
-- btA3 not betA3 
-- ktEr not ketEr
-- hnAk not henAk 
-- m3Ak not ma3Ak 
-
-but sometimes it's pronounced very clearly in certain words, we don't know if there is a well defined grammatical pattern that governs this phenomena, but forcing all the text to remove the vowel or to add it doesn't look a sane idea, what we can say is that if you don't know which way to go, be explicit and add the vowel. 
-in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tEr" matches every instance of the word regardless of this issue.
+in Egyptian Arabic, y and e in the end have no difference and can be used interchangeably, for consistency we will use y in the end, e.g. sEby not sEbe.
 
 ** no place for those
 compliant franco does not contain any of the following english characters: [q,c,x,u,p,v], except in english words or human names.
 similarly the following sequences of characters doesn't appear in compliant franco: [sh,kh,th], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h.
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
-poems from "dorg el-9Ahera" by the beautiful mostafa ibrahem:
+
+in the beginning was the word, "ek-kelma dein" by ahmed foad negm.
+-------
+morr ek-kalAm.. zayy el-7oSam
+ye2Ta3 makAn maymorr
+amma el-madE7.. sahl w morE7
+ye5da3 Sa7E7 we y8orr
+wek-kelma dein.. men 8eir edein
+bass el-wafa 3al-7orr
+-------
+
+poems by the beautiful mostafa ibrahem:
 -------
 9awA3ed el-dayra el-saba3a (5):
 
 ezzay te3raf..
-mEn sAbe2 mEn gowwa el-dayra..
-w mEn feha aTa3 aTwal me4wAr..
-m4 momken bardo elly f Dahrak..
+mEn sAbe2 mEn gowwa ed-dayra..
+we mEn feha aTa3 aTwal me4wAr..
+me4 momken barDo elly f Dahrak..
 yeTla3 sab2ak..
 w enta elly 7mAr ?!
 -------
 9awA3ed el-dayra el-saba3a (3):
 
-far2 el-sor3At gowwa el-dayra
-beink w mabein kol el-ma4yEn
+far2 es-sor3At gowwa ed-dayra
+beink w mabein koll el-ma4yEn
 howwa elly haye2dar yeDmanlak
 en enta t2Abel nAs tanyEn
 -------
 9awA3ed el-dayra el-saba3a (1):
 
-ab3ad no2Ta bel-nesbAlak
-gowwa el-dayra.. heyya makAnak
-w ka2en asAsn fel-dayra
+ab3ad no2Ta ben-nesbAlak
+gowwa ed-dayra.. heyya makAnak
+w ka2enn asAsn fed-dayra
 hena.. howwa hnAk
 fa TabE3y t7es enk 3Aye4..
 b etnein gowwak
@@ -386,33 +387,6 @@ y3ayye4ha.. bedOn matsE7..
 w ye7faZ 4aklaha el-sAbet..
 kanet 3A4t !!
 -------------
-aalet el-donya lel-walad f el-faSl
-yat3E4 btektb warAya..
-fel-7eSSa, yat3e4ha 
-ensa en feh fel-faSl sabbOra 
-
-aal el-moSawwer lelly gAb camera
-yat3E4 btA5od Sowar..
-lel-9essa, yat3e4ha
-el-kadr dayman a8la mel-SOra
-
-ya donya ana bakteb..
-lel-gay ba3deyya..
-wana gay ba3dy olOf
-w en kont bA5od Sowar..
-lel-9essa m4 leyya
-fana nefsy 8eiry y4Of
--------
-bdOn ma3raf sabab wADe7..
-34An az3al.. ana za3lAn
-w fag2a bdOn sabab bardo..
-yfarra7ny.. bakOn far7An
-la menny 3reft a3ml eih..
-34An maz3l4 mn tAny..
-wala menny..
-3reft ezzay..
-adO2 el-far7a bel-maggan
--------
 ba3d ma aDDa noS el-modda..
 fata7o bAb zenzanto el-SAg..
 a5ado menno kol el-3ohda..
