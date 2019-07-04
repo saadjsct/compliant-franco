@@ -5,57 +5,63 @@
 #+SETUPFILE: ./theme-readtheorg.setup
   
 * state of the project
-the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
+the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been covered.
 to follow or to contribute to the project maintenance see the [[https://github.com/saadnpq/expect-franco][github repository]].
-* abstract
-the project is supposed to be an implementation of ideas introduced in [[https://saadnpq.com/franco/embrace-franco.pdf][this research article]]. to understand the rationale behind all of this, or to have a better insight about the issue of the arabic writing system, please refer to the article.
+* abstraction
+the project is supposed to be an implementation of ideas introduced in [[https://saadnpq.com/franco/embrace-franco.pdf][this research article]]. to understand the rationale behind all of this, or to have a better insight about the issue of the Arabic writing system, please refer to the article.
 * why?
-- to have a standardized, written, documented and community developed Franco flavor.
+- to have a standardized, documented, eloquent, and community developed Franco flavor.
 - to have a consistent and searchable Arabic writing system.
 - a reference for people with unreadable Franco
 * Boundary conditions
 1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
 2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with it (English alphabet).
-3) as much as we can, there should be only one "right" way to write a word to achieve searchability.
+3) as much as we can, there should be only *one* "right" way to write a word.
 
-* Character transliterations
+* abbreviations and acronyms used throughout the document
+<<<TAWS>>> :: the Traditional Arabic Writing System
+<<<bidi>>> :: bidirectional text, i.e. mixed English-Arabic text
+
+* character transliterations
   
-| traditional | Franco | unicode name                   |
-|-------------+--------+--------------------------------|
-| ا           | a      | ARABIC LETTER ALEF             |
-| آ           | aa     | ARABIC LETTER WITH MADDA ABOVE |
-| ء           | 2      | ARABIC LETTER HAMZA            |
-| ب           | b      | ARABIC LETTER BEH              |
-| ت           | t      | ARABIC LETTER TEH              |
-| ث           | $      | ARABIC LETTER THEH             |
-| ج           | g,j    | ARABIC LETTER JEEM             |
-| ح           | 7      | ARABIC LETTER HAH              |
-| خ           | 5      | ARABIC LETTER KHAH             |
-| د           | d      | ARABIC LETTER DAL              |
-| ذ           | >      | ARABIC LETTER THAL             |
-| ر           | r      | ARABIC LETTER REH              |
-| ز           | z      | ARABIC LETTER ZAIN             |
-| س           | s      | ARABIC LETTER SEEN             |
-| ش           | 4      | ARABIC LETTER SHEEN            |
-| ص           | S      | ARABIC LETTER SAD              |
-| ض           | D      | ARABIC LETTER DAD              |
-| ط           | T      | ARABIC LETTER TAH              |
-| ظ           | Z      | ARABIC LETTER ZAH              |
-| ع           | 3      | ARABIC LETTER AIN              |
-| غ           | 8      | ARABIC LETTER GHAIN            |
-| ف           | f      | ARABIC LETTER FEH              |
-| ق           | 9      | ARABIC LETTER QAF              |
-| ك           | k      | ARABIC LETTER KAF              |
-| ل           | l      | ARABIC LETTER LAM              |
-| م           | m      | ARABIC LETTER MEEM             |
-| ن           | n      | ARABIC LETTER NOON             |
-| ه           | h      | ARABIC LETTER HEH              |
-| و           | w      | ARABIC LETTER WAW              |
-| ى           | y      | ARABIC LETTER YEH              |
+| traditional | Franco | unicode name          |
+|-------------+--------+-----------------------|
+| ا           | a      | ALEF                  |
+| آ           | aa     | ALEF WITH MADDA ABOVE |
+| ء           | 2      | HAMZA                 |
+| ب           | b      | BEH                   |
+| ت           | t      | TEH                   |
+| ث           | $      | THEH                  |
+| ج           | g,j    | JEEM                  |
+| ح           | 7      | HAH                   |
+| خ           | 5      | KHAH                  |
+| د           | d      | DAL                   |
+| ذ           | >      | THAL                  |
+| ر           | r      | REH                   |
+| ز           | z      | ZAIN                  |
+| س           | s      | SEEN                  |
+| ش           | 4      | SHEEN                 |
+| ص           | S      | SAD                   |
+| ض           | D      | DAD                   |
+| ط           | T      | TAH                   |
+| ظ           | Z      | ZAH                   |
+| ع           | 3      | AIN                   |
+| غ           | 8      | GHAIN                 |
+| ف           | f      | FEH                   |
+| ق           | 9      | QAF                   |
+| ك           | k      | KAF                   |
+| ل           | l      | LAM                   |
+| م           | m      | MEEM                  |
+| ن           | n      | NOON                  |
+| ه           | h      | HEH                   |
+| و           | w      | WAW                   |
+| ى           | y      | YEH                   |
+
+*note* : all unicode names are prefixed with "ARABIC LETTER"
 
 ** Capital letters
 
-the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in Franco, as it is "backward compatible", by backward compatible we mean that if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically loose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
+the fact that Capital letters doesn't have any phonetic differences than lower case letters makes it a perfect candidate to be included in compliant Franco, as it is "backward compatible", by backward compatibility we mean that if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
 
 *** capital consonants 
 we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
