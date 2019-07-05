@@ -187,7 +187,7 @@ for words that has the shape of (consonant + short vowel + consonant) like "7or"
 
 examples : 7orr, 7add, hezz, bass, zayy, koll, morr, sett, foll, Toll, 3akk, lakk, 3amm, menn
 
-you may ask why not write it just "7or" or "bas" since there is no ambiguity the shadda resolves and by definition there can't shadda that consists of two consonants(the second one must have vowel after it). two reasons:
+you may ask what's the problem with writing it without the shadda like "7or" or "bas", since there is no ambiguity the shadda resolves and by definition there can't shadda that consists of two consonants(the second one must have vowel after it). for two reasons:
 
 1) the reality is that most people now write unreadable Franco, and people who don't write Franco at all has short/long vowel blindness. so a word like "sab" will be interpreted as "sAb" for most people, but "sabb" will be easier to read for them.
 2) the shadda actually exists if there is a following word, for example "sabb dEn". when we pronounce it you will notice that there is a very short e after "sabb", i.e. "sabbe dEn"
