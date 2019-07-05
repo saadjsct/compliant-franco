@@ -75,8 +75,8 @@ we choose the following letters to have a Capital letter transliteration due its
 **** importance of capital consonants
 without those we have no distinction between many words, for example:
 - fos7a and foS7a
-- bas and baS
-- 7aZ and 7az
+- bass and baSS
+- 7aZZ and 7azz
 - na9D and na9d
 - Darb and darb
 - ba3D and ba3d
