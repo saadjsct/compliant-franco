@@ -36,7 +36,7 @@ the project is supposed to be an implementation of ideas introduced in [[https:/
 | ح           | 7      | HAH                   |
 | خ           | 5      | KHAH                  |
 | د           | d      | DAL                   |
-| ذ           | >      | THAL                  |
+| ذ           | 6      | THAL                  |
 | ر           | r      | REH                   |
 | ز           | z      | ZAIN                  |
 | س           | s      | SEEN                  |
@@ -102,7 +102,7 @@ Digraphs are ugly and makes words longer and harder to read, specially for repea
 | gh          |      8 |
 | dh          |      D |
 | th in throw |      $ |
-| th in the   |      > |
+| th in the   |      6 |
 
 * diacritics and vowels
 ** short vowels
@@ -203,7 +203,7 @@ hyphen has three use cases:
 * the definite article
 the definite article in compliant Franco is not as simple as "the" in English or "-ال" in TAWS. generally it can appear as "el-...", "l-...", "eX-X..." or "X-X..."(where X represents on of the sun letters discussed [[*sun letters][here]]).
 
-for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant franco: "e?\(?:l\|\([tT$>dDrzZnsS4kg]\)\)-\1?".
+for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant franco: "e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?".
 
 ** sun letters
 some words start with letters called sun letters (shown below) that has the effect of turning the "l" to a copy of itself, i.e. shadda. for example /el naharda/ should be written as /en-naharda/ like how it's actually pronounced 
@@ -213,7 +213,7 @@ some words start with letters called sun letters (shown below) that has the effe
 | t      | et-tegAh wA7ed         |
 | T      | solTAn eT-Tarab        |
 | $      | e$-$a9Afa el-3arabeyya |
-| >      | wa9t e>->orwa          |
+| >      | wa9t e6-6orwa          |
 | d      | omm ed-donya           |
 | D      | el-wa2t eD-DAye3       |
 | r      | ya de7ket er-romman    |
