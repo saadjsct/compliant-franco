@@ -141,7 +141,6 @@ the traditional system has no way to resolve the difference between for example:
 - mOt and moat
 - kOn and koan
 - rO7 and roa7
-- dEn and dein
 - TEr and Teir
 - btO3 and btoa3
 - dEn and dein
