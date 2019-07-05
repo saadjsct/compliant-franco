@@ -22,5 +22,6 @@ help is very much appreciated and needed. the only requirement is to be an Arabi
 when you submit a pull request please add your name here. if you contributed in any other way i will put your name manually.
   
 - [[saadnpq.com][saadnpq]]
+- ali nagib
 - mahmoud hafez
 
