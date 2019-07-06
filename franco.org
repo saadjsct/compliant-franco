@@ -21,6 +21,7 @@ the project is supposed to be an implementation of ideas introduced in [[https:/
 * abbreviations and acronyms used throughout the document
 <<<TAWS>>> :: the Traditional Arabic Writing System
 <<<bidi>>> :: bidirectional text, i.e. mixed English-Arabic text
+<<<CvC>>> :: consonant + short vowel + consonant
 
 * character transliterations
   
@@ -104,6 +105,18 @@ Digraphs are ugly and makes words longer and harder to read, specially for repea
 | th in throw |      $ |
 | th in the   |      6 |
 
+* don't start with "2"
+since in most Latin languages e,o,a in the beginning of words contain the "2" in their pronounciation, we can borrow this property.
+
+| example | should be |
+|---------+-----------|
+| 2na     | ana       |
+| 2amar   | amar      |
+| 2egry   | egry      |
+| 2oddAm  | oddAm     |
+| 2e2lAm  | e2lAm     |
+| 2Ol     | ool       |
+
 * diacritics and vowels
 ** short vowels
 the table below shows the basic diacritics transliterations.
@@ -181,16 +194,6 @@ examples:
 - 5omsomeyya
 - 9essa
 - mosta3edda
-
-** shadda at the end
-for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
-
-examples : 7orr, 7add, hezz, bass, zayy, koll, morr, sett, foll, Toll, 3akk, lakk, 3amm, menn
-
-you may ask what's the problem with writing it without the shadda like "7or" or "bas", since there is no ambiguity the shadda resolves and by definition there can't shadda that consists of two consonants(the second one must have vowel after it). for two reasons:
-
-1) the reality is that most people now write unreadable Franco, and people who don't write Franco at all has short/long vowel blindness. so a word like "sab" will be interpreted as "sAb" for most people, but "sabb" will be easier to read for them.
-2) the shadda actually exists if there is a following word, for example "sabb dEn". when we pronounce it you will notice that there is a very short e after "sabb", i.e. "sabbe dEn"
 
 * The hyphen "-"
 hyphen has three use cases:
@@ -320,17 +323,62 @@ another case where the vowel is deleted, is when the preceding word ends with tw
 ** COMMENT what are the candidate words for elision
 for example why gAmed always gAmed regardless of the cases above, and regl as well.
 
-* don't start with "2"
-since in most Latin languages e,o,a in the beginning of words contain the "2" in their pronounciation, we can borrow this property.
+* shadda at the end of a word
+in compliant Franco some words must end with shadda for reasons discussed [[*rationale behind the shadda at the end][here]], this shadda appears in three cases (or two actually).
 
-| example | should be |
-|---------+-----------|
-| 2na     | ana       |
-| 2amar   | amar      |
-| 2egry   | egry      |
-| 2oddAm  | oddAm     |
-| 2e2lAm  | e2lAm     |
-| 2Ol     | ool       |
+** CvC
+for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
+
+examples : 
+- 7orr
+- 7add
+- hezz
+- bass
+- zayy
+- koll
+- morr
+- sett
+- foll
+- Toll
+- 3akk
+- lakk
+- 3amm
+- menn
+
+** something + stop + CvC
+some words doesn't have the shape of CvC, but ends with it, for example "haylef", those words are pronounced like "hay..lef" where the dots represent a brief stop. this is practically equivalent to pronouncing it as two separate words. here also the shadda is added by the same means we added it to "leff".
+
+examples:
+- a7ebb
+- ye7ebb
+- ma3le44
+- yeleff
+- aleff
+- amarr (more "morr")
+- momell
+- betmorr
+
+** (a,o,e) + consonant
+if you remember from the [[*don't start with "2"][don't start with "2"]] section, words that start with "a","o" or "e", when pronounced they begin with a hidden "2", so "omm" in reality has the shape of CvC, that is, the first consonant is the hidden "2", the second vowel is "o" and the third consonant is "m", which is exactly the first case.
+
+examples:
+- omm
+- abb
+- a55
+- add (add ed-donya)
+- oTT
+- ayy
+- all (el-waga3 all 4wayya)
+
+** rationale behind the shadda at the end
+you may ask the following: what's the problem with writing it without the shadda like "7or" or "bas" since there is no ambiguity the shadda resolves and by definition there can't shadda that consists of two consonants (the second one must have vowel after it). for two reasons 
+
+1) the reality is that most people now write unreadable Franco, and most people are used to read unreadable Franco, this caused a problem we call short/long vowel blindness. for example a word like "sab" will be interpreted by most people as "sAb", but "sabb" will be easier for the to read
+2) the shadda actually exists if there is a following word, for example "sabb dEn". when you pronounce it you will notice a very short "e" after "sabb", it will sound something like "sabbe dEn".
+3) this reason contains circular dependency, you can read it after reading [[*shortening][shortening]].consider this sentence without the shadda at the end "haylef ylef w yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
+   1) you shorten "yelef" so that it becomes "ylef" and you shorten "we" so that it becomes "w"
+   2) you pronounce a shadda in both "haylef" and "ylef"
+but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w yerga3ly" just solves every thing.
 
 * general notes
 ** Arabic names
