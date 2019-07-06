@@ -375,8 +375,8 @@ you may ask the following: what's the problem with writing it without the shadda
 
 1) the reality is that most people now write unreadable Franco, and most people are used to read unreadable Franco, this caused a problem we call short/long vowel blindness. for example a word like "sab" will be interpreted by most people as "sAb", but "sabb" will be easier for the to read
 2) the shadda actually exists if there is a following word, for example "sabb dEn". when you pronounce it you will notice a very short "e" after "sabb", it will sound something like "sabbe dEn".
-3) this reason contains circular dependency, you can read it after reading [[*shortening][shortening]].consider this sentence without the shadda at the end "haylef ylef w yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
-   1) you shorten "yelef" so that it becomes "ylef" and you shorten "we" so that it becomes "w"
+3)consider this sentence - without the shadda at the end - "haylef ylef w yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
+   1) you shorten "yelef" so that it becomes "ylef" and you shorten "we" becoming "w"
    2) you pronounce a shadda in both "haylef" and "ylef"
 but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w yerga3ly" just solves every thing.
 
