@@ -16,7 +16,7 @@ this project is supposed to be an implementation of ideas introduced by [[https:
 * Boundary conditions
 1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
 2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with it (English alphabet).
-3) as much as we can, there should be only *one* "right" way to write a word.
+3) as much as we can, there should be only *one* "right" way to write most word.
 
 * abbreviations and acronyms used throughout the document
 <<<TAWS>>> :: the Traditional Arabic Writing System
