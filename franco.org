@@ -450,7 +450,7 @@ w ye7faZ 4aklaha el-sAbet..
 kanet 3A4t !!
 -------------
 
-* corner cases and current limitations
+* corner cases and current limitations (Egyptian specific)
 ** can be written in .. or ..
 due to the structure of the Egyptian dialect/language (and human languages in general) some sentences can be written in multiple ways and the writing system can't force one way or the other.
 
