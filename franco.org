@@ -157,7 +157,6 @@ the traditional system has no way to resolve the difference between for example:
 - btO3 and btoa3
 - dEn and dein
 - fO2 and foa2
-- la2et ("she found") and la2eit ("i found")
 
 *** more examples
 for didactic purposes someone may want more examples.
@@ -170,7 +169,7 @@ for didactic purposes someone may want more examples.
 - 4ei2
 - fein
 - etnein, metein, toffa7tein, etc.
-- se7eit, 7abbeit, geit, etc.
+- la2eit, 7abbeit, geit, etc.
 - 3eneik, regleik, edeik, etc.
 - 3eneiha, regleiha, edeiha, etc.
  
