@@ -104,7 +104,7 @@ Digraphs are ugly and makes words longer and harder to read, specially for repea
 | th in throw |      $ |
 | th in the   |      6 |
 
-* don't start with "2"
+** don't start with "2"
 since in most Latin languages e,o,a in the beginning of words contain the "2" in their pronounciation, we can borrow this property.
 
 | example | should be |
