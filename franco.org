@@ -288,7 +288,7 @@ those prepositions inherit the same rules of the definite article, by that we me
   | ده          | da     | el-btA3 da    |
   | دول         | doal   | el-btO3 doal  |
   
-* shortening
+* shortening (Egyptian specific)
 in the Egyptian dialect/language, we tend to not pronounce the first occurrence of short vowel in some words, for example sometimes we say "kfAya" and sometimes we say "kefAya", in this section we will discuss this phenomena. all the conditions in this section also applies to prepositions be/we/le/fe.
 ** conditions for shortening
 whether shortening will take place or not is governed by the ending of the preceding word, that is, if the ending of the preceding word is one of the following three cases, the vowel is deleted,
@@ -323,9 +323,8 @@ another case where the vowel is deleted, is when the preceding word ends with tw
 ** COMMENT what are the candidate words for elision
 for example why gAmed always gAmed regardless of the cases above, and regl as well.
 
-* shadda at the end of a word
+* shadda at the end of a word ("maybe" Egyptian specific)
 in compliant Franco some words must end with shadda for reasons discussed [[*rationale behind the shadda at the end][here]], this shadda appears in three cases (or two actually).
-
 ** CvC
 for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
 
