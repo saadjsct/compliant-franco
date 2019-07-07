@@ -346,7 +346,7 @@ examples :
 - menn
 
 ** something + stop + CvC
-some words doesn't have the shape of CvC, but ends with it, for example "haylef", those words are pronounced like "hay..lef" where the dots represent a brief stop. this is practically equivalent to pronouncing it as two separate words. here also the shadda is added by the same means we added it to "leff".
+some words doesn't have the shape of CvC, but ends with it after a brief stop, for example "haylef", those words are pronounced like "hay..lef" where the dots represent a brief stop. this is practically equivalent to pronouncing it as two separate words. here also the shadda is added by the same means we added it to "leff".
 
 examples:
 - a7ebb
@@ -356,6 +356,8 @@ examples:
 - amarr 
 - momell
 - betmorr
+
+note that the stop before the CvC is mandatory for the shadda to appear, for example "la2et" ends with CvC but the stop isn't there and so the shadda. 
 
 ** (a,o,e) + consonant
 if you remember from the [[*don't start with "2"][don't start with "2"]] section, words that start with "a","o" or "e", when pronounced they begin with a hidden "2", so "omm" in reality has the shape of CvC, that is, the first consonant is the hidden "2", the second vowel is "o" and the third consonant is "m", which is exactly the first case.
