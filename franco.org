@@ -344,6 +344,8 @@ examples :
 - lakk
 - 3amm
 
+the middle vowel must be a short one, for example "kAn" can't be written "kAnn" by any stretch of imagination.
+
 ** something + stop + CvC
 some words doesn't have the shape of CvC, but ends with it after a brief stop, for example "haylef", those words are pronounced like "hay..lef" where the dots represent a brief stop. this is practically equivalent to pronouncing it as two separate words. here also the shadda is added by the same means we added it to "leff".
 
