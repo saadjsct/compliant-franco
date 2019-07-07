@@ -15,7 +15,7 @@ precisely "the spoken language".
 ** the nature of writing systems
  between 3400 and 3300 BC in sumar humans invented the most important invention in the history (its actually the invention that defined the beginning of history), the writing system. this is yet another communication channel in which our brain this time utilizes our eyes and hands to form it.
     
-the writing system is very different than the spoken language in its nature. our brain treats those two communication channels differently. we often falsely (but understandably) include the writing system in the definition of the language. it's known that learning speaking and listening in a new language is a different skill than writing and reading it and require different training. due this natural distinction, the writing systems of languages evolved independently. actually so many languages didn't have any writing system until relatively recently (like Arabic for instance).
+the writing system is very different than the spoken language in its nature. our brain treats those two communication channels differently. we often falsely (but understandably) include the writing system in the definition of the language. it's known that learning speaking and listening in a new language is a different skill than writing and reading it, and require different training. due to this natural distinction, the writing systems of languages evolved independently. actually so many languages didn't have any writing system until relatively recently (like Arabic for instance).
 
 what i want to emphasis from this section is one thing, the writing system is *not* the language itself, and they are mostly independent from each other, some languages have multiple writing systems (e.g. Hindi and Urdu). some writing systems are used in multiple languages, as the Arabic writing system used for writing languages other than Arabic like Persian, Kurdish, and Urdu (Arabic was also used to write Spanish until the 16th century).
 
@@ -32,10 +32,10 @@ some writing systems has both types. for instance Japanese has letters that repr
 * character set and encoding
 before we continue we have to agree on the meaning of some words that will come up often in this discussion.
 ** character set
-a character set is the collection of symbols that's used in a writing system. for example, a to z is character set of 26 symbols. while a to z + A to Z is another character set with 52 symbols. some writing systems uses character sets of thousands symbols like Chinese. different writing systems can share one character set or borrow some symbols from another writing system's character set.
+a character set is the collection of symbols that's used in a writing system. for example, a to z is character set of 26 symbols. while a to z + A to Z is another character set with 52 symbols. some writing systems us character sets with thousands of symbols like Chinese. different writing systems can share one character set or borrow some symbols from another writing system's character set.
  
 ** encoding
-long time after humans invented writing systems. it was the time for inventing the second most important invention in history, computers. how computers work demands another layer of encoding, encoding the symbols in a  character set to ones and zeros. this layer forms a communication channel between we humans and computers.  
+long time after humans invented writing systems. it was the time for inventing the second most important invention in history, computers. how computers work demands another layer of encoding, encoding the symbols in a character set to ones and zeros. this layer forms a communication channel between we - humans - and computers.  
 
 ** ASCII
 ASCII is character set and encoding that consists of 128 symbols {a-z + A-Z, 0-9, punctuations}, i.e. everything you can see on English keyboard. it's the most simple, efficient and supported character set known till now.
@@ -43,7 +43,7 @@ ASCII is character set and encoding that consists of 128 symbols {a-z + A-Z, 0-9
 ** the Arabic character set
 the character set of Arabic can consists of (at least) the following symbols:
 ! " # $ ٪ & ' () ٭ + ، - . / ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ : ؛ <=> ؟ ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ [] ـ ف ق ك ل م ن ه و ى ي ً ٌ ٍ َ ُ ِ ّ ْ ٱ ٰ ٬ ” “
-Arabic charset shares some symbols with ASCII which is the source of many problems regarding reordering in mixed text. the Arabic charset has another point of complexity, which is how symbols are displayed on screen. for example the letter غ is never displayed as you see it right now in a typical Arabic text, basically it changes its shape according to where it appeared in the word (initial, medial, final) and also according to the letter before it and after it. Some letters would have more than eight glyphs (shapes) in some writing styles. and almost every character in Arabic behaves this way. the total number of glyphs in traditional printing exceeds four hundred in many typefaces.
+Arabic charset shares some symbols with ASCII which is the source of many problems regarding reordering in mixed text. the Arabic charset has another point of complexity, which is how symbols are displayed on screen. for example the character غ is never displayed as you see it standing alone in Arabic text, basically it changes its shape according to where it appeared in the word (initial, medial, final) and also according to the letter before it and after it. Some letters would have more than eight glyphs (shapes) in some writing styles. and almost every character in Arabic behaves this way. the total number of glyphs in traditional printing exceeds four hundred in many typefaces.
 
 * the problem
 ** mixed text
@@ -51,7 +51,9 @@ since writing mixed English and Arabic is inevitable for Arabic speakers in the 
 
 every text is stored electronically as a string of characters, writing RTL (Right To Left) or LTR doesn't change the order those characters are stored internally. the software displaying the string is responsible for correctly computing the relevant position of the next character on the screen based on whether or not this characters and the character preceding it belongs to an RTL character set.
 
-if you are an Arabic speaker you know the frustration of reading or editing bidirectional text on nearly any software. some of the ways things can go wrong are:
+if you are an Arabic speaker you know the frustration of reading or editing bidirectional text on nearly any software. 
+
+some of the ways things can go wrong are:
 - numbers inside RTL (specially if there is a number at the end or the beginning of a line or there is a number at a direction switch)
 - highlighting text with mixed directions
 - wrapping text on multiple lines
@@ -63,8 +65,8 @@ you can see [[https://www.w3.org/International/articles/inline-bidi-markup/uba-b
 
 another problem is keyboard mappings, if you are a keyboard oriented person as most power users, changing keyboard layout while editing will disable all your keyboard shortcuts making editing more and more and more difficult.
 
-** TODO necessity of dead diacritics
-** TODO not suitable for modern dialects
+** COMMENT TODO necessity of dead diacritics
+** COMMENT TODO not suitable for modern dialects
 * solutions
 there are two solutions people are migrating to.
 ** all English
@@ -96,7 +98,7 @@ rational people who are not used to read or write Franco will criticize Franco a
 
 i didn't see any criticism outside that it is hard to read. if you have another point against Franco please send it to me and i will include it in this section. 
 
-* TODO the problem with current Franco
+* COMMENT TODO the problem with current Franco
 * the future of Franco 
 until now i think Franco refuses to die despite everything, Arabs are still using it heavily in chats, but the public domain doesn't reflect this internal adoption. we need new studies to measure Franco use in different geographic areas. i came across some studies done in Saudi Arabia with ranging results from medium to high usage among teens. i claim that if similar studies made in countries like Egypt, Morocco, Lebanon or Jordan the studies will have significantly different results towards very high usage. 
 
