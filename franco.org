@@ -341,6 +341,7 @@ examples :
 - foll
 - Toll
 - 3akk
+- fann
 - lakk
 - 3amm
 - menn
