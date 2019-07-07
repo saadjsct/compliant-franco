@@ -219,7 +219,7 @@ some words start with letters called sun letters (shown below) that has the effe
 | d      | omm ed-donya           |
 | D      | el-wa2t eD-DAye3       |
 | r      | ya de7ket er-romman    |
-| z      | ez-zamAn TawEl         |
+| z      | ez-zaman TawEl         |
 | Z      | eZ-ZAher keda          |
 | n      | er-rakk 3an-neyya      |
 | s      | zayy es-sokkar        |
@@ -235,8 +235,8 @@ moon letters are straight forward, they are not sun letters and they don't touch
 examples:
 - el-lo8a 
 - el-3ammeyya
-- el-9Ahereyya
 - el-maSreyya
+- el-9Ahera
 - el-ward
 - el-balady
 - w keda
@@ -258,7 +258,7 @@ that is the question. the rule is similar to what's described later in [[*shorte
 | -ل          | l/le   | a4ky l mEn          |
 | في          | f/fe   | kalAm fe kalAm      |
 | على         | 3ala   | 3ala mAgy           |
-| من          | men    | em4y men hena       |
+| من          | men    | 5o44 men hena       |
 | ف           | fa     | fa yakOn            |
 | اللى        | elly   | elly hnAk da        |
 | ما          | ma     | 3omrena ma-hanerga3 |
@@ -395,11 +395,11 @@ for example:
 - mohammed mounir not ma7ammad monEr.
 
 ** e or y in the end
-in Egyptian Arabic, y and e in the end have no difference and can be used interchangeably, for consistency we will use y in the end, e.g. sEby not sEbe.
+in Egyptian Arabic, y and e in the end have no difference and can be used interchangeably, for consistency we will use y in the end, e.g. "sEby" not "sEbe".
 
 ** no place for those
-compliant franco does not contain any of the following english characters: [q,c,x,u,p,v], except in english words or human names.
-similarly the following sequences of characters doesn't appear in compliant franco: [sh,kh,th], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h.
+compliant Franco does not contain any of the following english characters: [q,c,x,u,p,v], except in English words or human names.
+similarly the following sequences of characters doesn't appear in compliant Franco: [sh,kh,th,gh], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h. see [[*The hyphen][The hyphen]].
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant Franco, that we think are beautiful.
 
