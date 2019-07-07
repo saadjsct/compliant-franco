@@ -25,38 +25,38 @@ the project is supposed to be an implementation of ideas introduced in [[https:/
 
 * character transliterations
   
-| traditional | Franco | unicode name          |
-|-------------+--------+-----------------------|
-| ا           | a      | ALEF                  |
-| آ           | aa     | ALEF WITH MADDA ABOVE |
-| ء           | 2      | HAMZA                 |
-| ب           | b      | BEH                   |
-| ت           | t      | TEH                   |
-| ث           | $      | THEH                  |
-| ج           | g,j    | JEEM                  |
-| ح           | 7      | HAH                   |
-| خ           | 5      | KHAH                  |
-| د           | d      | DAL                   |
-| ذ           | 6      | THAL                  |
-| ر           | r      | REH                   |
-| ز           | z      | ZAIN                  |
-| س           | s      | SEEN                  |
-| ش           | 4      | SHEEN                 |
-| ص           | S      | SAD                   |
-| ض           | D      | DAD                   |
-| ط           | T      | TAH                   |
-| ظ           | Z      | ZAH                   |
-| ع           | 3      | AIN                   |
-| غ           | 8      | GHAIN                 |
-| ف           | f      | FEH                   |
-| ق           | 9      | QAF                   |
-| ك           | k      | KAF                   |
-| ل           | l      | LAM                   |
-| م           | m      | MEEM                  |
-| ن           | n      | NOON                  |
-| ه           | h      | HEH                   |
-| و           | w      | WAW                   |
-| ى           | y      | YEH                   |
+| TAWS | Franco | unicode name          |
+|------+--------+-----------------------|
+| ا    | a      | ALEF                  |
+| آ    | aa     | ALEF WITH MADDA ABOVE |
+| ء    | 2      | HAMZA                 |
+| ب    | b      | BEH                   |
+| ت    | t      | TEH                   |
+| ث    | $      | THEH                  |
+| ج    | g,j    | JEEM                  |
+| ح    | 7      | HAH                   |
+| خ    | 5      | KHAH                  |
+| د    | d      | DAL                   |
+| ذ    | 6      | THAL                  |
+| ر    | r      | REH                   |
+| ز    | z      | ZAIN                  |
+| س    | s      | SEEN                  |
+| ش    | 4      | SHEEN                 |
+| ص    | S      | SAD                   |
+| ض    | D      | DAD                   |
+| ط    | T      | TAH                   |
+| ظ    | Z      | ZAH                   |
+| ع    | 3      | AIN                   |
+| غ    | 8      | GHAIN                 |
+| ف    | f      | FEH                   |
+| ق    | 9      | QAF                   |
+| ك    | k      | KAF                   |
+| ل    | l      | LAM                   |
+| م    | m      | MEEM                  |
+| ن    | n      | NOON                  |
+| ه    | h      | HEH                   |
+| و    | w      | WAW                   |
+| ى    | y      | YEH                   |
 
 *note* : all unicode names are prefixed with "ARABIC LETTER"
 
