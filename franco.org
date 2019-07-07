@@ -453,6 +453,18 @@ a5ado menno kol el-3ohda..
 awel yoam ba3d el-efrAg
 ------
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
+* corner cases and current limitations
+** can be written in .. or ..
+due to the structure of the Egyptian dialect/language (and human languages in general) some sentences can be written in multiple ways and the writing system can't force one way or the other.
+
+examples:
+- "gondy f gonOdek" or "gondy fe gnOdek"
+- "3ayez anAm" or "3ayz anAm" or 3Ayez anAm" or "3Awez anAm"
+
+** special cases in shadda in the end of a word
+- "lak" in "ana lak 3ala TOl" as in "lakk" is another word
+- "men" in "men hena"
+
 * FAQs
 ** what is the problem with the traditional system?
 [[https://saadnpq.com/posts/franco/][this]] article may answer this question, and more.
