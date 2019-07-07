@@ -1,7 +1,7 @@
 #+TITLE: Compliant Franco
 #+AUTHOR: saadnpq
-# #+DATE: 2019:5:20
-#+OPTIONS: \n:t num:t toc:t
+#+DATE: 2019:5:20
+#+OPTIONS: \n:t num:t toc:t timestamp:nil
 #+SETUPFILE: ./theme-readtheorg.setup
   
 * state of the project
