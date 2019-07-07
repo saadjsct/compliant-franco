@@ -60,11 +60,10 @@ this is not a transliteration system, but for your convenience we compare the sy
 | ى    | y      |
 
 ** Capital letters
-
-the fact that Capital letters doesn't have any phonetic differences than lower case letters makes it a perfect candidate to be included in compliant Franco, as it is "backward compatible", by backward compatibility we mean that if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
+the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in compliant Franco.
 
 *** capital consonants 
-we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
+following consonants are assigned Capital letter transliterations.
 
 | traditional | Franco |
 | ض           | D      |
@@ -72,6 +71,7 @@ we choose the following letters to have a Capital letter transliteration due its
 | ظ           | Z      |
 | ص           | S      |
 
+we choose those consonants since they are "backward compatible", by backward compatible we mean if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
 **** importance of capital consonants
 without those we have no distinction between many words, for example:
 - fos7a and foS7a
