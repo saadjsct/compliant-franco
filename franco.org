@@ -380,9 +380,9 @@ you may ask the following: what's the problem with writing it without the shadda
    2) you pronounce a shadda in both "haylef" and "ylef"
 but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w yerga3ly" just solves every thing.
 
-* internal sandhi
-internal sandhi is a term for sound changes that occur within a word to ease pronunciation, for example "ganby" becomes "gamby".
-not all writing system reflect sandhi in its orthography, but since this writing system relies heavily on phonetics, and wants to be predictable and consistent, we choose to reflect it, so the "right" way to write, e.g. "zanby" is "zamby"
+* Assimilation
+assimilation is a term for sound changes that occur within a word to ease pronunciation, for example "ganby" becomes "gamby".
+not all writing system reflect assimilation in its orthography, but since this writing system relies heavily on phonetics, and wants to be predictable and consistent, we choose to reflect it, so the "right" way to write, e.g. "zanby" is "zamby", "anbOba" is "ambOba"
 
 * general notes
 ** Arabic names
