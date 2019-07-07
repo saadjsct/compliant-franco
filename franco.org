@@ -352,9 +352,8 @@ examples:
 - a7ebb
 - ye7ebb
 - ma3le44
-- yeleff
-- aleff
-- amarr (more "morr")
+- ka2enn, akenn
+- amarr 
 - momell
 - betmorr
 
@@ -399,21 +398,23 @@ in Egyptian Arabic, y and e in the end have no difference and can be used interc
 compliant franco does not contain any of the following english characters: [q,c,x,u,p,v], except in english words or human names.
 similarly the following sequences of characters doesn't appear in compliant franco: [sh,kh,th], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h.
 * sample text
-it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant franco, that we think are beautiful.
+it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant Franco, that we think are beautiful.
+
+for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
 
 in the beginning was the word, "ek-kelma dein" by ahmed foad negm.
 -------
 morr ek-kalAm.. zayy el-7oSam
-ye2Ta3 makAn maymorr
+ye2Ta3 makAn.. maymorr
 amma el-madE7.. sahl w morE7
-ye5da3 Sa7E7 we y8orr
+ye5da3 Sa7E7.. we y8orr
 wek-kelma dein.. men 8eir edein
-bass el-wafa 3al-7orr
+bass el-wafa.. 3al-7orr
 -------
 
-poems by the beautiful mostafa ibrahem:
+** poems by the beautiful mostafa ibrahem:
 -------
-9awA3ed el-dayra el-saba3a (5):
+9awA3ed ed-dayra es-saba3a (5):
 
 ezzay te3raf..
 mEn sAbe2 mEn gowwa ed-dayra..
@@ -422,14 +423,14 @@ me4 momken barDo elly f Dahrak..
 yeTla3 sab2ak..
 w enta elly 7mAr ?!
 -------
-9awA3ed el-dayra el-saba3a (3):
+9awA3ed ed-dayra es-saba3a (3):
 
 far2 es-sor3At gowwa ed-dayra
 beink w mabein koll el-ma4yEn
 howwa elly haye2dar yeDmanlak
 en enta t2Abel nAs tanyEn
 -------
-9awA3ed el-dayra el-saba3a (1):
+9awA3ed ed-dayra es-saba3a (1):
 
 ab3ad no2Ta ben-nesbAlak
 gowwa ed-dayra.. heyya makAnak
@@ -438,21 +439,14 @@ hena.. howwa hnAk
 fa TabE3y t7es enk 3Aye4..
 b etnein gowwak
 ------
-akEd el-4am3a lw kAnet.. 
+akEd e4-4am3a lw kAnet.. 
 la2et forSa..
 w 7al morE7..
 y3ayye4ha.. bedOn matsE7..
 w ye7faZ 4aklaha el-sAbet..
 kanet 3A4t !!
 -------------
-ba3d ma aDDa noS el-modda..
-fata7o bAb zenzanto el-SAg..
-a5ado menno kol el-3ohda..
-4Alo malaffo men el-edrAg
-3am m7ammad mAt mel-we7da..
-awel yoam ba3d el-efrAg
-------
-for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
+
 * corner cases and current limitations
 ** can be written in .. or ..
 due to the structure of the Egyptian dialect/language (and human languages in general) some sentences can be written in multiple ways and the writing system can't force one way or the other.
@@ -462,7 +456,7 @@ examples:
 - "3ayez anAm" or "3ayz anAm" or 3Ayez anAm" or "3Awez anAm"
 
 ** special cases in shadda in the end of a word
-- "lak" in "ana lak 3ala TOl" as in "lakk" is another word
+- "lak" in "ana lak 3ala TOl", "lakk" is another word.
 - "men" in "men hena"
 
 * FAQs
