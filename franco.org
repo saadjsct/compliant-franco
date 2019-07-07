@@ -24,41 +24,40 @@ the project is supposed to be an implementation of ideas introduced in [[https:/
 <<<CvC>>> :: consonant + short vowel + consonant
 
 * character transliterations
-  
-| TAWS | Franco | unicode name          |
-|------+--------+-----------------------|
-| ا    | a      | ALEF                  |
-| آ    | aa     | ALEF WITH MADDA ABOVE |
-| ء    | 2      | HAMZA                 |
-| ب    | b      | BEH                   |
-| ت    | t      | TEH                   |
-| ث    | $      | THEH                  |
-| ج    | g,j    | JEEM                  |
-| ح    | 7      | HAH                   |
-| خ    | 5      | KHAH                  |
-| د    | d      | DAL                   |
-| ذ    | 6      | THAL                  |
-| ر    | r      | REH                   |
-| ز    | z      | ZAIN                  |
-| س    | s      | SEEN                  |
-| ش    | 4      | SHEEN                 |
-| ص    | S      | SAD                   |
-| ض    | D      | DAD                   |
-| ط    | T      | TAH                   |
-| ظ    | Z      | ZAH                   |
-| ع    | 3      | AIN                   |
-| غ    | 8      | GHAIN                 |
-| ف    | f      | FEH                   |
-| ق    | 9      | QAF                   |
-| ك    | k      | KAF                   |
-| ل    | l      | LAM                   |
-| م    | m      | MEEM                  |
-| ن    | n      | NOON                  |
-| ه    | h      | HEH                   |
-| و    | w      | WAW                   |
-| ى    | y      | YEH                   |
+this is not a transliteration system, but for your convenience we compare the symbols of Franco to those of TAWS which you are used to - instead of IPA for example.
 
-*note* : all unicode names are prefixed with "ARABIC LETTER"
+| TAWS | Franco |
+|------+--------|
+| ا    | a      |
+| آ    | aa     |
+| ء    | 2      |
+| ب    | b      |
+| ت    | t      |
+| ث    | $      |
+| ج    | g,j    |
+| ح    | 7      |
+| خ    | 5      |
+| د    | d      |
+| ذ    | 6      |
+| ر    | r      |
+| ز    | z      |
+| س    | s      |
+| ش    | 4      |
+| ص    | S      |
+| ض    | D      |
+| ط    | T      |
+| ظ    | Z      |
+| ع    | 3      |
+| غ    | 8      |
+| ف    | f      |
+| ق    | 9      |
+| ك    | k      |
+| ل    | l      |
+| م    | m      |
+| ن    | n      |
+| ه    | h      |
+| و    | w      |
+| ى    | y      |
 
 ** Capital letters
 
@@ -67,11 +66,11 @@ the fact that Capital letters doesn't have any phonetic differences than lower c
 *** capital consonants 
 we choose the following letters to have a Capital letter transliteration due its phonetic similarities with letters transliterated to the corresponding lower case letters.
 
-| traditional | Franco | unicode name      |
-| ض           | D      | ARABIC LETTER DAD |
-| ط           | T      | ARABIC LETTER TAH |
-| ظ           | Z      | ARABIC LETTER ZAH |
-| ص           | S      | ARABIC LETTER SAD |
+| traditional | Franco |
+| ض           | D      |
+| ط           | T      |
+| ظ           | Z      |
+| ص           | S      |
 
 **** importance of capital consonants
 without those we have no distinction between many words, for example:
