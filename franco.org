@@ -195,8 +195,8 @@ examples:
 - 9essa
 - mosta3edda
 
-* The hyphen "-"
-hyphen has three use cases:
+* The hyphen
+the hyphen, i.e. "-", has three use cases:
 + after the definite article, see [[*the definite article][the definite article]].
 + after "ma", e.g. "ma-balA4"
 + when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
