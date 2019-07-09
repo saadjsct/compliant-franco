@@ -242,7 +242,7 @@ examples:
 - w keda
 
 ** to "e" or not to "e"
-that is the question. the rule is similar to what's described later in [[*shortening][shortening]]. it depends on the preceding word, if it ends with "a" or "o", the e is ommited. for example:
+that is the question. the rule is similar to what's described later in [[*shortening (Egyptian specific)][shortening]]. it depends on the preceding word, if it ends with "a" or "o", the e is ommited. for example:
 
 - ana l-awwel wana l-aa5er
 - 3ala l-mA4y
@@ -264,7 +264,7 @@ that is the question. the rule is similar to what's described later in [[*shorte
 | ما          | ma     | 3omrena ma-hanerga3 |
 | من للى      | melly  | melly hnAk da       |
 
-for cases where the e is removed from be/we/le/fe, see [[*shortening][shortening]].
+for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian specific)][shortening]].
 
 ** prepositions compound with definite article.
 
