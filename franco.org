@@ -400,6 +400,12 @@ in Egyptian Arabic, y and e in the end have no difference and can be used interc
 ** no place for those
 compliant Franco does not contain any of the following english characters: [q,c,x,u,p,v], except in English words or human names.
 similarly the following sequences of characters doesn't appear in compliant Franco: [sh,kh,th,gh], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h. see [[*The hyphen][The hyphen]].
+** additional shortening cases
+in "we" the e is deleted when the following word is starts with "a,o,e" - in addition to the normal conditions of shortening. for example in "a4ky l mEn w a7ky l mEn" the "we" is shortened despite the normal conditions of shortening does not hold here, but it's because a7ky starts with "a"
+examples:
+- harO7 w aagy b sor3a
+- 2Ol w egry
+- 2Ol w oom
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant Franco, that we think are beautiful.
 
