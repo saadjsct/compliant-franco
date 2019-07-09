@@ -19,9 +19,9 @@ this project is supposed to be an implementation of ideas introduced by [[https:
 3) as much as we can, there should be only *one* "right" way to write most word.
 
 * abbreviations and acronyms used throughout the document
-<<<TAWS>>> :: the Traditional Arabic Writing System
-<<<bidi>>> :: bidirectional text, i.e. mixed English-Arabic text
-<<<CvC>>> :: consonant + short vowel + consonant
+- <<<TAWS>>> :: the Traditional Arabic Writing System
+- <<<bidi>>> :: bidirectional text, i.e. mixed English-Arabic text
+- <<<CvC>>> :: consonant + short vowel + consonant
 
 * character transliterations
 this is not a transliteration system, but for your convenience we compare the symbols of Franco to those of TAWS which you are used to - instead of IPA for example.
