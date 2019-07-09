@@ -197,12 +197,12 @@ examples:
 
 * The hyphen
 the hyphen, i.e. "-", has three use cases:
-+ after the definite article, see [[*the definite article][the definite article]].
++ after the definite article
 + after "ma", e.g. "ma-balA4"
 + when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
 + to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el-btA3.
 
-* the definite article
+* <<<the definite article>>>
 the definite article in compliant Franco is not as simple as "the" in English or "-ال" in TAWS. generally it can appear as "el-...", "l-...", "eX-X..." or "X-X..."(where X represents on of the sun letters discussed [[*sun letters][here]]).
 
 for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant franco: "e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?".
