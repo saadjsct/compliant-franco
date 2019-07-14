@@ -531,7 +531,47 @@ examples:
 ** why this guideline written in English and not in Franco?
 i agree this would be a cool idea, but this is an evolving guideline, if it is written in Franco, every update in the specification means rewriting every thing to be compliant with itself.
 ** are you working on Franco to replace TAWS?
-Franco is just an alternative writing system that can coexist with any other writing system. we think Franco is very capable and has more potential than TAWS in many situations, like writing modern Arabic dialects and bidi, but compliant Franco is not yet near ready for replacing TAWS in writings such as the Quran for example. for now we just focus on making a superior system, and maybe we can ask this question again later.
+Franco is just an alternative writing system that can coexist with any other writing system. we think Franco is very capable and has more potential than TAWS in many situations, like writing modern Arabic dialects and bidirectional text(mixed Arabic and English), but compliant Franco is not yet near ready for replacing TAWS in writings such as the Quran for example. for now we just focus on making a superior system, and maybe we can ask this question again later.
+
+* miscellaneous
+** independent map of consonants  
+   
+| manner        | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|---------------+---+---+---+---+---+---+---+---|
+| Plosives:     |   |   |   |   |   |   |   |   |
+| -> unvoiced   |   |   | t |   | k | 9 |   | 2 |
+| ->> emphatic  |   |   | T |   |   |   |   |   |
+| -> voiced     | b |   | d |   | g |   |   |   |
+| ->>  emphatic | B |   | D |   |   |   |   |   |
+|               |   |   |   |   |   |   |   |   |
+| Fricatives:   |   |   |   |   |   |   |   |   |
+| -> unvoiced   |   | f | s | 4 | 5 |   | 7 | h |
+| ->> emphatic  |   |   | S |   |   |   |   |   |
+| -> voiced     |   | v | z | j | 8 |   | 3 |   |
+| ->> emphatic  |   |   | Z |   |   |   |   |   |
+|               |   |   |   |   |   |   |   |   |
+| the R-sound   |   |   | r |   |   |   |   |   |
+| ->> emphatic  |   |   | R |   |   |   |   |   |
+|               |   |   |   |   |   |   |   |   |
+| the L-sound   |   |   | l |   |   |   |   |   |
+| ->> emphatic  |   |   | L |   |   |   |   |   |
+|               |   |   |   |   |   |   |   |   |
+| Nasals        | m |   | n |   |   |   |   |   |
+| ->> emphatic  | M |   |   |   |   |   |   |   |
+|               |   |   |   |   |   |   |   |   |
+| Semi-vowels   | w |   |   | y |   |   |   |   |
+
+where the numbered columns represent the place of articulation:
+- 1= with both lips
+- 2= with the lower lip against the upper teeth
+- 3= with the tip of the tongue against the back of the teeth
+- 4= with the back of the tongue against the hard palate
+- 5= with the back of the tongue against the soft palate
+- 6= with the back of the tongue against the uvula
+- 7= in the pharynx
+- 8= in the glottis (glottal)
+
+acknowledgment: this table is taken from "kullu tamam by manfred woidich".
 
 * TODO how to learn the system
 * COMMENT Local Variables                          :ARCHIVE:
