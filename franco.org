@@ -116,6 +116,63 @@ since in most Latin languages e,o,a in the beginning of words contain the "2" in
 | 2e2lAm  | e2lAm     |
 | 2Ol     | ool       |
 
+* Capital letters
+the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in compliant Franco.
+
+** Velarization -> capital consonants 
+many consonants in many languages can be *velarized*, velarization is a property that gives a duller sound to the consonant which also affects the neighboring vowels.
+
+from wikipedia
+#+begin_quote
+Velarization is a secondary articulation of consonants by which the back of the tongue is raised toward the velum during the articulation of the consonant.
+#+end_quote
+
+in TAWS "ض ط ظ ص" are examples of veralized consonants that have a character representation, but in reality other consonants such as "l,r,b,m" can also be velarized. those consonants are assigned capital letters in compliant Franco.
+
+| TAWS | Franco | example with |
+| ض    | D      | 3aDalAT      |
+| ط    | T      | TAr          |
+| ظ    | Z      | ZeiTa        |
+| ص    | S      | SAber        |
+| -    | B      | BAba         |
+| -    | M      | MAma, MAyya  |
+| -    | R      | RAye7        |
+| -    | L      | aLLAh        |
+
+we choose those consonants since they are "backward compatible", by backward compatible we mean if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
+
+we use also capital letters to represent long vowels, see [[*diacritics and vowels][diacritics and vowels]].
+
+*** importance of capital consonants
+without those we have no distinction between many words, for example:
+
+- fos7a and foS7a
+- bass and baSS
+- 7aZZ and 7azz
+- GAry and gAry
+- SAb and sAb
+- mafrOD and mafrOd
+- "enSef el-masakEn" and "ensef el-masakEn"
+- Dall and dall
+- DAr  and dAr
+- ba3D and ba3d
+- TAr and tAr
+- bAT and bAt
+- Dahr and dahr
+ 
+** COMMENT which one to velarize
+    in moBARak both moBArak and mobARak will give the same output
+    and in bAT for example we pronounce it like BAT also
+    what do you think if we go with both.
+
+** what we loose
+- capitalization of names in Franco text, which is not used already.
+- some minor confusion may arise in one case that requires three conditions to occur:
+  1) a capitalized English word that starts with one of the few mapped capital letters in Franco
+  2) that capitalized name exits alone without English context and surrounded by Franco text.
+  3) that word can be interpreted as a Franco word
+  but since this case is very unlikely to occur and relying on context is inevitable in mixed text anyway. it's not reasonable to throw all the benefits for such a rare case.
+
 * diacritics and vowels
 ** short vowels
 the table below shows the basic diacritics transliterations.
