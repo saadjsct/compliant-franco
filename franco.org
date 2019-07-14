@@ -11,7 +11,7 @@ to follow or to contribute to the project maintenance see the [[https://github.c
 this project is supposed to be an implementation of ideas introduced by [[https://saadnpq.com/franco/embrace-franco.pdf][this research article]]. to understand the rationale behind all of this, or to have a better insight about the issue of the Arabic writing system, please refer to the article.
 * why?
 - to have a standardized, documented, eloquent, and community developed Franco flavor.
-- to have a consistent and searchable Arabic writing system.
+- to have a consistent, searchable and bidirectional friendly Arabic writing system.
 - a reference for people with unreadable Franco
 * Boundary conditions
 1) Franco is a writing system for Arabic speakers, not a way to write Arabic to be pronounced by English speakers.
@@ -20,11 +20,10 @@ this project is supposed to be an implementation of ideas introduced by [[https:
 
 * abbreviations and acronyms used throughout the document
 - <<<TAWS>>> :: the Traditional Arabic Writing System
-- <<<bidi>>> :: bidirectional text, i.e. mixed English-Arabic text
 - <<<CvC>>> :: consonant + short vowel + consonant
 
-* character transliterations
-this is not a transliteration system, but for your convenience we compare the symbols of Franco to those of TAWS which you are used to - instead of IPA for example.
+* consonants
+this is not a transliteration system, but for your convenience we compare the symbols of Franco to those of TAWS which we are used to - instead of IPA for example. is you want a map of consonants in franco that is independent from TAWS, maybe for non-arabic speakers, see [[*independent map of consonants][independent map of consonants]].
 
 | TAWS | Franco |
 |------+--------|
@@ -59,43 +58,11 @@ this is not a transliteration system, but for your convenience we compare the sy
 | و    | w      |
 | ى    | y      |
 
-** Capital letters
-the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in compliant Franco.
-
-*** capital consonants 
-following consonants are assigned Capital letter transliterations.
-
-| traditional | Franco |
-| ض           | D      |
-| ط           | T      |
-| ظ           | Z      |
-| ص           | S      |
-
-we choose those consonants since they are "backward compatible", by backward compatible we mean if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
-**** importance of capital consonants
-without those we have no distinction between many words, for example:
-- fos7a and foS7a
-- bass and baSS
-- 7aZZ and 7azz
-- na9D and na9d
-- Darb and darb
-- ba3D and ba3d
-- TAr and tAr
-- Dahr and dahr
- 
-*** what we loose
-- capitalization of names in Franco text, which is not used already.
-- some minor confusion may arise in one case that requires three conditions to occur:
-  1) a capitalized English word that starts with one of the few mapped capital letters in Franco
-  2) that capitalized name exits alone without English context and surrounded by Franco text.
-  3) that word can be interpreted as a Franco word
-  but since this case is very unlikely to occur and relying on context is inevitable in mixed text anyway. it's not reasonable to throw all the benefits for such a rare case.
-
 ** <<<Digraphs>>>
 Digraphs are two letters that behaves as a unit and is not the sum of its parts, e.g. "ch", "sh", "kh" and "th" in English.
-Digraphs are ugly and makes words longer and harder to read, specially for repeated letters, i.e. shadda.
+Digraphs are basically an ugly hack to the English writing system, when used with other languages which uses them a lot, as in our case, it makes words longer and harder to read, specially for repeated letters, i.e. shadda.
 
-| digraph     | Franco |
+| English     | Franco |
 |-------------+--------|
 | kh          |      5 |
 | sh          |      4 |
@@ -239,7 +206,7 @@ for didactic purposes someone may want more examples.
 - loan 
      
 * <<<shadda>>>
-shadda in Arabic is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by - yeah, you guessed it - a repeated letter, e.g. yalla, ba7ebbek, kollo.
+shadda in TAWS is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by - yeah, you guessed it - a repeated letter, e.g. yalla, ba7ebbek, kollo.
 
 people with poor Franco often omit the second letter causing one of the biggest sources of ambiguity in mainstream Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "hagElak bel-mara" she found on your phone is supposed to be "hagElak bel-marra" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this spec should always write the shadda appropriately wherever it appears.
 
@@ -257,12 +224,12 @@ the hyphen, i.e. "-", has three use cases:
 + after the definite article
 + after "ma", e.g. "ma-balA4"
 + when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
-+ to separate english words from franco prepositions like: aa3ed /ba-chill/, 3reft a-configure el-btA3.
++ to fit English words in Arabic grammer like: aa3ed /ba-chill/, 3reft a-configure el-btA3.
 
 * <<<the definite article>>>
 the definite article in compliant Franco is not as simple as "the" in English or "-ال" in TAWS. generally it can appear as "el-...", "l-...", "eX-X..." or "X-X..."(where X represents on of the sun letters discussed [[*sun letters][here]]).
 
-for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant franco: "e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?".
+for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant Franco: "e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?".
 
 ** sun letters
 some words start with letters called sun letters (shown below) that has the effect of turning the "l" to a copy of itself, i.e. shadda. for example /el naharda/ should be written as /en-naharda/ like how it's actually pronounced 
@@ -307,7 +274,9 @@ that is the question. the rule is similar to what's described later in [[*shorte
 - eih yabo r-reggAla
 - mesa g-gamAl
 
-* prepositions
+also if the word starts with a vowel the i is omitted, e.g. ebrahEm l-abyaD
+
+* prepositions and stuff
 | traditional | Franco | example             |
 |-------------+--------+---------------------|
 | ب           | b/be   | TODO be             |
@@ -338,7 +307,7 @@ for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian s
 those prepositions inherit the same rules of the definite article, by that we mean for example "fel-konAfa" should be written "fek-konAfa".
 
 ** COMMENT whats'up with "ma"
-** post-positions
+** demonstrative pronouns
   | traditional | Franco | example       |
   |-------------+--------+---------------|
   | دي          | de     | el-btA3a de   |
@@ -371,7 +340,7 @@ another case where the vowel is deleted, is when the preceding word ends with tw
  - 3e4t snEn
  - 7elm kbEr
 
- you may have noticed that this case is reducible to the first case, since we can't pronounce three consecutive consonants (the two from the end of the word and the first of the following) we add a very short vowel at the end of the first word to make it pronounceable, so it becomes "4ofte ktEr" which is exactly the first case.
+ you may have noticed that this case is reducible to the first case, since we can't pronounce more than two consecutive consonants (the two from the end of the word and the first of the following) we add a very short vowel - called epenthetic vowel - at the end of the first word to make it pronounceable, so it becomes "4ofte ktEr" which is exactly the first case.
 
  this topic is actually more complicated than that, but most of the time it's clear for the Egyptian speaker which way to go, don't think about it too much.
  
@@ -380,7 +349,7 @@ another case where the vowel is deleted, is when the preceding word ends with tw
 ** COMMENT what are the candidate words for elision
 for example why gAmed always gAmed regardless of the cases above, and regl as well.
 
-* shadda at the end of a word ("maybe" Egyptian specific)
+* ending shadda ("maybe" Egyptian specific)
 in compliant Franco some words must end with shadda for reasons discussed [[*rationale behind the shadda at the end][here]], this shadda appears in three cases (or two actually).
 ** CvC
 for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".

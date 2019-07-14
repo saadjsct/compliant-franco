@@ -1,11 +1,13 @@
 #+TITLE: Embrace Franco
 #+AUTHOR: saadnpq
 #+DATE: 2019-05-12
+:options:
 #+OPTIONS: toc:4 h:4
 #+HUGO_BASE_DIR: ~/blog/ 
 #+hugo_auto_set_lastmod: t
 #+EXPORT_FILE_NAME: embrace-franco
 #+hugo_tags: projects 
+:END:
 
 * abstraction
 ** the nature of the language
