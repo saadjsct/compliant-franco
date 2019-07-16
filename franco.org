@@ -131,6 +131,7 @@ without those we have no distinction between many words, for example:
     in moBARak both moBArak and mobARak will give the same output
     and in bAT for example we pronounce it like BAT also
     what do you think if we go with both.
+    i think we should go with both
 
 ** what we loose
 - capitalization of names in Franco text, which is not used already.
@@ -229,7 +230,10 @@ the hyphen, i.e. "-", has three use cases:
 * <<<the definite article>>>
 the definite article in compliant Franco is not as simple as "the" in English or "-ال" in TAWS. generally it can appear as "el-...", "l-...", "eX-X..." or "X-X..."(where X represents on of the sun letters discussed [[*sun letters][here]]).
 
-for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant Franco: "e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?".
+for programmers, this Emacs-style regular expression will match all possible forms a definite article can take in compliant Franco: 
+#+begin_example
+e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?
+#+end_example
 
 ** sun letters
 some words start with letters called sun letters (shown below) that has the effect of turning the "l" to a copy of itself, i.e. shadda. for example /el naharda/ should be written as /en-naharda/ like how it's actually pronounced 
@@ -247,7 +251,7 @@ some words start with letters called sun letters (shown below) that has the effe
 | Z      | eZ-ZAher keda          |
 | n      | er-rakk 3an-neyya      |
 | s      | zayy es-sokkar        |
-| S      | eS-So7Ab fe agAza      |
+| S      | eS-So7Ab fe`agAza      |
 | 4      | 3ala add e4-4oa2       |
 | k      | fek-konAfa             |
 | g      | eg-gei4 we4-4orTa      |
@@ -270,25 +274,24 @@ that is the question. the rule is similar to what's described later in [[*shorte
 
 - ana l-awwel wana l-aa5er
 - 3ala l-mA4y
-- lessa d-donya b 5eir
+- lessa d-donya b`5eir
 - eih yabo r-reggAla
 - mesa g-gamAl
 
-also if the word starts with a vowel the i is omitted, e.g. ebrahEm l-abyaD
+* prepositions
+prepositions in compliant franco are attached to following word using backtick (`), pressed with the key on the top left of your keyboard that has a tilda (~) on it.
 
-* prepositions and stuff
-| traditional | Franco | example             |
-|-------------+--------+---------------------|
-| ب           | b/be   | TODO be             |
-| و           | w/we   | a7la w a7la         |
-| -ل          | l/le   | a4ky l mEn          |
-| في          | f/fe   | kalAm fe kalAm      |
-| على         | 3ala   | 3ala mAgy           |
-| من          | men    | 5o44 men hena       |
-| ف           | fa     | fa yakOn            |
-| اللى        | elly   | elly hnAk da        |
-| ما          | ma     | 3omrena ma-hanerga3 |
-| من للى      | melly  | melly hnAk da       |
+| TAWS   | Franco | example             |
+|--------+--------+---------------------|
+| ب      | b/be   | b`we44 reglak       |
+| و      | w/we   | a7la w`a7la         |
+| -ل     | l/le   | a4ky l`mEn          |
+| في     | f/fe   | kalAm fe`kalAm      |
+| على    | 3ala   | 3ala`mAgy           |
+| من     | men    | 5o44 men`hena       |
+| ف      | fa     | konn fa`yakOn       |
+| اللى   | elly   | elly hnAk da        |
+| ما     | ma     | 3omrena ma`hanerga3 |
 
 for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian specific)][shortening]].
 
@@ -306,13 +309,12 @@ for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian s
 
 those prepositions inherit the same rules of the definite article, by that we mean for example "fel-konAfa" should be written "fek-konAfa".
 
-** COMMENT whats'up with "ma"
 ** demonstrative pronouns
   | traditional | Franco | example       |
   |-------------+--------+---------------|
-  | دي          | de     | el-btA3a de   |
-  | ده          | da     | el-btA3 da    |
-  | دول         | doal   | el-btO3 doal  |
+  | دي          | de     | el-betA3a de  |
+  | ده          | da     | el-betA3 da   |
+  | دول         | doal   | el-betO3 doal |
   
 * shortening (Egyptian specific)
 in the Egyptian dialect/language, we tend to not pronounce the first occurrence of short vowel in some words, for example sometimes we say "kfAya" and sometimes we say "kefAya", in this section we will discuss this phenomena. all the conditions in this section also applies to prepositions be/we/le/fe.
@@ -403,10 +405,10 @@ you may ask the following: what's the problem with writing it without the shadda
 
 1) the reality is that most people now write unreadable Franco, and most people are used to read unreadable Franco, this caused a problem we call short/long vowel blindness. for example a word like "sab" will be interpreted by most people as "sAb", but "sabb" will be easier for the to read
 2) the shadda actually exists if there is a following word, for example "sabb dEn". when you pronounce it you will notice a very short "e" after "sabb", it will sound something like "sabbe dEn".
-3)consider this sentence - without the shadda at the end - "haylef ylef w yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
+3)consider this sentence - without the shadda at the end - "haylef ylef w`yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
    1) you shorten "yelef" so that it becomes "ylef" and you shorten "we" becoming "w"
    2) you pronounce a shadda in both "haylef" and "ylef"
-but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w yerga3ly" just solves every thing.
+but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w`yerga3ly" just solves every thing.
 
 * Assimilation
 Assimilation here is a term for sound changes that occur within a word to ease pronunciation, for example "ganby" becomes "gamby".
@@ -427,11 +429,11 @@ in Egyptian Arabic, y and e in the end have no difference and can be used interc
 compliant Franco does not contain any of the following english characters: [q,c,x,u,p,v], except in English words or human names.
 similarly the following sequences of characters doesn't appear in compliant Franco: [sh,kh,th,gh], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h. see [[*The hyphen][The hyphen]].
 ** additional shortening cases
-in "we" the e is deleted when the following word is starts with "a,o,e" - in addition to the normal conditions of shortening. for example in "a4ky l mEn w a7ky l mEn" the "we" is shortened despite the normal conditions of shortening does not hold here, but it's because a7ky starts with "a"
+in "we" the e is deleted when the following word is starts with "a,o,e" - in addition to the normal conditions of shortening. for example in "a4ky l`mEn w`a7ky l`mEn" the "we" is shortened despite the normal conditions of shortening does not hold here, but it's because a7ky starts with "a"
 examples:
-- harO7 w aagy b sor3a
-- 2Ol w egry
-- 2Ol w oom
+- harO7 w`aagy b`sor3a
+- 2Ol w`egry
+- 2Ol w`oom
 * sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant Franco, that we think are beautiful.
 
@@ -441,9 +443,9 @@ in the beginning was the word, "ek-kelma dein" by ahmed foad negm.
 -------
 morr ek-kalAm.. zayy el-7oSam
 ye2Ta3 makAn.. maymorr
-amma el-madE7.. sahl w morE7
-ye5da3 Sa7E7.. we y8orr
-wek-kelma dein.. men 8eir edein
+amma el-madE7.. sahl w`morE7
+ye5da3 Sa7E7.. w`y8orr
+wek-kelma dein.. men`8eir edein
 bass el-wafa.. 3al-7orr
 -------
 
@@ -453,15 +455,15 @@ bass el-wafa.. 3al-7orr
 
 ezzay te3raf..
 mEn sAbe2 mEn gowwa ed-dayra..
-we mEn feha aTa3 aTwal me4wAr..
-me4 momken barDo elly f Dahrak..
+w`mEn feha aTa3 aTwal me4wAr..
+me4 momken barDo elly f`Dahrak..
 yeTla3 sab2ak..
-w enta elly 7mAr ?!
+w`enta elly 7mAr ?!
 -------
 9awA3ed ed-dayra es-saba3a (3):
 
 far2 es-sor3At gowwa ed-dayra
-beink w mabein koll el-ma4yEn
+beink we`mabein koll el-ma4yEn
 howwa elly haye2dar yeDmanlak
 en enta t2Abel nAs tanyEn
 -------
@@ -469,16 +471,16 @@ en enta t2Abel nAs tanyEn
 
 ab3ad no2Ta ben-nesbAlak
 gowwa ed-dayra.. heyya makAnak
-w ka2enn asAsn fed-dayra
+we`ka2enn asAsn fed-dayra
 hena.. howwa hnAk
-fa TabE3y t7es enk 3Aye4..
-b etnein gowwak
+fa`TabE3y t7ess ennak 3Aye4..
+b`etnein gowwak
 ------
-akEd e4-4am3a lw kAnet.. 
-la2et forSa..
-w 7al morE7..
+akEd e4-4am3a law kAnet.. 
+la2et foRSa..
+we`7all morE7..
 y3ayye4ha.. bedOn matsE7..
-w ye7faZ 4aklaha el-sAbet..
+w`ye7faZ 4aklaha es-sAbet..
 kanet 3A4t !!
 -------------
 
@@ -487,12 +489,12 @@ kanet 3A4t !!
 due to the structure of the Egyptian dialect/language (and human languages in general) some sentences can be written in multiple ways and the writing system can't force one way or the other.
 
 examples:
-- "gondy f gonOdek" or "gondy fe gnOdek"
+- "gondy f`gonOdek" or "gondy fe`gnOdek"
 - "3ayez anAm" or "3ayz anAm" or 3Ayez anAm" or "3Awez anAm"
 
 ** special cases in shadda in the end of a word
 - "lak" in "ana lak 3ala TOl", "lakk" is another word.
-- "men" in "men hena"
+- "men" in "men`hena"
 
 * FAQs
 ** what is the problem with the traditional system?
