@@ -18,7 +18,9 @@ this project is supposed to be an implementation of ideas introduced by [[https:
 2) Franco constrains itself to ASCII characters not to English alphabet, however, it should not conflict with it (English alphabet).
 3) as much as we can, there should be only *one* "right" way to write most word.
 
-* abbreviations and acronyms used throughout the document
+* abbreviations
+  
+those abbreviations and acronyms are used throughout the document :
 - <<<TAWS>>> :: the Traditional Arabic Writing System
 - <<<CvC>>> :: consonant + short vowel + consonant
 
@@ -83,11 +85,8 @@ since in most Latin languages e,o,a in the beginning of words contain the "2" in
 | 2e2lAm  | e2lAm     |
 | 2Ol     | ool       |
 
-* Capital letters
-the fact that Capital letters doesn't have any phonetic differences than lower case letters, makes it a perfect candidate to be included in compliant Franco.
-
-** Velarization -> capital consonants 
-many consonants in many languages can be *velarized*, velarization is a property that gives a duller sound to the consonant which also affects the neighboring vowels.
+* velarization
+consonants in many languages can be *velarized*, velarization is a property that gives a duller sound to the consonant which also affects the neighboring vowels and consonants.
 
 from wikipedia
 #+begin_quote
@@ -261,7 +260,7 @@ examples:
 - w keda
 
 ** to "e" or not to "e"
-that is the question. the rule is similar to what's described later in [[*shortening (Egyptian specific)][shortening]]. it depends on the preceding word, if it ends with "a" or "o", the e is ommited. for example:
+that is the question. the rule is similar to what's described later in [[*shortening][shortening]]. it depends on the preceding word, if it ends with "a" or "o", the e is ommited. for example:
 
 - ana l-awwal wana l-aa5er
 - 3ala l-mA4y
@@ -307,7 +306,7 @@ those prepositions inherit the same rules of the definite article, by that we me
   | ده          | da     | el-betA3 da   |
   | دول         | doal   | el-betO3 doal |
   
-* shortening (Egyptian specific)
+* shortening
 in the Egyptian dialect/language, we tend to not pronounce the first occurrence of short vowel in some words, for example sometimes we say "kfAya" and sometimes we say "kefAya", in this section we will discuss this phenomena. all the conditions in this section also applies to prepositions be/we/le/fe.
 ** conditions for shortening
 whether shortening will take place or not is governed by the ending of the preceding word, that is, if the ending of the preceding word is one of the following three cases, the vowel is deleted,
@@ -342,7 +341,7 @@ another case where the vowel is deleted, is when the preceding word ends with tw
 ** COMMENT what are the candidate words for elision
 for example why gAmed always gAmed regardless of the cases above, and regl as well.
 
-* ending shadda ("maybe" Egyptian specific)
+* ending shadda 
 in compliant Franco some words must end with shadda for reasons discussed [[*rationale behind the shadda at the end][here]], this shadda appears in three cases (or two actually).
 ** CvC
 for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
@@ -475,21 +474,24 @@ w'ye7faZ 4aklaha es-sAbet..
 kanet 3A4t !!
 -------------
 
-* COMMENT corner cases and current limitations (Egyptian specific)
-** can be written in .. or ..
-due to the structure of the Egyptian dialect/language (and human languages in general) some sentences can be written in multiple ways and the writing system can't force one way or the other.
+* corner cases and limitations
+** searchability limiting case
+due to the structure of the Egyptian dialect/language (and human languages in general) some sentences can be pronounced in multiple ways and the writing system can't force one way or the other.
 
 examples:
 - "gondy f'gonOdek" or "gondy fe'gnOdek"
 - "3ayez anAm" or "3ayz anAm" or 3Ayez anAm" or "3Awez anAm"
 
-** special cases in shadda in the end of a word
+** irregularity in the ending shadda
 - "lak" in "ana lak 3ala TOl", "lakk" is another word.
-- "men" in "men'hena"
+- "men" in "men hena", "menn" is a another word.
+
+** velarized "a"
+we don't have a representation of a velarized "a" vowel, it exists in theory but we can't find any Egyptian word that needs it. this is different than the velarization of vowels near a velarized consonant (D T Z S B M R L). if you found a word that has a velarized "a" and it doesn't have any one of the velarized consonants mentioned earlier, please send it to us.
 
 * FAQs
 ** what is the problem with the traditional system?
-[[https://saadnpq.com/posts/franco/][this]] article may answer this question, and more.
+[[https://saadnpq.com/posts/franco/][this article]] may answer this question, and more.
 ** why this guideline written in English and not in Franco?
 i agree this would be a cool idea, but this is an evolving guideline, if it is written in Franco, every update in the specification means rewriting every thing to be compliant with itself.
 ** are you working on Franco to replace TAWS?
