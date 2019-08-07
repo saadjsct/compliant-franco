@@ -95,17 +95,19 @@ Velarization is a secondary articulation of consonants by which the back of the 
 
 in TAWS "ض ط ظ ص" are examples of veralized consonants that have a character representation, but in reality other consonants such as "l,r,b,m" can also be velarized. those consonants are assigned capital letters in compliant Franco.
 
+since Capital letters doesn't have any phonetic differences than lower case letters in all alphabetic writing systems, it's perfect to represent velarized consonants in compliant Franco (and long vowels also).
+
 | TAWS | Franco | example with |
-| ض    | D      | 3aDalAT      |
-| ط    | T      | TAr          |
+| ض    | D      | 3aDaLAT      |
+| ط    | T      | TAR          |
 | ظ    | Z      | ZeiTa        |
 | ص    | S      | SAber        |
-| -    | B      | BAba         |
+| -    | B      | BABa         |
 | -    | M      | MAyya        |
 | -    | R      | RAye7        |
 | -    | L      | aLLAh        |
 
-we choose those consonants since they are "backward compatible", by backward compatible we mean if someone for example wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we loose][ kinda]] - but we gain more clarification and disambiguation.
+one great thing about this representation is backward compatibility, by backward compatibility we mean if someone wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we lose][ kinda ]]- but we gain more clarification and disambiguation.
 
 we use also capital letters to represent long vowels, see [[*diacritics and vowels][diacritics and vowels]].
 
