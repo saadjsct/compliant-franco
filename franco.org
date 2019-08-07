@@ -271,7 +271,6 @@ that is the question. the rule is similar to what's described later in [[*shorte
 - mesa g-gamAl
 
 * prepositions
-prepositions in compliant franco are attached to following word using apostrophe (') or a backtick (`)
 
 | TAWS   | Franco | example             |
 |--------+--------+---------------------|
@@ -279,11 +278,13 @@ prepositions in compliant franco are attached to following word using apostrophe
 | و      | w/we   | a7la w'a7la         |
 | -ل     | l/le   | a4ky l'mEn          |
 | في     | f/fe   | kalAm fe'kalAm      |
-| على    | 3ala   | 3ala'mAgy           |
-| من     | men    | 5o44 men'hena       |
+| على    | 3ala   | 3ala mAgy           |
+| من     | men    | 5o44 men hena       |
 | ف      | fa     | konn fa'yakOn       |
 | اللى   | elly   | elly hnAk da        |
 | ما     | ma     | 3omrena ma'hanerga3 |
+
+short prepositions in compliant Franco (be,we,le,fe,fa,ma) are attached to following word using apostrophe (') or a back-tick (`).
 
 for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian specific)][shortening]].
 
