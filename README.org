@@ -7,7 +7,7 @@ a guideline, and hopefully a standard, for the Franco writing system. there is a
 the project itself is hosted at [[https://saadnpq.com/franco/][saadnpq.com/franco]], this repository is used for development and version control.
 
 * state of the project
-the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been coverd.
+archived
 
 * where i can find the specification itself?
    [[https://saadnpq.com/franco/#orgc07e549][here]].
