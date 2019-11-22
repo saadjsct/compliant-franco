@@ -3,7 +3,7 @@
 #+DATE: 2019:5:20
 #+OPTIONS: \n:t num:t toc:t timestamp:nil
 #+SETUPFILE: ./theme-readtheorg.setup
-  
+
 * state of the project
 the project is still in early development, but it's usable and reaching a more stable state with time, major changes happen less often and basic cases has been covered.
 to follow or to contribute to the project maintenance see the [[https://github.com/saadnpq/expect-franco][github repository]].
@@ -25,12 +25,11 @@ those abbreviations and acronyms are used throughout the document :
 - <<<CvC>>> :: consonant + short vowel + consonant
 
 * consonants
-this is not a transliteration system, but for your convenience we compare the symbols of Franco to those of TAWS which we are used to - instead of IPA for example. is you want a map of consonants in franco that is independent from TAWS, maybe for non-arabic speakers, see [[*independent map of consonants][independent map of consonants]].
+this is not a transliteration system, but for your convenience we compare the symbols of Franco to those of TAWS which we are used to - instead of IPA for example.
 
 | TAWS | Franco |
 |------+--------|
 | ا    | a      |
-| آ    | aa     |
 | ء    | 2      |
 | ب    | b      |
 | ت    | t      |
@@ -44,10 +43,6 @@ this is not a transliteration system, but for your convenience we compare the sy
 | ز    | z      |
 | س    | s      |
 | ش    | 4      |
-| ص    | S      |
-| ض    | D      |
-| ط    | T      |
-| ظ    | Z      |
 | ع    | 3      |
 | غ    | 8      |
 | ف    | f      |
@@ -78,15 +73,15 @@ since in most Latin languages e,o,a in the beginning of words contain the "2" in
 
 | example | should be |
 |---------+-----------|
-| 2na     | ana       |
-| 2aMaR   | aMaR      |
+| 2ana    | ana       |
+| 2AMAR   | AMAR      |
 | 2egry   | egry      |
-| 2oddAm  | oddAm     |
-| 2e2lAm  | e2lAm     |
-| 2Ol     | ool       |
+| 2oddaam | oddaam    |
+| 2e2laam | e2laam    |
+| 2ul     | ul        |
 
 * velarization
-consonants in many languages can be *velarized*, velarization is a property that gives a duller sound to the consonant which also affects the neighboring vowels and consonants.
+consonants in many languages can be *velarized*, velarization is a property that gives a duller sound to the consonant which also affects the neighboring vowels and consonants. in the egyptian language/dialect we often prefer to have an entire veralized syllable, so for convenience and readiability (but not necessarily phonetically accurate) we assume that any vowel between velarized consonants is also veralized (the nucleus of the syllable).
 
 from wikipedia
 #+begin_quote
@@ -97,38 +92,27 @@ in TAWS "ض ط ظ ص" are examples of veralized consonants that have a character
 
 since Capital letters doesn't have any phonetic differences than lower case letters in all alphabetic writing systems, it's perfect to represent velarized consonants in compliant Franco (and long vowels also).
 
-| TAWS | Franco | example with |
-| ض    | D      | 3aDaLAT      |
-| ط    | T      | TAR          |
-| ظ    | Z      | ZeiTa        |
-| ص    | S      | SAber        |
-| -    | B      | BABa         |
-| -    | M      | MAyya        |
-| -    | R      | RAye7        |
-| -    | L      | aLLAh        |
-
-one great thing about this representation is backward compatibility, by backward compatibility we mean if someone wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing -[[*what we lose][ kinda ]]- but we gain more clarification and disambiguation.
+one great thing about this representation is its backward compatibility, by backward compatibility we mean if someone wrote ط as T instead of t, it won't effect the interpretation of the word if the receiver doesn't know this mapping. we basically lose nothing - [[*what we lose][kinda]] - but we gain more clarification and disambiguation.
 
 we use also capital letters to represent long vowels, see [[*diacritics and vowels][diacritics and vowels]].
 
-*** importance of capital consonants
+*** importance of case sensitivity
 without those we have no distinction between many words, for example:
 
 - fos7a and foS7a
 - bass and baSS
 - 7aZZ and 7azz
-- gARy(my neighbor) and gAry (current)
-- garrA7 and gaRRA7
-- etrabbeit and etRaBBeit
-- SAB and sAb
-- mafROD and mafrOd
+- GAARy(my neighbor) and gaary (current)
+- garraa7 and gaRRAA7
+- etrabbeet and eTRABBeet
+- SAAB and saab
+- mafRUD and mafrud
 - enSef and ensef
-- Dall and dall
-- DAr  and dAr
-- Ba3D and ba3d
-- TAR and tAr
-- BAT and bAt
-- DahR and dahr
+- DALL and dall
+- BA3D and ba3d
+- TAAR and taar
+- BAAT and baat
+- DAHR and dahr
  
 ** what we lose
 we obviously lose capitalization of names in Franco text, which is not used already.
@@ -144,62 +128,59 @@ the table below shows the basic diacritics transliterations.
 
 ** long vowels
 | traditional | Franco | Unicode name  |
-| ا + َ        | A      | FATHA +  ALEF |
-| و + ُ        | O      | DAMMA +  WAW  |
-| ى + ِ        | E      | KASRA +  YEH  |
+| ا + َ        | aa     | FATHA +  ALEF |
+| و + ُ        | u      | DAMMA +  WAW  |
+| ى + ِ        | i      | KASRA +  YEH  |
 
-*** importance of long vowels (A,E,O)
-without those we have no distinction between lots of words, for example:
-- zaman and zamAn
-- men and mEn
-- 7aRaM and 7aRAM
-- malak, malAk, mAlak
-  
-*** why not oo,aa,ee ?
-they appear so often in arabic - sometimes many times in one word - and they tend to make words a lot longer. they are used only in the beginning of words like aah, eed, oom.
- 
-** additional diacritics not in TAWS
-for those we use diphthongs, i.e. compound vowels.
-   | diacritic | examples           | note            |
-   |-----------+--------------------+-----------------|
-   | ei        | leih (why), la2eit | "E" but lighter |
-   | oa        | moat (death), noam | "O" but lighter |
+there is also vowels that can't be expressed by TAWS, as traditional Arabic has no such vowels in its inventory. for those we use "ee" and "aa"
+| diacritic | examples            |
+|-----------+---------------------|
+| ee        | leeh (why), la2eet  |
+| oo        | moot (death), noom  |
+
    
-*** why we need new diacritics
+*** importance of long vowels
+without those we have no distinction between lots of words, for example:
+- zaman and zamaan
+- men and min
+- 7ARAM and 7ARAAM
+- malak, malaak, maalak
+  
+*** why we need new vowels not in TAWS
 the traditional system has no way to resolve the difference between for example:
-- mOt and moat
-- kOn and koan
-- rO7 and roa7
-- TER and TeiR
-- betO3 and betoa3
-- dEn and dein
-- fO2 and foa2
+- moot and mut
+- kun and koon
+- ru7 and roo7
+- TIR and TEER
+- betu3 and betoo3
+- din and deen
+- fu2 and foo2
 
 *** more examples
 for didactic purposes someone may want more examples.
-**** ei
-- yareit
-- bein el-benein
-- eih
-- leila
-- 8eir
-- 4ei2
-- fein
-- etnein, metein, toffa7tein, etc.
-- la2eit, 7abbeit, geit, etc.
-- 3eneik, regleik, edeik, etc.
-- 3eneiha, regleiha, edeiha, etc.
+**** ee
+- yareet
+- been el-beneen
+- ee (what)
+- leela
+- 8eer
+- 4ee2
+- feen
+- etneen, meteen, toffa7teen, etc.
+- la2eet, 7abbeet, geet, etc.
+- 3eneek, regleek, edeek, etc.
+- 3eneeha, regleeha, edeeha, etc.
  
-**** oa 
-- 4oak
-- 4oa2
-- doal
-- loala
-- Soam
-- loan 
+**** oo 
+- 4ook
+- 4oo2
+- dool
+- loola
+- Soom
+- loon 
      
 * <<<shadda>>>
-shadda in TAWS is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by - yeah, you guessed it - a repeated letter, e.g. yaLLa, ba7ebbek, kollo.
+shadda in TAWS is a diacritic that is phonetically equivalent to a repeated letter. in Franco it is represented by - yeah, you guessed it - a repeated letter, e.g. YALLA, ba7ebbek, kollo.
 
 people with poor Franco often omit the second letter causing one of the biggest sources of ambiguity in mainstream Franco text, as omitting the second letter normally yields a different word. try to convince your wife that the message "hagElak bel-MaRa" she found on your phone is supposed to be "hagElak bel-MaRRa" to know how important this is. we can't emphasize more that the second letter is not optional and text compliant to this spec should always write the shadda appropriately wherever it appears.
 
@@ -215,7 +196,6 @@ examples:
 * The hyphen
 the hyphen, i.e. "-", has three use cases:
 + after the definite article
-+ after "ma", e.g. "ma-balA4"
 + when we want to emphasize that two characters should not be interpreted as a digraph. this occurs a lot in the "sh" and "th" sequence. for example: sme3t /sot-ha/, byet-hayya2lak, as-hal, btet-haz
 + to fit English words in Arabic grammer like: aa3ed /ba-chill/, 3reft a-configure el-btA3.
 
@@ -230,63 +210,60 @@ e?\(?:l\|\([tT$6dDrzZnsS4kg]\)\)-\1?
 ** sun letters
 some words start with letters called sun letters (shown below) that has the effect of turning the "l" to a copy of itself, i.e. shadda. for example /el naharda/ should be written as /en-naharda/ like how it's actually pronounced 
 
+some examples:
 | letter | example                |
 |--------+------------------------|
-| t      | et-tegAh wA7ed         |
-| T      | SoLTAn eT-TaRaB        |
-| $      | e$-$a9Afa el-3aRaBeyya |
-| >      | wa9t e6-6orwa          |
+| t      | et-tegaah waa7ed       |
+| T      | SOLTAN eT-TARAB        |
+| $      | e$-$a9AFA el-3ARABEYYA |
+| 6      | wa9t e6-6orwa          |
 | d      | omm ed-donya           |
-| D      | el-wa2t eD-DAye3       |
-| r      | ya de7ket eR-RoMMan    |
-| z      | ez-zaman TawEl         |
-| Z      | eZ-ZAheR keda          |
-| n      | eR-Rakk 3an-neyya      |
-| s      | zayy es-sokkaR        |
-| S      | eS-So7AB fe'agAza      |
-| 4      | 3ala add e4-4oa2       |
-| k      | fek-konAfa             |
-| g      | eg-gei4 we4-4orTa      |
-
-note that the Egyptian dialect/language has two more sun letters than arabic, the "k" and "g".
+| D      | el-wa2t eD-DAAYE3      |
+| r      | ya de7ket eR-ROMMAAn   |
+| z      | ez-zaman TAWIl         |
+| Z      | eZ-ZAAher keda         |
+| n      | ER-Rakk 3an-neyya      |
+| s      | zayy es-soKKAR         |
+| S      | eS-SO7AB fe agaaza     |
+| 4      | 3ala add e4-4oo2       |
+| k      | fek-konaafa            |
+| g      | eg-gee4 we4-4ORTA      |
 
 ** moon letters
 moon letters are straight forward, they are not sun letters and they don't touch the "el".
+
 examples:
 - el-lo8a 
 - el-3ammeyya
-- el-MaSReyya
-- el-9Ahera
+- el-MASREYYA
+- el-9AhERA
 - el-ward
 - el-balady
-- w keda
+- w keda..
 
 ** to "e" or not to "e"
 that is the question. the rule is similar to what's described later in [[*shortening][shortening]]. it depends on the preceding word, if it ends with "a" or "o", the e is ommited. for example:
 
 - ana l-awwal wana l-aa5er
-- 3ala l-mA4y
-- lessa d-donya b'5eir
-- eih yabo r-reggAla
-- mesa g-gamAl
+- 3ala l-maa4y
+- lessa d-donya b 5eer
+- yabo r-reggaala
 
 * prepositions
 
 | TAWS   | Franco | example             |
 |--------+--------+---------------------|
-| ب      | b/be   | b'we44 reglak       |
-| و      | w/we   | a7la w'a7la         |
-| -ل     | l/le   | a4ky l'mEn          |
-| في     | f/fe   | kalAm fe'kalAm      |
-| على    | 3ala   | 3ala mAgy           |
+| ب      | b/be   | b we44 reglak       |
+| و      | w/we   | a7la w a7la         |
+| -ل     | l/le   | a4ky l min          |
+| في     | f/fe   | kalaam fe kalaam    |
+| على    | 3ala   | 3ala maagy          |
 | من     | men    | 5o44 men hena       |
-| ف      | fa     | konn fa'yakOn       |
-| اللى   | elly   | elly hnAk da        |
-| ما     | ma     | 3omrena ma'hanerga3 |
+| ف      | fa     | konn fa yakun       |
+| اللى   | elly   | elly hnaak da       |
+| ما     | ma     | 3omrena ma hanerga3 |
 
-short prepositions in compliant Franco (be,we,le,fe,fa,ma) are attached to following word using apostrophe (') or a back-tick (`).
-
-for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian specific)][shortening]].
+for description of the cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian specific)][shortening]].
 
 ** prepositions compound with definite article.
 
@@ -295,7 +272,7 @@ for cases where the e is removed from be/we/le/fe, see [[*shortening (Egyptian s
 | من ال       | mel    | mek-ko4k                  |
 | ما ال       | mal    | tamAm TOl mal-balad tamAm |
 | عال         | 3al    | 3al-mA4y                  |
-| وال         | wel    | bel-yoam wel-yoamein      |
+| وال         | wel    | bel-yoom wel-yoomeen      |
 | لل          | lel    | Ray7a lel-banAt           |
 | في ال       | fel    | fek-konAfa                |
 | ب ال        | bel    | bel-habal                 |
@@ -307,39 +284,39 @@ those prepositions inherit the same rules of the definite article, by that we me
   |-------------+--------+---------------|
   | دي          | de     | el-betA3a de  |
   | ده          | da     | el-betA3 da   |
-  | دول         | doal   | el-betO3 doal |
+  | دول         | dool   | el-betO3 dool |
   
 * shortening
-in the Egyptian dialect/language, we tend to not pronounce the first occurrence of short vowel in some words, for example sometimes we say "kfAya" and sometimes we say "kefAya", in this section we will discuss this phenomena. all the conditions in this section also applies to prepositions be/we/le/fe.
+in the Egyptian dialect/language, we tend to not pronounce the first occurrence of short vowel in some words, for example sometimes we say "kfaaya" and sometimes we say "kefaaya", in this section we will discuss this phenomena. all the conditions in this section also applies to prepositions be/we/le/fe.
 ** conditions for shortening
 whether shortening will take place or not is governed by the ending of the preceding word, that is, if the ending of the preceding word is one of the following three cases, the vowel is deleted,
 *** ends with a vowel(e,o,a), w or y.
  the most occuring case is if the preceding word ends with a vowel, for example we say "kefAya keda" and we say also "keda kfAya".
 
  examples :
- - ana ktEr 
- - ta3Ala hnAk
- - ya 5SARa
+ - ana ktir 
+ - ta3aala hnaak
+ - ya 5SAARA
  - ana ndemt
  - mahma kbert
- - alby m3Ak
- - ta3Alo nnam
+ - alby m3aak
+ - ta3aalu nnaam
  
 *** ends with two consecutive consonants
 another case where the vowel is deleted, is when the preceding word ends with two consecutive consonants like "4oft", "", "esta7melt".. etc, for example:
- - 4oft ktEr
+ - 4oft ktir
  - ro7t l3ebt
- - 4a3r TwEl
+ - 4a3r TWIL
  - 4e3r kwayyes
- - la7m r5eS
- - 3e4t snEn
- - 7elm kbEr
+ - la7m r5IS
+ - 3e4t snin
+ - 7elm kbir
 
  you may have noticed that this case is reducible to the first case, since we can't pronounce more than two consecutive consonants (the two from the end of the word and the first of the following) we add a very short vowel - called epenthetic vowel - at the end of the first word to make it pronounceable, so it becomes "4ofte ktEr" which is exactly the first case.
 
  this topic is actually more complicated than that, but most of the time it's clear for the Egyptian speaker which way to go, don't think about it too much.
  
- please note that in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tEr" will match every instance of the word regardless of whether shortening happened or not.
+ please note that in searching franco text we should take into consideration both writings, for example this [[https://duckduckgo.com/?q=what+is+regex&ia=web][regex]] "ke?tir" will match every instance of the word regardless of whether shortening happened or not.
 
 ** COMMENT what are the candidate words for elision
 for example why gAmed always gAmed regardless of the cases above, and regl as well.
@@ -347,10 +324,10 @@ for example why gAmed always gAmed regardless of the cases above, and regl as we
 * ending shadda 
 in compliant Franco some words must end with shadda for reasons discussed [[*rationale behind the shadda at the end][here]], this shadda appears in three cases (or two actually).
 ** CvC
-for words that has the shape of (consonant + short vowel + consonant) like "7or" for instance, the last consonant is written as if there a shadda at the end, "7orr".
+for words that has the shape of (consonant + short vowel + consonant) like "7OR" for instance, the last consonant is written as if there a shadda at the end, "7ORR".
 
 examples : 
-- 7orr
+- 7ORR
 - 7add
 - hezz
 - bass
@@ -359,23 +336,23 @@ examples :
 - morr
 - sett
 - foll
-- ToLL
+- TOLL
 - 3akk
 - fann
 - lakk
 - 3amm
 
-the middle vowel must be a short one, for example "kAn" can't be written "kAnn" by any stretch of imagination.
+the middle vowel must be a short one, for example "kaan" is not pronounced "kaann".
 
 ** something + stop + CvC
-some words doesn't have the shape of CvC, but ends with it after a brief stop, for example "haylef", those words are pronounced like "hay..lef" where the dots represent a brief stop. this is practically equivalent to pronouncing it as two separate words. here also the shadda is added by the same means we added it to "leff".
+some words doesn't have the shape of CvC, but ends with it preceded by brief stop, for example "haylef", those words are pronounced like "hay.lef" where the dot represent the brief stop. this is practically equivalent to pronouncing it as two separate words. here also the shadda is added by the same means we added it to "leff".
 
 examples:
 - a7ebb
 - ye7ebb
 - ma3le44
 - ka2enn, akenn
-- aMaRR 
+- AMARR 
 - momell
 - betmorr
 
@@ -386,48 +363,47 @@ if you remember from the [[*don't start with "2"][don't start with "2"]] section
 
 examples:
 - omm
-- aBB
-- a55
+- ABB
+- A55
 - add (add ed-donya)
-- oTT
+- OTT
 - ayy
 - all (el-waga3 all 4wayya)
 
 ** rationale behind the shadda at the end
-you may ask the following: what's the problem with writing it without the shadda like "7or" or "bas" since there is no ambiguity the shadda resolves and by definition there can't shadda that consists of two consonants (the second one must have vowel after it). for two reasons 
+you may ask the following: what's the problem with writing it without the shadda like "7or" or "bas" since there is no ambiguity the shadda resolves. for two reasons:
 
-1) the reality is that most people now write unreadable Franco, and most people are used to read unreadable Franco, this caused a problem we call short/long vowel blindness. for example a word like "sab" will be interpreted by most people as "sAb", but "sabb" will be easier for the to read
-2) the shadda actually exists if there is a following word, for example "sabb dEn". when you pronounce it you will notice a very short "e" after "sabb", it will sound something like "sabbe dEn".
-3)consider this sentence - without the shadda at the end - "haylef ylef w'yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
+1) the reality is that most people now write unreadable Franco, and most people are used to read unreadable Franco, this caused short/long vowel blindness. for example a word like "sab" will be interpreted by most people as "saab", but "sabb" will be easier for them to read
+2) the shadda actually exists if there is a following word, for example "sabb din". when you pronounce it you will notice a very short "e" after "sabb", it will sound something like "sabbe din".
+3)consider this sentence - without the shadda at the end - "haylef ylef w yerga3ly", if you pronounced it in Egyptian Arabic, you will observe two things:
    1) you shorten "yelef" so that it becomes "ylef" and you shorten "we" becoming "w"
    2) you pronounce a shadda in both "haylef" and "ylef"
-but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w'yerga3ly" just solves every thing.
+but by the rules of shortening the shortening in "yelef" and "we" shouldn't be there, since the preceding words "haylef" and "ylef" respectively doesn't end by a vowel nor a two consonants, but if we wrote explicitly the shadda observed by pronunciation, the second rule of shortening apply (the preceding word ends with two consonants), which explains why the shortening happens. so writing the sentence like this "hayleff yleff w yerga3ly" just solves every thing.
 
 * Assimilation
 Assimilation here is a term for sound changes that occur within a word to ease pronunciation, for example "ganby" becomes "gamby".
-not all writing system reflect assimilation in its orthography, but since this writing system relies heavily on phonetics, and wants to be predictable and consistent, we choose to reflect it, so the "right" way to write, e.g. "zanby" is "zamby", "anbOba" is "ambOba"
+not all writing system reflect assimilation in its orthography, but since this writing system relies heavily on phonetics, and wants to be predictable and consistent, we choose to reflect it, so the "right" way to write, e.g. "zanby" is "zamby", "anbuba" is "ambuba"
 
 * general notes
 ** Arabic names
 Arabic names should not be written in Franco, simply because no one has the right to decide how a name is pronounced other than the name holder himself, but it's ok to write a name in franco if you don't know how it's pronounced.
 
-for example:
-- yousef not yOsef
-- mohammed mounir not ma7ammad monEr.
+for example: mohammed mounir not ma7ammad monir.
 
 ** e or y in the end
-in Egyptian Arabic, y and e in the end have no difference and can be used interchangeably, for consistency we will use y in the end, e.g. "sEby" not "sEbe".
+by specifications defined above, y and i in the end have no difference and can be used interchangeably, for consistency we will use y. e.g. "siby" not "sibi".
 
 ** no place for those
 compliant Franco does not contain any of the following english characters: [q,c,x,u,p,v], except in English words or human names.
 similarly the following sequences of characters doesn't appear in compliant Franco: [sh,kh,th,gh], instead, those characters appear hyphenated to prevent confusion, e.g. s-h,k-h,t-h. see [[*The hyphen][The hyphen]].
+
 ** additional shortening cases
 in "we" the e is deleted when the following word is starts with "a,o,e" - in addition to the normal conditions of shortening. for example in "a4ky l'mEn w'a7ky l'mEn" the "we" is shortened despite the normal conditions of shortening does not hold here, but it's because a7ky starts with "a"
 examples:
-- harO7 w'aagy b'soR3a
-- 2Ol w'egry
-- 2Ol w'oom
-* sample text
+- haru7 w aagy b SOR3A
+- 2ul w egry
+- 2ul w um
+* FIXME sample text
 it's known that the beauty of a language comes from the beauty of text it has been written in. below are different pieces of text written in compliant Franco, that we think are beautiful.
 
 for more sample text that covers many more cases, please refer to the sample directory in the git repository [[https://github.com/saadnpq/expect-franco/tree/master/sample][here]].
@@ -500,8 +476,8 @@ i agree this would be a cool idea, but this is an evolving guideline, if it is w
 ** are you working on Franco to replace TAWS?
 Franco is just an alternative writing system that can coexist with any other writing system. we think Franco is very capable and has more potential than TAWS in many situations, like writing modern Arabic dialects and bidirectional text(mixed Arabic and English), but compliant Franco is not yet near ready for replacing TAWS in writings such as the Quran for example. for now we just focus on making a superior system, and maybe we can ask this question again later.
 
-* miscellaneous
-** independent map of consonants  
+* FIXME miscellaneous
+** independent map of consonants
    
 | manner        | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |---------------+---+---+---+---+---+---+---+---|
@@ -541,7 +517,7 @@ where the numbered columns represent the place of articulation:
 acknowledgment: this table is taken from "kullu tamam by manfred woidich".
 
 * TODO how to learn the system
-* COMMENT Local Variables                          :ARCHIVE:
+* COMMENT Local Variables      :ARCHIVE:
 # Local Variables:
 # after-save-hook: org-html-export-to-html
 # End:
