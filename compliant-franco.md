@@ -1,15 +1,20 @@
+---
+title: compliant franco
+githubrepo: https://github.com/saadnpq/compliant-franco
+description: suckless, standardized, documented and eloquent Arabic writing system
+date: 2019-03-01
+tags: [writing systems, Arabic, linguistics]
+---
+
 # state of the project
 
-the project is still in early development, but it's usable and reaching
-a more stable state with time, major changes happen less often and basic
-cases has been covered.  
-to follow or to contribute to the project maintenance see the [github
-repository](https://github.com/saadnpq/expect-franco).
+personally i stopped using this system, now i use english to solve the problems discussed [here](/blog/franco). but it's usable for any one agrees more with my old position.
+if you want to change something or you want to mantain the project i can help you, pull requests are welcome on the [github repository](https://github.com/saadnpq/compliant-franco).
 
 # abstraction
 
 this project is supposed to be an implementation of ideas introduced by
-[this research article](https://saadnpq.com/franco/embrace-franco.pdf).
+[this research article](/blog/franco).
 to understand the rationale behind all of this, or to have a better
 insight about the issue of the Arabic writing system, please refer to
 the article.
@@ -36,15 +41,15 @@ the article.
 
 those abbreviations and acronyms are used throughout the document :
 
-  - \<<span id="TAWS"></span>\>  
+  - TAWS  
     the Traditional Arabic Writing System  
-  - \<<span id="CvC"></span>\>  
+  - CvC  
     consonant + short vowel + consonant
 
 # consonants
 
-this is not a transliteration system, but for your convenience we
-compare the symbols of Franco to those of TAWS which we are used to -
+this is not a transliteration system, but for your convenience i've
+compared the symbols of Franco to those of TAWS which we are used to -
 instead of IPA for example.
 
 | TAWS | Franco |
@@ -75,7 +80,7 @@ instead of IPA for example.
 | و    | w      |
 | ى    | y      |
 
-## \<<span id="Digraphs"></span>\>
+## Digraphs
 
 Digraphs are two letters that behaves as a unit and is not the sum of
 its parts, e.g. "ch", "sh", "kh" and "th" in English.  
@@ -134,13 +139,10 @@ represent velarized consonants in compliant Franco (and long vowels
 also).
 
 one great thing about this representation is its backward compatibility,
-by backward compatibility we mean if someone wrote ط as T instead of t,
+by backward compatibility i mean if someone wrote ط as T instead of t,
 it won't effect the interpretation of the word if the receiver doesn't
 know this mapping. we basically lose nothing - *kinda* - but we gain
 more clarification and disambiguation.
-
-we use also capital letters to represent long vowels, see *diacritics
-and vowels*.
 
 ### importance of case sensitivity
 
@@ -199,7 +201,7 @@ Arabic has no such vowels in its inventory. for those we use "ee" and
 
 ### importance of long vowels
 
-without those we have no distinction between lots of words, for example:
+again, without those we have no distinction between lots of words, for example:
 
   - zaman and zamaan  
   - men and min  
@@ -246,7 +248,7 @@ for didactic purposes someone may want more examples.
       - Soom  
       - loon
 
-# \<<span id="shadda"></span>\>
+# shadda
 
 shadda in TAWS is a diacritic that is phonetically equivalent to a
 repeated letter. in Franco it is represented by - yeah, you guessed it -
@@ -256,7 +258,7 @@ people with poor Franco often omit the second letter causing one of the
 biggest sources of ambiguity in mainstream Franco text, as omitting the
 second letter normally yields a different word. try to convince your
 wife that the message "hagElak bel-MaRa" she found on your phone is
-supposed to be "hagElak bel-MaRRa" to know how important this is. we
+supposed to be "hagElak bel-MaRRa" to know how important this is. i 
 can't emphasize more that the second letter is not optional and text
 compliant to this spec should always write the shadda appropriately
 wherever it appears.
@@ -283,7 +285,7 @@ the hyphen, i.e. "-", has three use cases:
   - to fit English words in Arabic grammer like: aa3ed *ba-chill*, 3reft
     a-configure el-btA3.
 
-# \<\<\<the definite article\>\>\>
+# the definite article
 
 the definite article in compliant Franco is not as simple as "the" in
 English or "-ال" in TAWS. generally it can appear as "el-…", "l-…",
@@ -380,7 +382,7 @@ see *shortening*.
 | ب ال        | bel    | bel-habal                 |
 
 those prepositions inherit the same rules of the definite article, by
-that we mean for example "fel-konAfa" should be written "fek-konAfa".
+that i mean for example "fel-konAfa" should be written "fek-konAfa".
 
 ## demonstrative pronouns
 
@@ -394,7 +396,7 @@ that we mean for example "fel-konAfa" should be written "fek-konAfa".
 
 in the Egyptian dialect/language, we tend to not pronounce the first
 occurrence of short vowel in some words, for example sometimes we say
-"kfaaya" and sometimes we say "kefaaya", in this section we will discuss
+"kfaaya" and sometimes we say "kefaaya", in this section i will discuss
 this phenomena. all the conditions in this section also applies to
 prepositions be/we/le/fe.
 
@@ -558,7 +560,7 @@ Assimilation here is a term for sound changes that occur within a word
 to ease pronunciation, for example "ganby" becomes "gamby".  
 not all writing system reflect assimilation in its orthography, but
 since this writing system relies heavily on phonetics, and wants to be
-predictable and consistent, we choose to reflect it, so the "right" way
+predictable and consistent, i choose to reflect it, so the "right" way
 to write, e.g. "zanby" is "zamby", "anbuba" is "ambuba"
 
 # general notes
@@ -596,75 +598,46 @@ starts with "a"
 examples:
 
   - haru7 w aagy b SOR3A  
-  - 2ul w egry  
-  - 2ul w um  
 
-# FIXME sample text
+# sample text
 
 it's known that the beauty of a language comes from the beauty of text
 it has been written in. below are different pieces of text written in
-compliant Franco, that we think are beautiful.
+compliant Franco, that i think are beautiful.
 
-for more sample text that covers many more cases, please refer to the
-sample directory in the git repository
-[here](https://github.com/saadnpq/expect-franco/tree/master/sample).
-
-in the beginning was the word, "ek-kelma dein" by ahmed foad negm.
-
+"ek-kelma deen" by ahmed foad negm.
 -----
 
-morr ek-kalAm.. zayy el-7oSam  
-ye2Ta3 makAn.. maymorr  
-amma el-madE7.. sahl w'morE7  
-ye5da3 Sa7E7.. w'y8orr  
-wek-kelma dein.. men'8eir edein  
+morr ek-kalaam.. zayy el-7osaam  
+YE2TA3 makaan.. maymorr  
+amma el-madi7.. sahl w mori7  
+ye5da3 SA7I7.. w y8orr  
+wek-kelma dein.. men 8eir edeen  
 bass el-wafa.. 3al-7orr
 
 -----
 
-## poems by the beautiful mostafa ibrahem:
+## poems by mostafa ibrahem:
 
 -----
 
-9awA3ed ed-dayra es-saba3a (5):
+9awaa3ed ed-dayra es-saba3a (5):
 
-ezzay te3raf..  
-mEn sAbe2 mEn gowwa ed-dayra..  
-w'mEn feha aTa3 aTwaL me4wAR..  
-me4 momken BaRDo elly f'DahRak..  
-yeTLa3 sab2ak..  
-w'enta elly 7MAR ?\!
-
------
-
-9awA3ed ed-dayra es-saba3a (3):
-
-far2 es-soR3At gowwa ed-dayra  
-beink we'mabein koll el-ma4yEn  
-howwa elly haye2dar yeDmanlak  
-en enta t2Abel nAs tanyEn
+ezzaay te3raf..  
+min saabe2 min gowwa ed-dayra..  
+w min fiha ATA3 ATWAL ME4WAAR..  
+me4 momken BARDO elly f DAHRAK..  
+YETLA3 sab2ak..  
+w enta elly 7MAAR ?!
 
 -----
 
-9awA3ed ed-dayra es-saba3a (1):
+9awaa3ed ed-dayra es-saba3a (3):
 
-ab3ad no2Ta ben-nesbAlak  
-gowwa ed-dayra.. heyya makAnak  
-we'ka2enn asAsn fed-dayra  
-hena.. howwa hnAk  
-fa'TabE3y t7ess ennak 3Aye4..  
-b'etnein gowwak
-
------
-
-akEd e4-4am3a law kAnet..  
-la2et foRSa..  
-we'7all morE7..  
-ye3ayye4ha.. bedOn matsE7..  
-w'ye7faZ 4aklaha es-sAbet..  
-kanet 3A4t \!\!
-
------
+far2 ES-SOR3AAT gowwa ed-dayra  
+beenk we mabeen koll el-ma4yin  
+howwa elly haye2dar YEDMANLAk  
+en enta t2aabel naas tanyin
 
 # corner cases and limitations
 
@@ -676,28 +649,19 @@ and the writing system can't force one way or the other.
 
 examples:
 
-  - "gondy f'gonOdek" or "gondy fe'gnOdek"  
-  - "3ayez anAm" or "3ayz anAm" or 3Ayez anAm" or "3Awez anAm"
+  - "gondy f gonudek" or "gondy fe gnudek"  
+  - "3aayez anaam" or "3ayz anaam"
 
 ## irregularity in the ending shadda
 
   - "lak" in "ana lak 3ala TOl", "lakk" is another word.  
   - "men" in "men hena", "menn" is a another word.
 
-## velarized "a"
-
-we don't have a representation of a velarized "a" vowel, it exists in
-theory but we can't find any Egyptian word that needs it. this is
-different than the velarization of vowels near a velarized consonant (D
-T Z S B M R L). if you found a word that has a velarized "a" and it
-doesn't have any one of the velarized consonants mentioned earlier,
-please send it to us.
-
 # FAQs
 
 ## what is the problem with the traditional system?
 
-[this article](https://saadnpq.com/posts/franco/) may answer this
+[this article](/blog/franco/) may answer this
 question, and more.
 
 ## why this guideline written in English and not in Franco?
@@ -709,17 +673,18 @@ rewriting every thing to be compliant with itself.
 ## are you working on Franco to replace TAWS?
 
 Franco is just an alternative writing system that can coexist with any
-other writing system. we think Franco is very capable and has more
+other writing system. i think Franco is very capable and has more
 potential than TAWS in many situations, like writing modern Arabic
 dialects and bidirectional text(mixed Arabic and English), but compliant
 Franco is not yet near ready for replacing TAWS in writings such as the
 Quran for example. for now we just focus on making a superior system,
 and maybe we can ask this question again later.
 
-# FIXME miscellaneous
+# miscellaneous
 
 ## independent map of consonants
 
+<pre>
 | manner          | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | --------------- | - | - | - | - | - | - | - | - |
 | Plosives:       |   |   |   |   |   |   |   |   |
@@ -744,6 +709,7 @@ and maybe we can ask this question again later.
 | \-\>\> emphatic | M |   |   |   |   |   |   |   |
 |                 |   |   |   |   |   |   |   |   |
 | Semi-vowels     | w |   |   | y |   |   |   |   |
+</pre>
 
 where the numbered columns represent the place of articulation:
 
@@ -755,10 +721,3 @@ where the numbered columns represent the place of articulation:
   - 6= with the back of the tongue against the uvula  
   - 7= in the pharynx  
   - 8= in the glottis (glottal)
-
-acknowledgment: this table is taken from "kullu tamam by manfred
-woidich".
-
-# <span class="todo TODO">TODO</span> how to learn the system
-
-# COMMENT Local Variables <span class="tag" data-tag-name="ARCHIVE"><span class="smallcaps">ARCHIVE</span></span>

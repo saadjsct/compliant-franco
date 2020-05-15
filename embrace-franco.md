@@ -1,20 +1,21 @@
-<div class="OPTIONS drawer">
+---
+title: the Arabic writing system problem
+date: 2019-01-01
+description: a deep dive into the problems that face the traditional Arabic writing system, and how we can change it.
+tags: [research, writing systems, Arabic, linguistics]
+---
 
-h:4
+## abstraction
 
-</div>
-
-# abstraction
-
-## the nature of the language
+### the nature of the language
 
 humans like any other animal have a way to send signals to each other by
 the means of sound. our brain utilizes our ears and mouth to form a
 communication channel by encoding entities in nature to a conventional
-verbal sounds. this whole thing we call it now "the language" in the
+verbal sounds. this whole thing we call it now "the language" - in the
 English language, or more precisely "the spoken language".
 
-## the nature of writing systems
+### the nature of writing systems
 
 between 3400 and 3300 BC in sumar humans invented the most important
 invention in the history (its actually the invention that defined the
@@ -40,31 +41,31 @@ the Arabic writing system used for writing languages other than Arabic
 like Persian, Kurdish, and Urdu (Arabic was also used to write Spanish
 until the 16th century).
 
-# categories of writing system
+## categories of writing system
 
-## phonetic based
+### phonetic based
 
 in phonetic based systems every letter represent a speech sound, like
 alphabetical languages (e.g. all Latin languages) or abjadic languages
 (e.g. Arabic and Hebrew).
 
-## syllabaries or logographies based systems
+### syllabaries or logographies based systems
 
 in those systems each character represents a word or part of a word
 (e.g. Chinese and Egyptian hieroglyphs)
 
-## mixed
+### mixed
 
 some writing systems has both types. for instance Japanese has letters
 that represents sounds and also uses some Chinese characters in its
 writing system.
 
-# character set and encoding
+## character set and encoding
 
 before we continue we have to agree on the meaning of some words that
 will come up often in this discussion.
 
-## character set
+### character set
 
 a character set is the collection of symbols that's used in a writing
 system. for example, a to z is character set of 26 symbols. while a to z
@@ -73,7 +74,7 @@ us character sets with thousands of symbols like Chinese. different
 writing systems can share one character set or borrow some symbols from
 another writing system's character set.
 
-## encoding
+### encoding
 
 long time after humans invented writing systems. it was the time for
 inventing the second most important invention in history, computers. how
@@ -81,14 +82,14 @@ computers work demands another layer of encoding, encoding the symbols
 in a character set to ones and zeros. this layer forms a communication
 channel between we - humans - and computers.
 
-## ASCII
+### ASCII
 
 ASCII is character set and encoding that consists of 128 symbols {a-z +
 A-Z, 0-9, punctuations}, i.e. everything you can see on English
 keyboard. it's the most simple, efficient and supported character set
 known till now.
 
-## the Arabic character set
+### the Arabic character set
 
 the character set of Arabic can consists of (at least) the following
 symbols: \! " \# $ ٪ & ' () ٭ + ، - . / ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ : ؛ \<=\> ؟
@@ -105,9 +106,9 @@ some writing styles. and almost every character in Arabic behaves this
 way. the total number of glyphs in traditional printing exceeds four
 hundred in many typefaces.
 
-# the problem
+## the problem
 
-## mixed text
+### mixed text
 
 since writing mixed English and Arabic is inevitable for Arabic speakers
 in the world we live in now, the inherently problematic bidirectional
@@ -143,26 +144,14 @@ person as most power users, changing keyboard layout while editing will
 disable all your keyboard shortcuts making editing more and more and
 more difficult.
 
-# solutions
+## solutions
 
 there are two solutions people are migrating to.
 
-## all English
+### all English
+this is great solution and it shortens the way to the inevitable end of one universal language. but this will not happen in our life time or even in our childern's life time. until then arabic will be used and trying to avoid it in all written text is basically impractical.
 
-this solution is popular among Arabs with a weak connection to the
-Arabic culture, mainly due to their foreign education. those people just
-use English whenever they write on a computer or a phone regardless of
-the formality of the writing – even if they speak Arabic in their normal
-life.
-
-this solution is of course not practical for most people and so harmful
-on many levels. eventually those individuals will totally lose their
-connection to their culture and think in English. some people will argue
-that this as a good thing, i can understand this view, but for reasons
-beyond this discussion it's not considered a solution for a lot of
-people.
-
-## Writing Arabic Using Latin Characters
+### Writing Arabic Using Latin Characters
 
 this solution is traced back to the time email and cell phones didn't
 support Arabic. users back then used to send Arabic written in English
@@ -195,7 +184,7 @@ of writing Arabic names and titles in Latin alphabet to be pronounced by
 English speakers). Franco meant to be a system for Arabic speakers to
 communicate with each other in Arabic.
 
-### characteristics of common Franco.
+#### characteristics of common Franco.
 
 1.  Franco only uses the ASCII charset(i.e. does not use Latin symbols
     as é or á).
@@ -213,7 +202,7 @@ communicate with each other in Arabic.
     represented by 7; the letter ء represented by 2 (the same shape
     mirrored); the letter ع represented by 3.
 
-# war against Franco
+## war against Franco
 
 Franco has always been fought and severely criticized by Arab
 nationalists and Muslim enthusiasts, who considered it as a direct
@@ -237,7 +226,7 @@ in Arabic to the end of my life. but Franco for me is a way to express
 myself **in Arabic** without all the hassle traditional writing brings
 in.
 
-## rational criticism
+### rational criticism
 
 rational people who are not used to read or write Franco will criticize
 Franco as it's hard to read, of course using a new writing system
@@ -250,7 +239,7 @@ i didn't see any criticism outside that it is hard to read. if you have
 another point against Franco please send it to me and i will include it
 in this section.
 
-# the future of Franco
+## the future of Franco
 
 until now i think Franco refuses to die despite everything, Arabs are
 still using it heavily in chats, but the public domain doesn't reflect
@@ -266,14 +255,14 @@ common Franco we write today has some form of a hidden wisdom inside of
 it, but has some weak aspects as well. if we are serious about
 developing a writing system, there must be an intelligent driving force
 that maintains some standard or a guideline. i didn't find one yet, but
-i am working on one [here](https://github.com/saadnpq/francoguide). i am
+i am working on one [here](/projects/compliant-franco/). i am
 planning also to visit a linguistic college and see how people there
 think about this and maybe try to convince some students to maintain the
 project further in a scientific manner. if you are interested or want to
 contribute any thing in any form (even a criticism would help in some
 decisions) please contact me.
 
-# References
+## References
 
   - Yaghan, M. A. (2008). “Arabizi”: A Contemporary Style of Arabic
     Slang. Design Issues, 24, 39-52.
@@ -288,5 +277,3 @@ decisions) please contact me.
   - <https://www.arabamerica.com/google-adds-arabiziarabic-translation-to-its-input-tools-language-support/>
   - <https://en.wikipedia.org/wiki/Arabic_chat_alphabet>
   - <https://en.wikipedia.org/wiki/Writing_system>
-
-# COMMENT local variables <span class="tag" data-tag-name="ARCHIVE"><span class="smallcaps">ARCHIVE</span></span>
