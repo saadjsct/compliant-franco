@@ -1,6 +1,6 @@
 ---
 title: compliant franco
-githubrepo: https://github.com/saadnpq/compliant-franco
+githubrepo: https://github.com/saadrushd/compliant-franco
 description: suckless, standardized, documented and eloquent Arabic writing system
 date: 2019-03-01
 tags: [writing systems, Arabic, linguistics]
@@ -9,7 +9,7 @@ tags: [writing systems, Arabic, linguistics]
 # state of the project
 
 personally i stopped using this system, now i use english to solve the problems discussed [here](/blog/franco). but it's usable for any one agrees more with my old position.
-if you want to change something or you want to mantain the project i can help you, pull requests are welcome on the [github repository](https://github.com/saadnpq/compliant-franco).
+if you want to change something or you want to mantain the project I can help you, pull requests are welcome on the [github repository](https://github.com/saadnpq/compliant-franco).
 
 # abstraction
 
