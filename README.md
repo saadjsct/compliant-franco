@@ -1,5 +1,5 @@
 a guideline for the Egyptian Franco writing system. there is an
-associated article [here](./embrace-franco.md) ([pdf version](./embrace-franco.pdf)) that describes the rationale behind this
+associated article [here](./embrace-franco.md) ([PDF Paper](./embrace-franco.pdf)) that describes the rationale behind this
 project.
 
 state of the project
